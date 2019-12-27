@@ -57,6 +57,11 @@ public class Forward {
                     if (serialPortEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
                         byte[] bytes = SerialUtils.readData(serialPort);
                         if (GlobInfo.MAP.get(CHANNEL) != null) {
+                            try {
+                                Thread.sleep(500);
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
                             ((Channel) GlobInfo.MAP.get("channel")).writeAndFlush(Unpooled.copiedBuffer(bytes));
                         }
                         System.out.println(LocalDateTime.now()+" 收到的数据：" + ByteUtil.toHex(bytes));
