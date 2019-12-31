@@ -13,6 +13,7 @@ import io.netty.channel.ChannelInitializer;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import lombok.extern.slf4j.Slf4j;
 
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
@@ -22,6 +23,7 @@ import java.util.concurrent.*;
 /**
  * @author lengchunyun
  */
+@Slf4j
 public class Forward {
 
     private static final ThreadPoolExecutor THREAD_POOL_EXECUTOR = new ThreadPoolExecutor(2, 2, 30,
@@ -31,7 +33,15 @@ public class Forward {
     private static SerialPort serialPort;
 
     public static void main(String[] args) {
-        serialPort = SerialUtils.openSerialPort("COM3", 9600);
+        SerialUtils.listPort();
+        System.out.print("请输入要打开的串口号（默认COM3）: ");
+        Scanner scanner = new Scanner(System.in);
+        String port;
+        port= scanner.nextLine();
+        if ("".equals(port)){
+            port= "COM3";
+        }
+        serialPort = SerialUtils.openSerialPort(port, 9600);
         assert serialPort != null;
         GlobInfo.MAP.put(SERIAL, serialPort);
         THREAD_POOL_EXECUTOR.execute(Forward::run);
@@ -47,7 +57,7 @@ public class Forward {
                     .handler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel ch) {
-                            ch.pipeline().addLast(new ForwordHandler());
+                            ch.pipeline().addLast(new ForwardHandler());
                         }
                     });
             ChannelFuture channelFuture = bootstrap.connect("192.168.10.174", 9090).sync();
@@ -57,19 +67,14 @@ public class Forward {
                     if (serialPortEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
                         byte[] bytes = SerialUtils.readData(serialPort);
                         if (GlobInfo.MAP.get(CHANNEL) != null) {
-                            try {
-                                Thread.sleep(500);
-                            } catch (InterruptedException e) {
-                                e.printStackTrace();
-                            }
                             ((Channel) GlobInfo.MAP.get("channel")).writeAndFlush(Unpooled.copiedBuffer(bytes));
                         }
-                        System.out.println(LocalDateTime.now()+" 收到的数据：" + ByteUtil.toHex(bytes));
+                        log.info(LocalDateTime.now()+" 收到来自设备的数据：{}" ,ByteUtil.toHex(bytes));
                     }
                 });
                 System.out.print("请输入设备的sn码: ");
                 Scanner scanner = new Scanner(System.in);
-                String next = scanner.next();
+                String next = scanner.nextLine();
                 channelFuture.channel().writeAndFlush(Unpooled.copiedBuffer(next.getBytes(StandardCharsets.US_ASCII)));
             }
             channelFuture.channel().closeFuture().sync();

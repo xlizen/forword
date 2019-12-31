@@ -1,0 +1,1121 @@
+2019-12-31 13:29:41 DEBUG InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2019-12-31 13:29:41 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2019-12-31 13:29:41 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-31 13:29:41 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-31 13:29:41 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2019-12-31 13:29:41 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-12-31 13:29:41 DEBUG PlatformDependent:987 - Platform: Windows
+2019-12-31 13:29:41 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2019-12-31 13:29:41 DEBUG PlatformDependent0:852 - Java version: 8
+2019-12-31 13:29:41 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2019-12-31 13:29:41 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2019-12-31 13:29:41 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2019-12-31 13:29:41 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2019-12-31 13:29:41 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2019-12-31 13:29:41 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-31 13:29:41 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-31 13:29:41 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+2019-12-31 13:29:41 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\LENGCH~1\AppData\Local\Temp (java.io.tmpdir)
+2019-12-31 13:29:41 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-31 13:29:41 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2019-12-31 13:29:41 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-31 13:29:41 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2019-12-31 13:29:41 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+2019-12-31 13:29:41 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-31 13:29:42 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 2428 (auto-detected)
+2019-12-31 13:29:42 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2019-12-31 13:29:42 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2019-12-31 13:29:42 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-12-31 13:29:42 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-12-31 13:29:42 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 8c:ec:4b:ff:fe:53:e6:92 (auto-detected)
+2019-12-31 13:29:42 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2019-12-31 13:29:42 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2019-12-31 13:29:42 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 8
+2019-12-31 13:29:42 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 8
+2019-12-31 13:29:42 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+2019-12-31 13:29:42 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+2019-12-31 13:29:42 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+2019-12-31 13:29:42 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-31 13:29:42 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+2019-12-31 13:29:42 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+2019-12-31 13:29:42 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-31 13:29:42 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-31 13:29:42 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-31 13:29:42 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-31 13:29:42 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-31 13:29:42 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+2019-12-31 13:29:42 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-12-31 13:29:42 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-12-31 13:29:54 DEBUG AbstractByteBuf:62 - -Dio.netty.buffer.checkAccessible: true
+2019-12-31 13:29:54 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkBounds: true
+2019-12-31 13:29:54 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@39f01635
+2019-12-31 13:29:54 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-12-31 13:29:54 DEBUG Recycler:97 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-12-31 13:29:54 DEBUG Recycler:98 - -Dio.netty.recycler.linkCapacity: 16
+2019-12-31 13:29:54 DEBUG Recycler:99 - -Dio.netty.recycler.ratio: 8
+2019-12-31 13:29:54 INFO  ForwordHandler:29 - 2019-12-31T13:29:54.264接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 13:29:54 INFO  Forward:72 - 2019-12-31T13:29:54.295 收到来自设备的数据：0103020020b99c
+2019-12-31 13:30:14 INFO  ForwordHandler:29 - 2019-12-31T13:30:14.331接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 13:30:14 INFO  Forward:72 - 2019-12-31T13:30:14.363 收到来自设备的数据：01030415510000afee
+2019-12-31 13:32:54 INFO  ForwordHandler:29 - 2019-12-31T13:32:54.118接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 13:32:54 INFO  Forward:72 - 2019-12-31T13:32:54.151 收到来自设备的数据：0103020020b99c
+2019-12-31 13:33:14 INFO  ForwordHandler:29 - 2019-12-31T13:33:14.201接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 13:33:14 INFO  Forward:72 - 2019-12-31T13:33:14.227 收到来自设备的数据：01030415510000afee
+2019-12-31 13:35:54 INFO  ForwordHandler:29 - 2019-12-31T13:35:54.166接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 13:35:54 INFO  Forward:72 - 2019-12-31T13:35:54.203 收到来自设备的数据：0103020020b99c
+2019-12-31 13:36:14 INFO  ForwordHandler:29 - 2019-12-31T13:36:14.256接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 13:36:14 INFO  Forward:72 - 2019-12-31T13:36:14.281 收到来自设备的数据：01030415510000afee
+2019-12-31 13:38:54 INFO  ForwordHandler:29 - 2019-12-31T13:38:54.108接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 13:38:54 INFO  Forward:72 - 2019-12-31T13:38:54.133 收到来自设备的数据：0103020020b99c
+2019-12-31 13:39:14 INFO  ForwordHandler:29 - 2019-12-31T13:39:14.183接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 13:39:14 INFO  Forward:72 - 2019-12-31T13:39:14.215 收到来自设备的数据：01030415510000afee
+2019-12-31 13:41:54 INFO  ForwordHandler:29 - 2019-12-31T13:41:54.105接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 13:41:54 INFO  Forward:72 - 2019-12-31T13:41:54.140 收到来自设备的数据：0103020020b99c
+2019-12-31 13:42:14 INFO  ForwordHandler:29 - 2019-12-31T13:42:14.216接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 13:42:14 INFO  Forward:72 - 2019-12-31T13:42:14.246 收到来自设备的数据：01030415510000afee
+2019-12-31 13:44:54 INFO  ForwordHandler:29 - 2019-12-31T13:44:54.092接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 13:44:54 INFO  Forward:72 - 2019-12-31T13:44:54.124 收到来自设备的数据：0103020020b99c
+2019-12-31 13:45:14 INFO  ForwordHandler:29 - 2019-12-31T13:45:14.190接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 13:45:14 INFO  Forward:72 - 2019-12-31T13:45:14.218 收到来自设备的数据：01030415510000afee
+2019-12-31 13:47:54 INFO  ForwordHandler:29 - 2019-12-31T13:47:54.113接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 13:47:54 INFO  Forward:72 - 2019-12-31T13:47:54.142 收到来自设备的数据：0103020020b99c
+2019-12-31 13:48:14 INFO  ForwordHandler:29 - 2019-12-31T13:48:14.186接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 13:48:14 INFO  Forward:72 - 2019-12-31T13:48:14.213 收到来自设备的数据：01030415510000afee
+2019-12-31 13:50:28 DEBUG InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2019-12-31 13:50:28 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2019-12-31 13:50:28 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-31 13:50:28 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-31 13:50:28 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2019-12-31 13:50:28 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-12-31 13:50:28 DEBUG PlatformDependent:987 - Platform: Windows
+2019-12-31 13:50:28 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2019-12-31 13:50:28 DEBUG PlatformDependent0:852 - Java version: 8
+2019-12-31 13:50:28 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2019-12-31 13:50:28 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2019-12-31 13:50:28 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2019-12-31 13:50:28 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2019-12-31 13:50:28 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2019-12-31 13:50:28 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-31 13:50:28 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-31 13:50:28 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+2019-12-31 13:50:28 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\LENGCH~1\AppData\Local\Temp (java.io.tmpdir)
+2019-12-31 13:50:28 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-31 13:50:28 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2019-12-31 13:50:28 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-31 13:50:28 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2019-12-31 13:50:28 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+2019-12-31 13:50:28 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-31 13:50:29 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 2536 (auto-detected)
+2019-12-31 13:50:29 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2019-12-31 13:50:29 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2019-12-31 13:50:29 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-12-31 13:50:29 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-12-31 13:50:29 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 8c:ec:4b:ff:fe:53:e6:92 (auto-detected)
+2019-12-31 13:50:29 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2019-12-31 13:50:29 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2019-12-31 13:50:29 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 8
+2019-12-31 13:50:29 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 8
+2019-12-31 13:50:29 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+2019-12-31 13:50:29 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+2019-12-31 13:50:29 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+2019-12-31 13:50:29 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-31 13:50:29 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+2019-12-31 13:50:29 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+2019-12-31 13:50:29 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-31 13:50:29 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-31 13:50:29 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-31 13:50:29 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-31 13:50:29 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-31 13:50:29 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+2019-12-31 13:50:29 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-12-31 13:50:29 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-12-31 13:50:38 DEBUG AbstractByteBuf:62 - -Dio.netty.buffer.checkAccessible: true
+2019-12-31 13:50:38 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkBounds: true
+2019-12-31 13:50:38 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6416c01d
+2019-12-31 13:50:38 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-12-31 13:50:38 DEBUG Recycler:97 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-12-31 13:50:38 DEBUG Recycler:98 - -Dio.netty.recycler.linkCapacity: 16
+2019-12-31 13:50:38 DEBUG Recycler:99 - -Dio.netty.recycler.ratio: 8
+2019-12-31 13:50:39 INFO  ForwordHandler:29 - 2019-12-31T13:50:39.045接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 13:50:39 INFO  Forward:72 - 2019-12-31T13:50:39.076 收到来自设备的数据：010101019048
+2019-12-31 13:50:54 INFO  ForwordHandler:29 - 2019-12-31T13:50:54.120接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 13:50:54 INFO  Forward:72 - 2019-12-31T13:50:54.176 收到来自设备的数据：0103020020b99c
+2019-12-31 13:51:09 INFO  ForwordHandler:29 - 2019-12-31T13:51:09.119接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 13:51:09 INFO  Forward:72 - 2019-12-31T13:51:09.147 收到来自设备的数据：010304cccd417864ee
+2019-12-31 13:51:14 INFO  ForwordHandler:29 - 2019-12-31T13:51:14.229接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 13:51:14 INFO  Forward:72 - 2019-12-31T13:51:14.256 收到来自设备的数据：01030415510000afee
+2019-12-31 13:51:16 INFO  ForwordHandler:29 - 2019-12-31T13:51:16.563接收到来自服务器的数据为: [2, 5, 0, 0, -1, 0, -116, 9]
+2019-12-31 13:51:16 INFO  Forward:72 - 2019-12-31T13:51:16.588 收到来自设备的数据：02050000ff008c09
+2019-12-31 13:51:18 INFO  ForwordHandler:29 - 2019-12-31T13:51:18.865接收到来自服务器的数据为: [2, 5, 0, 0, -1, 0, -116, 9]
+2019-12-31 13:51:18 INFO  Forward:72 - 2019-12-31T13:51:18.894 收到来自设备的数据：02050000ff008c09
+2019-12-31 13:51:20 INFO  ForwordHandler:29 - 2019-12-31T13:51:20.297接收到来自服务器的数据为: [1, 5, 0, 0, 0, 0, -51, -54]
+2019-12-31 13:51:20 INFO  Forward:72 - 2019-12-31T13:51:20.323 收到来自设备的数据：010500000000cdca
+2019-12-31 13:51:22 INFO  ForwordHandler:29 - 2019-12-31T13:51:22.482接收到来自服务器的数据为: [1, 5, 0, 0, 0, 0, -51, -54]
+2019-12-31 13:51:22 INFO  Forward:72 - 2019-12-31T13:51:22.509 收到来自设备的数据：010500000000cdca
+2019-12-31 13:51:29 INFO  ForwordHandler:29 - 2019-12-31T13:51:29.479接收到来自服务器的数据为: [1, 16, 0, 1, 0, 2, 4, -52, -51, 65, 124, -83, 125]
+2019-12-31 13:51:29 INFO  Forward:72 - 2019-12-31T13:51:29.511 收到来自设备的数据：0110000100021008
+2019-12-31 13:51:34 INFO  ForwordHandler:29 - 2019-12-31T13:51:34.345接收到来自服务器的数据为: [2, 16, 0, 1, 0, 2, 4, 0, 0, 66, 42, -116, 88]
+2019-12-31 13:51:34 INFO  Forward:72 - 2019-12-31T13:51:34.370 收到来自设备的数据：021000010002103b
+2019-12-31 13:51:39 INFO  ForwordHandler:29 - 2019-12-31T13:51:39.204接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 13:51:39 INFO  Forward:72 - 2019-12-31T13:51:39.235 收到来自设备的数据：02010101900c
+2019-12-31 13:51:58 INFO  ForwordHandler:29 - 2019-12-31T13:51:58.930接收到来自服务器的数据为: [1, 6, 0, 0, 0, 16, -120, 6]
+2019-12-31 13:51:58 INFO  Forward:72 - 2019-12-31T13:51:58.960 收到来自设备的数据：0106000000108806
+2019-12-31 13:52:07 INFO  ForwordHandler:29 - 2019-12-31T13:52:07.218接收到来自服务器的数据为: [1, 5, 0, 0, -1, 0, -116, 58]
+2019-12-31 13:52:07 INFO  Forward:72 - 2019-12-31T13:52:07.244 收到来自设备的数据：01050000ff008c3a
+2019-12-31 13:52:09 INFO  ForwordHandler:29 - 2019-12-31T13:52:09.302接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 13:52:09 INFO  Forward:72 - 2019-12-31T13:52:09.328 收到来自设备的数据：0203040000422a784c
+2019-12-31 13:52:14 INFO  ForwordHandler:29 - 2019-12-31T13:52:14.379接收到来自服务器的数据为: [2, 16, 0, 1, 0, 2, 4, -103, -102, 65, 69, -62, 55]
+2019-12-31 13:52:14 INFO  Forward:72 - 2019-12-31T13:52:14.406 收到来自设备的数据：021000010002103b
+2019-12-31 13:52:24 INFO  ForwordHandler:29 - 2019-12-31T13:52:24.898接收到来自服务器的数据为: [2, 5, 0, 0, 0, 0, -51, -7]
+2019-12-31 13:52:24 INFO  Forward:72 - 2019-12-31T13:52:24.929 收到来自设备的数据：020500000000cdf9
+2019-12-31 13:52:42 INFO  ForwordHandler:29 - 2019-12-31T13:52:42.474接收到来自服务器的数据为: [2, 5, 0, 0, 0, 0, -51, -7]
+2019-12-31 13:52:42 INFO  Forward:72 - 2019-12-31T13:52:42.525 收到来自设备的数据：020500000000cdf9
+2019-12-31 13:53:38 INFO  ForwordHandler:29 - 2019-12-31T13:53:38.124接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 13:53:38 INFO  Forward:72 - 2019-12-31T13:53:38.151 收到来自设备的数据：010101019048
+2019-12-31 13:53:54 INFO  ForwordHandler:29 - 2019-12-31T13:53:54.122接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 13:53:54 INFO  Forward:72 - 2019-12-31T13:53:54.146 收到来自设备的数据：0103020010b988
+2019-12-31 13:54:08 INFO  ForwordHandler:29 - 2019-12-31T13:54:08.231接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 13:54:08 INFO  Forward:72 - 2019-12-31T13:54:08.258 收到来自设备的数据：010304cccd41b06578
+2019-12-31 13:54:14 INFO  ForwordHandler:29 - 2019-12-31T13:54:14.214接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 13:54:14 INFO  Forward:72 - 2019-12-31T13:54:14.238 收到来自设备的数据：01030415510000afee
+2019-12-31 13:54:38 INFO  ForwordHandler:29 - 2019-12-31T13:54:38.337接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 13:54:38 INFO  Forward:72 - 2019-12-31T13:54:38.373 收到来自设备的数据：0201010051cc
+2019-12-31 13:55:08 INFO  ForwordHandler:29 - 2019-12-31T13:55:08.437接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 13:55:08 INFO  Forward:72 - 2019-12-31T13:55:08.463 收到来自设备的数据：02030470a4c1450273
+2019-12-31 13:56:38 INFO  ForwordHandler:29 - 2019-12-31T13:56:38.150接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 13:56:38 INFO  Forward:72 - 2019-12-31T13:56:38.179 收到来自设备的数据：010101019048
+2019-12-31 13:56:45 INFO  ForwordHandler:29 - 2019-12-31T13:56:45.626接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 13:56:45 INFO  Forward:72 - 2019-12-31T13:56:45.661 收到来自设备的数据：02030470a4c1450273
+2019-12-31 13:56:54 INFO  ForwordHandler:29 - 2019-12-31T13:56:54.109接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 13:56:54 INFO  Forward:72 - 2019-12-31T13:56:54.138 收到来自设备的数据：0103020010b988
+2019-12-31 13:57:14 INFO  ForwordHandler:29 - 2019-12-31T13:57:14.191接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 13:57:14 INFO  Forward:72 - 2019-12-31T13:57:14.216 收到来自设备的数据：01030415510000afee
+2019-12-31 13:57:30 INFO  ForwordHandler:29 - 2019-12-31T13:57:30.774接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 13:57:30 INFO  Forward:72 - 2019-12-31T13:57:30.802 收到来自设备的数据：02030470a4c1450273
+2019-12-31 13:59:54 INFO  ForwordHandler:29 - 2019-12-31T13:59:54.093接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 13:59:54 INFO  Forward:72 - 2019-12-31T13:59:54.124 收到来自设备的数据：0103020010b988
+2019-12-31 14:00:14 INFO  ForwordHandler:29 - 2019-12-31T14:00:14.177接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 14:00:14 INFO  Forward:72 - 2019-12-31T14:00:14.204 收到来自设备的数据：01030415510000afee
+2019-12-31 14:03:28 DEBUG InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2019-12-31 14:03:28 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2019-12-31 14:03:28 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-31 14:03:28 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-31 14:03:28 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2019-12-31 14:03:28 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-12-31 14:03:28 DEBUG PlatformDependent:987 - Platform: Windows
+2019-12-31 14:03:28 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2019-12-31 14:03:28 DEBUG PlatformDependent0:852 - Java version: 8
+2019-12-31 14:03:28 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2019-12-31 14:03:28 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2019-12-31 14:03:28 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2019-12-31 14:03:28 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2019-12-31 14:03:28 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2019-12-31 14:03:28 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-31 14:03:28 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-31 14:03:28 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+2019-12-31 14:03:28 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\LENGCH~1\AppData\Local\Temp (java.io.tmpdir)
+2019-12-31 14:03:28 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-31 14:03:28 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2019-12-31 14:03:28 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-31 14:03:28 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2019-12-31 14:03:28 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+2019-12-31 14:03:28 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-31 14:03:29 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 13768 (auto-detected)
+2019-12-31 14:03:29 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2019-12-31 14:03:29 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2019-12-31 14:03:29 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-12-31 14:03:29 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-12-31 14:03:29 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 8c:ec:4b:ff:fe:53:e6:92 (auto-detected)
+2019-12-31 14:03:29 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2019-12-31 14:03:29 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2019-12-31 14:03:29 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 8
+2019-12-31 14:03:29 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 8
+2019-12-31 14:03:29 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+2019-12-31 14:03:29 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+2019-12-31 14:03:29 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+2019-12-31 14:03:29 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-31 14:03:29 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+2019-12-31 14:03:29 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+2019-12-31 14:03:29 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-31 14:03:29 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-31 14:03:29 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-31 14:03:29 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-31 14:03:29 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-31 14:03:29 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+2019-12-31 14:03:29 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-12-31 14:03:29 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-12-31 14:03:34 DEBUG AbstractByteBuf:62 - -Dio.netty.buffer.checkAccessible: true
+2019-12-31 14:03:34 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkBounds: true
+2019-12-31 14:03:34 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3965eef6
+2019-12-31 14:03:34 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-12-31 14:03:34 DEBUG Recycler:97 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-12-31 14:03:34 DEBUG Recycler:98 - -Dio.netty.recycler.linkCapacity: 16
+2019-12-31 14:03:34 DEBUG Recycler:99 - -Dio.netty.recycler.ratio: 8
+2019-12-31 14:03:34 INFO  ForwordHandler:29 - 2019-12-31T14:03:34.893接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:03:34 INFO  Forward:72 - 2019-12-31T14:03:34.923 收到来自设备的数据：0181018190
+2019-12-31 14:04:05 INFO  ForwordHandler:29 - 2019-12-31T14:04:05.047接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 14:04:05 INFO  Forward:72 - 2019-12-31T14:04:05.071 收到来自设备的数据：018302c0f1
+2019-12-31 14:04:35 INFO  ForwordHandler:29 - 2019-12-31T14:04:35.228接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 14:05:05 INFO  ForwordHandler:29 - 2019-12-31T14:05:05.394接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 14:06:34 INFO  ForwordHandler:29 - 2019-12-31T14:06:34.100接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:06:34 INFO  Forward:72 - 2019-12-31T14:06:34.135 收到来自设备的数据：0181018190
+2019-12-31 14:07:04 INFO  ForwordHandler:29 - 2019-12-31T14:07:04.376接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 14:07:04 INFO  Forward:72 - 2019-12-31T14:07:04.400 收到来自设备的数据：018302c0f1
+2019-12-31 14:07:34 INFO  ForwordHandler:29 - 2019-12-31T14:07:34.564接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 14:08:04 INFO  ForwordHandler:29 - 2019-12-31T14:08:04.755接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 14:09:34 INFO  ForwordHandler:29 - 2019-12-31T14:09:34.110接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:09:34 INFO  Forward:72 - 2019-12-31T14:09:34.140 收到来自设备的数据：0181018190
+2019-12-31 14:10:04 INFO  ForwordHandler:29 - 2019-12-31T14:10:04.310接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 14:10:04 INFO  Forward:72 - 2019-12-31T14:10:04.334 收到来自设备的数据：018302c0f1
+2019-12-31 14:10:34 INFO  ForwordHandler:29 - 2019-12-31T14:10:34.543接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 14:11:04 INFO  ForwordHandler:29 - 2019-12-31T14:11:04.746接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 14:12:34 INFO  ForwordHandler:29 - 2019-12-31T14:12:34.143接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:12:34 INFO  Forward:72 - 2019-12-31T14:12:34.171 收到来自设备的数据：0181018190
+2019-12-31 14:13:11 DEBUG InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2019-12-31 14:13:11 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2019-12-31 14:13:11 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-31 14:13:11 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-31 14:13:11 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2019-12-31 14:13:11 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-12-31 14:13:11 DEBUG PlatformDependent:987 - Platform: Windows
+2019-12-31 14:13:11 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2019-12-31 14:13:11 DEBUG PlatformDependent0:852 - Java version: 8
+2019-12-31 14:13:11 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2019-12-31 14:13:11 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2019-12-31 14:13:11 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2019-12-31 14:13:11 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2019-12-31 14:13:11 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2019-12-31 14:13:11 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-31 14:13:11 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-31 14:13:11 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+2019-12-31 14:13:11 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\LENGCH~1\AppData\Local\Temp (java.io.tmpdir)
+2019-12-31 14:13:11 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-31 14:13:11 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2019-12-31 14:13:11 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-31 14:13:11 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2019-12-31 14:13:11 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+2019-12-31 14:13:11 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-31 14:13:11 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 9432 (auto-detected)
+2019-12-31 14:13:11 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2019-12-31 14:13:11 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2019-12-31 14:13:11 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-12-31 14:13:11 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-12-31 14:13:11 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 8c:ec:4b:ff:fe:53:e6:92 (auto-detected)
+2019-12-31 14:13:11 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2019-12-31 14:13:11 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2019-12-31 14:13:11 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 8
+2019-12-31 14:13:11 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 8
+2019-12-31 14:13:11 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+2019-12-31 14:13:11 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+2019-12-31 14:13:11 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+2019-12-31 14:13:11 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-31 14:13:11 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+2019-12-31 14:13:11 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+2019-12-31 14:13:11 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-31 14:13:11 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-31 14:13:11 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-31 14:13:11 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-31 14:13:11 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-31 14:13:11 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+2019-12-31 14:13:11 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-12-31 14:13:11 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-12-31 14:13:16 DEBUG AbstractByteBuf:62 - -Dio.netty.buffer.checkAccessible: true
+2019-12-31 14:13:16 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkBounds: true
+2019-12-31 14:13:16 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6416c01d
+2019-12-31 14:13:16 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-12-31 14:13:16 DEBUG Recycler:97 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-12-31 14:13:16 DEBUG Recycler:98 - -Dio.netty.recycler.linkCapacity: 16
+2019-12-31 14:13:16 DEBUG Recycler:99 - -Dio.netty.recycler.ratio: 8
+2019-12-31 14:13:16 INFO  ForwordHandler:29 - 2019-12-31T14:13:16.478接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:13:16 INFO  Forward:72 - 2019-12-31T14:13:16.513 收到来自设备的数据：010101019048
+2019-12-31 14:13:46 INFO  ForwordHandler:29 - 2019-12-31T14:13:46.534接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 14:13:46 INFO  Forward:72 - 2019-12-31T14:13:46.565 收到来自设备的数据：010304cccd41b06578
+2019-12-31 14:14:16 INFO  ForwordHandler:29 - 2019-12-31T14:14:16.627接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 14:14:16 INFO  Forward:72 - 2019-12-31T14:14:16.660 收到来自设备的数据：0201010051cc
+2019-12-31 14:14:46 INFO  ForwordHandler:29 - 2019-12-31T14:14:46.718接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 14:14:46 INFO  Forward:72 - 2019-12-31T14:14:46.745 收到来自设备的数据：02030470a4c1450273
+2019-12-31 14:15:49 INFO  ForwordHandler:29 - 2019-12-31T14:15:49.081接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 14:15:49 INFO  Forward:72 - 2019-12-31T14:15:49.113 收到来自设备的数据：02030470a4c1450273
+2019-12-31 14:17:47 INFO  ForwordHandler:29 - 2019-12-31T14:17:47.191接收到来自服务器的数据为: [2, 16, 0, 1, 0, 2, 4, -103, -102, -63, 69, -93, -9]
+2019-12-31 14:17:47 INFO  Forward:72 - 2019-12-31T14:17:47.222 收到来自设备的数据：021000010002103b
+2019-12-31 14:19:16 INFO  ForwordHandler:29 - 2019-12-31T14:19:16.093接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:19:16 INFO  Forward:72 - 2019-12-31T14:19:16.123 收到来自设备的数据：010101019048
+2019-12-31 14:19:46 INFO  ForwordHandler:29 - 2019-12-31T14:19:46.201接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 14:19:46 INFO  Forward:72 - 2019-12-31T14:19:46.235 收到来自设备的数据：010304cccd41b06578
+2019-12-31 14:20:16 INFO  ForwordHandler:29 - 2019-12-31T14:20:16.863接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 14:20:17 INFO  Forward:72 - 2019-12-31T14:20:17.224 收到来自设备的数据：0201010051cc
+2019-12-31 14:20:46 INFO  ForwordHandler:29 - 2019-12-31T14:20:46.951接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 14:20:46 INFO  Forward:72 - 2019-12-31T14:20:46.975 收到来自设备的数据：020304999ac14557e3
+2019-12-31 14:22:07 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-31 14:22:09 DEBUG PoolThreadCache:249 - Freed 7 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2019-12-31 14:22:41 DEBUG InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2019-12-31 14:22:41 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2019-12-31 14:22:41 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-31 14:22:41 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-31 14:22:41 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2019-12-31 14:22:41 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-12-31 14:22:41 DEBUG PlatformDependent:987 - Platform: Windows
+2019-12-31 14:22:41 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2019-12-31 14:22:41 DEBUG PlatformDependent0:852 - Java version: 8
+2019-12-31 14:22:41 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2019-12-31 14:22:41 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2019-12-31 14:22:41 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2019-12-31 14:22:41 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2019-12-31 14:22:41 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2019-12-31 14:22:41 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-31 14:22:41 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-31 14:22:41 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+2019-12-31 14:22:41 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\LENGCH~1\AppData\Local\Temp (java.io.tmpdir)
+2019-12-31 14:22:41 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-31 14:22:41 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2019-12-31 14:22:41 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-31 14:22:41 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2019-12-31 14:22:41 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+2019-12-31 14:22:41 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-31 14:22:41 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 9640 (auto-detected)
+2019-12-31 14:22:41 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2019-12-31 14:22:41 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2019-12-31 14:22:42 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-12-31 14:22:42 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-12-31 14:22:42 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 8c:ec:4b:ff:fe:53:e6:92 (auto-detected)
+2019-12-31 14:22:42 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2019-12-31 14:22:42 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2019-12-31 14:22:42 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 8
+2019-12-31 14:22:42 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 8
+2019-12-31 14:22:42 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+2019-12-31 14:22:42 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+2019-12-31 14:22:42 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+2019-12-31 14:22:42 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-31 14:22:42 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+2019-12-31 14:22:42 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+2019-12-31 14:22:42 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-31 14:22:42 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-31 14:22:42 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-31 14:22:42 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-31 14:22:42 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-31 14:22:42 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+2019-12-31 14:22:42 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-12-31 14:22:42 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-12-31 14:22:46 DEBUG AbstractByteBuf:62 - -Dio.netty.buffer.checkAccessible: true
+2019-12-31 14:22:46 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkBounds: true
+2019-12-31 14:22:46 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@31de9195
+2019-12-31 14:22:46 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-12-31 14:22:46 DEBUG Recycler:97 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-12-31 14:22:46 DEBUG Recycler:98 - -Dio.netty.recycler.linkCapacity: 16
+2019-12-31 14:22:46 DEBUG Recycler:99 - -Dio.netty.recycler.ratio: 8
+2019-12-31 14:22:47 INFO  ForwordHandler:29 - 2019-12-31T14:22:47.321接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 14:22:47 INFO  Forward:72 - 2019-12-31T14:22:47.348 收到来自设备的数据：018302c0f1
+2019-12-31 14:23:07 INFO  ForwordHandler:29 - 2019-12-31T14:23:07.713接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 14:23:07 INFO  Forward:72 - 2019-12-31T14:23:07.739 收到来自设备的数据：018302c0f1
+2019-12-31 14:25:32 DEBUG InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2019-12-31 14:25:32 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2019-12-31 14:25:32 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-31 14:25:32 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-31 14:25:32 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2019-12-31 14:25:32 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-12-31 14:25:32 DEBUG PlatformDependent:987 - Platform: Windows
+2019-12-31 14:25:32 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2019-12-31 14:25:32 DEBUG PlatformDependent0:852 - Java version: 8
+2019-12-31 14:25:32 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2019-12-31 14:25:32 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2019-12-31 14:25:32 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2019-12-31 14:25:32 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2019-12-31 14:25:32 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2019-12-31 14:25:32 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-31 14:25:32 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-31 14:25:32 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+2019-12-31 14:25:32 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\LENGCH~1\AppData\Local\Temp (java.io.tmpdir)
+2019-12-31 14:25:32 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-31 14:25:32 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2019-12-31 14:25:32 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-31 14:25:32 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2019-12-31 14:25:32 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+2019-12-31 14:25:32 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-31 14:25:32 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 5048 (auto-detected)
+2019-12-31 14:25:32 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2019-12-31 14:25:32 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2019-12-31 14:25:32 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-12-31 14:25:32 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-12-31 14:25:32 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 8c:ec:4b:ff:fe:53:e6:92 (auto-detected)
+2019-12-31 14:25:32 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2019-12-31 14:25:32 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2019-12-31 14:25:32 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 8
+2019-12-31 14:25:32 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 8
+2019-12-31 14:25:32 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+2019-12-31 14:25:32 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+2019-12-31 14:25:32 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+2019-12-31 14:25:32 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-31 14:25:32 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+2019-12-31 14:25:32 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+2019-12-31 14:25:32 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-31 14:25:32 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-31 14:25:32 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-31 14:25:32 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-31 14:25:32 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-31 14:25:32 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+2019-12-31 14:25:32 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-12-31 14:25:32 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-12-31 14:25:41 DEBUG AbstractByteBuf:62 - -Dio.netty.buffer.checkAccessible: true
+2019-12-31 14:25:41 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkBounds: true
+2019-12-31 14:25:41 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3965eef6
+2019-12-31 14:25:41 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-12-31 14:25:41 DEBUG Recycler:97 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-12-31 14:25:41 DEBUG Recycler:98 - -Dio.netty.recycler.linkCapacity: 16
+2019-12-31 14:25:41 DEBUG Recycler:99 - -Dio.netty.recycler.ratio: 8
+2019-12-31 14:25:41 INFO  ForwordHandler:29 - 2019-12-31T14:25:41.915接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:25:41 INFO  Forward:72 - 2019-12-31T14:25:41.942 收到来自设备的数据：010101019048
+2019-12-31 14:26:11 INFO  ForwordHandler:29 - 2019-12-31T14:26:11.983接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 14:26:12 INFO  Forward:72 - 2019-12-31T14:26:12.015 收到来自设备的数据：010304cccd41b06578
+2019-12-31 14:26:42 INFO  ForwordHandler:29 - 2019-12-31T14:26:42.067接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 14:26:42 INFO  Forward:72 - 2019-12-31T14:26:42.097 收到来自设备的数据：0201010051cc
+2019-12-31 14:27:12 INFO  ForwordHandler:29 - 2019-12-31T14:27:12.182接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 14:27:12 INFO  Forward:72 - 2019-12-31T14:27:12.207 收到来自设备的数据：020304999ac14557e3
+2019-12-31 14:28:41 INFO  ForwordHandler:29 - 2019-12-31T14:28:41.295接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:28:41 INFO  Forward:72 - 2019-12-31T14:28:41.326 收到来自设备的数据：010101019048
+2019-12-31 14:29:11 INFO  ForwordHandler:29 - 2019-12-31T14:29:11.376接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 14:29:11 INFO  Forward:72 - 2019-12-31T14:29:11.408 收到来自设备的数据：010304cccd41b06578
+2019-12-31 14:29:41 INFO  ForwordHandler:29 - 2019-12-31T14:29:41.477接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 14:29:41 INFO  Forward:72 - 2019-12-31T14:29:41.508 收到来自设备的数据：0201010051cc
+2019-12-31 14:30:11 INFO  ForwordHandler:29 - 2019-12-31T14:30:11.575接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 14:30:11 INFO  Forward:72 - 2019-12-31T14:30:11.603 收到来自设备的数据：020304999ac14557e3
+2019-12-31 14:32:41 DEBUG InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2019-12-31 14:32:41 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2019-12-31 14:32:41 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-31 14:32:41 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-31 14:32:41 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2019-12-31 14:32:41 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-12-31 14:32:41 DEBUG PlatformDependent:987 - Platform: Windows
+2019-12-31 14:32:41 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2019-12-31 14:32:41 DEBUG PlatformDependent0:852 - Java version: 8
+2019-12-31 14:32:41 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2019-12-31 14:32:41 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2019-12-31 14:32:41 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2019-12-31 14:32:41 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2019-12-31 14:32:41 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2019-12-31 14:32:41 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-31 14:32:41 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-31 14:32:41 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+2019-12-31 14:32:41 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\LENGCH~1\AppData\Local\Temp (java.io.tmpdir)
+2019-12-31 14:32:41 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-31 14:32:41 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2019-12-31 14:32:41 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-31 14:32:41 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2019-12-31 14:32:41 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+2019-12-31 14:32:41 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-31 14:32:42 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 7076 (auto-detected)
+2019-12-31 14:32:42 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2019-12-31 14:32:42 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2019-12-31 14:32:42 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-12-31 14:32:42 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-12-31 14:32:42 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 8c:ec:4b:ff:fe:53:e6:92 (auto-detected)
+2019-12-31 14:32:42 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2019-12-31 14:32:42 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2019-12-31 14:32:42 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 8
+2019-12-31 14:32:42 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 8
+2019-12-31 14:32:42 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+2019-12-31 14:32:42 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+2019-12-31 14:32:42 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+2019-12-31 14:32:42 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-31 14:32:42 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+2019-12-31 14:32:42 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+2019-12-31 14:32:42 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-31 14:32:42 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-31 14:32:42 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-31 14:32:42 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-31 14:32:42 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-31 14:32:42 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+2019-12-31 14:32:42 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-12-31 14:32:42 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-12-31 14:33:03 DEBUG InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2019-12-31 14:33:03 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2019-12-31 14:33:03 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-31 14:33:03 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-31 14:33:03 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2019-12-31 14:33:03 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-12-31 14:33:03 DEBUG PlatformDependent:987 - Platform: Windows
+2019-12-31 14:33:03 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2019-12-31 14:33:03 DEBUG PlatformDependent0:852 - Java version: 8
+2019-12-31 14:33:03 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2019-12-31 14:33:03 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2019-12-31 14:33:03 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2019-12-31 14:33:03 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2019-12-31 14:33:03 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2019-12-31 14:33:03 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-31 14:33:03 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-31 14:33:03 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+2019-12-31 14:33:03 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\LENGCH~1\AppData\Local\Temp (java.io.tmpdir)
+2019-12-31 14:33:03 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-31 14:33:03 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2019-12-31 14:33:03 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-31 14:33:03 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2019-12-31 14:33:03 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+2019-12-31 14:33:03 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-31 14:33:04 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 6680 (auto-detected)
+2019-12-31 14:33:04 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2019-12-31 14:33:04 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2019-12-31 14:33:04 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-12-31 14:33:04 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-12-31 14:33:04 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 8c:ec:4b:ff:fe:53:e6:92 (auto-detected)
+2019-12-31 14:33:04 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2019-12-31 14:33:04 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2019-12-31 14:33:04 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 8
+2019-12-31 14:33:04 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 8
+2019-12-31 14:33:04 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+2019-12-31 14:33:04 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+2019-12-31 14:33:04 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+2019-12-31 14:33:04 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-31 14:33:04 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+2019-12-31 14:33:04 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+2019-12-31 14:33:04 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-31 14:33:04 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-31 14:33:04 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-31 14:33:04 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-31 14:33:04 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-31 14:33:04 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+2019-12-31 14:33:04 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-12-31 14:33:04 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-12-31 14:33:09 DEBUG AbstractByteBuf:62 - -Dio.netty.buffer.checkAccessible: true
+2019-12-31 14:33:09 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkBounds: true
+2019-12-31 14:33:09 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6416c01d
+2019-12-31 14:33:09 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-12-31 14:33:09 DEBUG Recycler:97 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-12-31 14:33:09 DEBUG Recycler:98 - -Dio.netty.recycler.linkCapacity: 16
+2019-12-31 14:33:09 DEBUG Recycler:99 - -Dio.netty.recycler.ratio: 8
+2019-12-31 14:33:10 INFO  ForwordHandler:29 - 2019-12-31T14:33:10.243接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:33:10 INFO  Forward:72 - 2019-12-31T14:33:10.269 收到来自设备的数据：010101019048
+2019-12-31 14:33:55 INFO  ForwordHandler:29 - 2019-12-31T14:33:55.793接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 14:33:55 INFO  Forward:72 - 2019-12-31T14:33:55.822 收到来自设备的数据：010304cccdc1b004b8
+2019-12-31 14:34:26 INFO  ForwordHandler:29 - 2019-12-31T14:34:26接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 14:34:26 INFO  Forward:72 - 2019-12-31T14:34:26.027 收到来自设备的数据：0201010051cc
+2019-12-31 14:34:56 INFO  ForwordHandler:29 - 2019-12-31T14:34:56.115接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 14:34:56 INFO  Forward:72 - 2019-12-31T14:34:56.148 收到来自设备的数据：020304999ac14557e3
+2019-12-31 14:40:30 INFO  ForwordHandler:29 - 2019-12-31T14:40:30.513接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:40:30 INFO  Forward:72 - 2019-12-31T14:40:30.538 收到来自设备的数据：010101019048
+2019-12-31 14:40:34 DEBUG PoolThreadCache:249 - Freed 4 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2019-12-31 14:42:11 DEBUG InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2019-12-31 14:42:11 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2019-12-31 14:42:11 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-31 14:42:11 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-31 14:42:11 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2019-12-31 14:42:11 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-12-31 14:42:11 DEBUG PlatformDependent:987 - Platform: Windows
+2019-12-31 14:42:11 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2019-12-31 14:42:11 DEBUG PlatformDependent0:852 - Java version: 8
+2019-12-31 14:42:11 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2019-12-31 14:42:11 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2019-12-31 14:42:11 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2019-12-31 14:42:11 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2019-12-31 14:42:11 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2019-12-31 14:42:11 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-31 14:42:11 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-31 14:42:11 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+2019-12-31 14:42:11 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\LENGCH~1\AppData\Local\Temp (java.io.tmpdir)
+2019-12-31 14:42:11 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-31 14:42:11 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2019-12-31 14:42:11 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-31 14:42:11 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2019-12-31 14:42:11 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+2019-12-31 14:42:11 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-31 14:42:11 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 12488 (auto-detected)
+2019-12-31 14:42:11 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2019-12-31 14:42:11 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2019-12-31 14:42:11 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-12-31 14:42:11 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-12-31 14:42:12 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 8c:ec:4b:ff:fe:53:e6:92 (auto-detected)
+2019-12-31 14:42:12 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2019-12-31 14:42:12 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2019-12-31 14:42:12 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 8
+2019-12-31 14:42:12 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 8
+2019-12-31 14:42:12 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+2019-12-31 14:42:12 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+2019-12-31 14:42:12 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+2019-12-31 14:42:12 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-31 14:42:12 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+2019-12-31 14:42:12 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+2019-12-31 14:42:12 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-31 14:42:12 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-31 14:42:12 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-31 14:42:12 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-31 14:42:12 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-31 14:42:12 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+2019-12-31 14:42:12 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-12-31 14:42:12 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-12-31 14:42:16 DEBUG AbstractByteBuf:62 - -Dio.netty.buffer.checkAccessible: true
+2019-12-31 14:42:16 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkBounds: true
+2019-12-31 14:42:16 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6416c01d
+2019-12-31 14:42:16 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-12-31 14:42:16 DEBUG Recycler:97 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-12-31 14:42:16 DEBUG Recycler:98 - -Dio.netty.recycler.linkCapacity: 16
+2019-12-31 14:42:16 DEBUG Recycler:99 - -Dio.netty.recycler.ratio: 8
+2019-12-31 14:42:16 INFO  ForwordHandler:29 - 2019-12-31T14:42:16.521接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:42:16 INFO  Forward:72 - 2019-12-31T14:42:16.552 收到来自设备的数据：010101019048
+2019-12-31 14:42:46 INFO  ForwordHandler:29 - 2019-12-31T14:42:46.612接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 14:42:46 INFO  Forward:72 - 2019-12-31T14:42:46.643 收到来自设备的数据：010304cccdc1b004b8
+2019-12-31 14:43:16 INFO  ForwordHandler:29 - 2019-12-31T14:43:16.801接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 14:43:16 INFO  Forward:72 - 2019-12-31T14:43:16.830 收到来自设备的数据：0201010051cc
+2019-12-31 14:43:46 INFO  ForwordHandler:29 - 2019-12-31T14:43:46.884接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 14:43:46 INFO  Forward:72 - 2019-12-31T14:43:46.913 收到来自设备的数据：020304999ac14557e3
+2019-12-31 14:45:16 INFO  ForwordHandler:29 - 2019-12-31T14:45:16.116接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:45:16 INFO  Forward:72 - 2019-12-31T14:45:16.145 收到来自设备的数据：010101019048
+2019-12-31 14:45:46 INFO  ForwordHandler:29 - 2019-12-31T14:45:46.225接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 14:45:46 INFO  Forward:72 - 2019-12-31T14:45:46.258 收到来自设备的数据：010304cccdc1b004b8
+2019-12-31 14:46:16 INFO  ForwordHandler:29 - 2019-12-31T14:46:16.439接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 14:46:16 INFO  Forward:72 - 2019-12-31T14:46:16.467 收到来自设备的数据：0201010051cc
+2019-12-31 14:46:21 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-31 14:46:23 DEBUG PoolThreadCache:249 - Freed 5 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2019-12-31 14:47:05 DEBUG InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2019-12-31 14:47:05 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2019-12-31 14:47:05 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-31 14:47:05 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-31 14:47:05 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2019-12-31 14:47:05 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-12-31 14:47:05 DEBUG PlatformDependent:987 - Platform: Windows
+2019-12-31 14:47:05 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2019-12-31 14:47:05 DEBUG PlatformDependent0:852 - Java version: 8
+2019-12-31 14:47:05 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2019-12-31 14:47:05 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2019-12-31 14:47:05 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2019-12-31 14:47:05 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2019-12-31 14:47:05 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2019-12-31 14:47:05 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-31 14:47:05 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-31 14:47:05 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+2019-12-31 14:47:05 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\LENGCH~1\AppData\Local\Temp (java.io.tmpdir)
+2019-12-31 14:47:05 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-31 14:47:05 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2019-12-31 14:47:05 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-31 14:47:05 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2019-12-31 14:47:05 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+2019-12-31 14:47:05 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-31 14:47:05 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 1800 (auto-detected)
+2019-12-31 14:47:05 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2019-12-31 14:47:05 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2019-12-31 14:47:05 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-12-31 14:47:05 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-12-31 14:47:05 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 8c:ec:4b:ff:fe:53:e6:92 (auto-detected)
+2019-12-31 14:47:05 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2019-12-31 14:47:05 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2019-12-31 14:47:05 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 8
+2019-12-31 14:47:05 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 8
+2019-12-31 14:47:05 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+2019-12-31 14:47:05 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+2019-12-31 14:47:05 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+2019-12-31 14:47:05 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-31 14:47:05 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+2019-12-31 14:47:05 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+2019-12-31 14:47:05 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-31 14:47:05 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-31 14:47:05 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-31 14:47:05 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-31 14:47:05 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-31 14:47:05 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+2019-12-31 14:47:05 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-12-31 14:47:05 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-12-31 14:47:09 DEBUG AbstractByteBuf:62 - -Dio.netty.buffer.checkAccessible: true
+2019-12-31 14:47:09 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkBounds: true
+2019-12-31 14:47:09 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6416c01d
+2019-12-31 14:47:09 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-12-31 14:47:09 DEBUG Recycler:97 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-12-31 14:47:09 DEBUG Recycler:98 - -Dio.netty.recycler.linkCapacity: 16
+2019-12-31 14:47:09 DEBUG Recycler:99 - -Dio.netty.recycler.ratio: 8
+2019-12-31 14:47:09 INFO  ForwordHandler:29 - 2019-12-31T14:47:09.761接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:47:09 INFO  Forward:72 - 2019-12-31T14:47:09.788 收到来自设备的数据：010101019048
+2019-12-31 14:47:39 INFO  ForwordHandler:29 - 2019-12-31T14:47:39.831接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 14:47:39 INFO  Forward:72 - 2019-12-31T14:47:39.862 收到来自设备的数据：010304cccd414464ff
+2019-12-31 14:48:24 INFO  ForwordHandler:29 - 2019-12-31T14:48:24.652接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 14:48:24 INFO  Forward:72 - 2019-12-31T14:48:24.681 收到来自设备的数据：0201010051cc
+2019-12-31 14:48:54 INFO  ForwordHandler:29 - 2019-12-31T14:48:54.772接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 14:48:54 INFO  Forward:72 - 2019-12-31T14:48:54.798 收到来自设备的数据：0203043333c16327c1
+2019-12-31 14:50:09 INFO  ForwordHandler:29 - 2019-12-31T14:50:09.104接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:50:09 INFO  Forward:72 - 2019-12-31T14:50:09.135 收到来自设备的数据：010101019048
+2019-12-31 14:50:42 INFO  ForwordHandler:29 - 2019-12-31T14:50:42.938接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 14:50:42 INFO  Forward:72 - 2019-12-31T14:50:42.970 收到来自设备的数据：010304cccd414464ff
+2019-12-31 14:51:28 INFO  ForwordHandler:29 - 2019-12-31T14:51:28.715接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 14:51:28 INFO  Forward:72 - 2019-12-31T14:51:28.741 收到来自设备的数据：0201010051cc
+2019-12-31 14:51:58 INFO  ForwordHandler:29 - 2019-12-31T14:51:58.794接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 14:51:58 INFO  Forward:72 - 2019-12-31T14:51:58.823 收到来自设备的数据：0203043333c16327c1
+2019-12-31 14:59:09 INFO  ForwordHandler:29 - 2019-12-31T14:59:09.132接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 14:59:09 INFO  Forward:72 - 2019-12-31T14:59:09.160 收到来自设备的数据：010101019048
+2019-12-31 14:59:22 DEBUG PoolThreadCache:249 - Freed 6 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2019-12-31 15:00:33 DEBUG InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2019-12-31 15:00:33 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2019-12-31 15:00:33 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-31 15:00:33 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-31 15:00:33 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2019-12-31 15:00:33 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-12-31 15:00:33 DEBUG PlatformDependent:987 - Platform: Windows
+2019-12-31 15:00:33 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2019-12-31 15:00:33 DEBUG PlatformDependent0:852 - Java version: 8
+2019-12-31 15:00:33 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2019-12-31 15:00:33 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2019-12-31 15:00:33 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2019-12-31 15:00:33 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2019-12-31 15:00:33 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2019-12-31 15:00:33 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-31 15:00:33 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-31 15:00:33 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+2019-12-31 15:00:33 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\LENGCH~1\AppData\Local\Temp (java.io.tmpdir)
+2019-12-31 15:00:33 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-31 15:00:33 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2019-12-31 15:00:33 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-31 15:00:33 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2019-12-31 15:00:33 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+2019-12-31 15:00:33 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-31 15:00:34 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 6688 (auto-detected)
+2019-12-31 15:00:34 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2019-12-31 15:00:34 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2019-12-31 15:00:34 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-12-31 15:00:34 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-12-31 15:00:34 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 8c:ec:4b:ff:fe:53:e6:92 (auto-detected)
+2019-12-31 15:00:34 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2019-12-31 15:00:34 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2019-12-31 15:00:34 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 8
+2019-12-31 15:00:34 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 8
+2019-12-31 15:00:34 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+2019-12-31 15:00:34 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+2019-12-31 15:00:34 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+2019-12-31 15:00:34 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-31 15:00:34 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+2019-12-31 15:00:34 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+2019-12-31 15:00:34 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-31 15:00:34 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-31 15:00:34 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-31 15:00:34 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-31 15:00:34 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-31 15:00:34 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+2019-12-31 15:00:34 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-12-31 15:00:34 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-12-31 15:00:40 DEBUG AbstractByteBuf:62 - -Dio.netty.buffer.checkAccessible: true
+2019-12-31 15:00:40 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkBounds: true
+2019-12-31 15:00:40 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@31de9195
+2019-12-31 15:00:40 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-12-31 15:00:40 DEBUG Recycler:97 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-12-31 15:00:40 DEBUG Recycler:98 - -Dio.netty.recycler.linkCapacity: 16
+2019-12-31 15:00:40 DEBUG Recycler:99 - -Dio.netty.recycler.ratio: 8
+2019-12-31 15:00:40 INFO  ForwordHandler:29 - 2019-12-31T15:00:40.490接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 15:00:40 INFO  Forward:72 - 2019-12-31T15:00:40.522 收到来自设备的数据：010101019048
+2019-12-31 15:01:10 INFO  ForwordHandler:29 - 2019-12-31T15:01:10.606接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 15:01:10 INFO  Forward:72 - 2019-12-31T15:01:10.634 收到来自设备的数据：010304cccd414464ff
+2019-12-31 15:01:40 INFO  ForwordHandler:29 - 2019-12-31T15:01:40.701接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 15:01:40 INFO  Forward:72 - 2019-12-31T15:01:40.730 收到来自设备的数据：0201010051cc
+2019-12-31 15:02:10 INFO  ForwordHandler:29 - 2019-12-31T15:02:10.785接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 15:02:10 INFO  Forward:72 - 2019-12-31T15:02:10.815 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:03:40 INFO  ForwordHandler:29 - 2019-12-31T15:03:40.112接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 15:03:40 INFO  Forward:72 - 2019-12-31T15:03:40.146 收到来自设备的数据：010101019048
+2019-12-31 15:04:10 INFO  ForwordHandler:29 - 2019-12-31T15:04:10.212接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 15:04:10 INFO  Forward:72 - 2019-12-31T15:04:10.241 收到来自设备的数据：010304cccd414464ff
+2019-12-31 15:04:40 INFO  ForwordHandler:29 - 2019-12-31T15:04:40.301接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 15:04:40 INFO  Forward:72 - 2019-12-31T15:04:40.328 收到来自设备的数据：0201010051cc
+2019-12-31 15:05:10 INFO  ForwordHandler:29 - 2019-12-31T15:05:10.394接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 15:05:10 INFO  Forward:72 - 2019-12-31T15:05:10.422 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:06:40 INFO  ForwordHandler:29 - 2019-12-31T15:06:40.109接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 15:06:40 INFO  Forward:72 - 2019-12-31T15:06:40.140 收到来自设备的数据：010101019048
+2019-12-31 15:07:10 INFO  ForwordHandler:29 - 2019-12-31T15:07:10.217接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 15:07:10 INFO  Forward:72 - 2019-12-31T15:07:10.248 收到来自设备的数据：010304cccd414464ff
+2019-12-31 15:07:40 INFO  ForwordHandler:29 - 2019-12-31T15:07:40.325接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 15:07:40 INFO  Forward:72 - 2019-12-31T15:07:40.349 收到来自设备的数据：0201010051cc
+2019-12-31 15:08:10 INFO  ForwordHandler:29 - 2019-12-31T15:08:10.499接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 15:08:10 INFO  Forward:72 - 2019-12-31T15:08:10.528 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:08:54 DEBUG InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2019-12-31 15:08:54 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2019-12-31 15:08:54 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-31 15:08:54 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-31 15:08:54 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2019-12-31 15:08:54 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-12-31 15:08:54 DEBUG PlatformDependent:987 - Platform: Windows
+2019-12-31 15:08:54 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2019-12-31 15:08:54 DEBUG PlatformDependent0:852 - Java version: 8
+2019-12-31 15:08:54 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2019-12-31 15:08:54 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2019-12-31 15:08:54 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2019-12-31 15:08:54 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2019-12-31 15:08:54 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2019-12-31 15:08:54 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-31 15:08:54 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-31 15:08:54 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+2019-12-31 15:08:54 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\LENGCH~1\AppData\Local\Temp (java.io.tmpdir)
+2019-12-31 15:08:54 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-31 15:08:54 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2019-12-31 15:08:54 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-31 15:08:54 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2019-12-31 15:08:54 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+2019-12-31 15:08:54 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-31 15:08:54 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 14108 (auto-detected)
+2019-12-31 15:08:54 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2019-12-31 15:08:54 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2019-12-31 15:08:54 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-12-31 15:08:54 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-12-31 15:08:54 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 8c:ec:4b:ff:fe:53:e6:92 (auto-detected)
+2019-12-31 15:08:54 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2019-12-31 15:08:54 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2019-12-31 15:08:54 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 8
+2019-12-31 15:08:54 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 8
+2019-12-31 15:08:54 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+2019-12-31 15:08:54 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+2019-12-31 15:08:54 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+2019-12-31 15:08:54 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-31 15:08:54 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+2019-12-31 15:08:54 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+2019-12-31 15:08:54 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-31 15:08:54 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-31 15:08:54 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-31 15:08:54 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-31 15:08:54 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-31 15:08:54 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+2019-12-31 15:08:54 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-12-31 15:08:54 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-12-31 15:08:59 DEBUG AbstractByteBuf:62 - -Dio.netty.buffer.checkAccessible: true
+2019-12-31 15:08:59 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkBounds: true
+2019-12-31 15:08:59 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@39f01635
+2019-12-31 15:08:59 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-12-31 15:08:59 DEBUG Recycler:97 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-12-31 15:08:59 DEBUG Recycler:98 - -Dio.netty.recycler.linkCapacity: 16
+2019-12-31 15:08:59 DEBUG Recycler:99 - -Dio.netty.recycler.ratio: 8
+2019-12-31 15:08:59 INFO  ForwordHandler:29 - 2019-12-31T15:08:59.653接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 15:08:59 INFO  Forward:72 - 2019-12-31T15:08:59.688 收到来自设备的数据：0103020010b988
+2019-12-31 15:09:19 INFO  ForwordHandler:29 - 2019-12-31T15:09:19.755接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 15:09:19 INFO  Forward:72 - 2019-12-31T15:09:19.786 收到来自设备的数据：01030415510000afee
+2019-12-31 15:09:40 INFO  ForwordHandler:29 - 2019-12-31T15:09:40.147接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 15:09:40 INFO  Forward:72 - 2019-12-31T15:09:40.181 收到来自设备的数据：010101019048
+2019-12-31 15:10:03 INFO  ForwordHandler:29 - 2019-12-31T15:10:03.577接收到来自服务器的数据为: [1, 6, 0, 0, -1, -16, -56, 126]
+2019-12-31 15:10:03 INFO  Forward:72 - 2019-12-31T15:10:03.605 收到来自设备的数据：01060000fff0c87e
+2019-12-31 15:10:10 INFO  ForwordHandler:29 - 2019-12-31T15:10:10.270接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 15:10:10 INFO  Forward:72 - 2019-12-31T15:10:10.303 收到来自设备的数据：010304cccd414464ff
+2019-12-31 15:10:40 INFO  ForwordHandler:29 - 2019-12-31T15:10:40.330接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 15:10:40 INFO  Forward:72 - 2019-12-31T15:10:40.361 收到来自设备的数据：0201010051cc
+2019-12-31 15:11:10 INFO  ForwordHandler:29 - 2019-12-31T15:11:10.446接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 15:11:10 INFO  Forward:72 - 2019-12-31T15:11:10.517 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:11:21 INFO  ForwordHandler:29 - 2019-12-31T15:11:21.005接收到来自服务器的数据为: [1, 16, 0, 1, 0, 2, 4, -52, -51, -63, 68, -51, 111]
+2019-12-31 15:11:21 INFO  Forward:72 - 2019-12-31T15:11:21.032 收到来自设备的数据：0110000100021008
+2019-12-31 15:11:58 INFO  ForwordHandler:29 - 2019-12-31T15:11:58.028接收到来自服务器的数据为: [2, 5, 0, 0, -1, 0, -116, 9]
+2019-12-31 15:11:58 INFO  Forward:72 - 2019-12-31T15:11:58.057 收到来自设备的数据：02050000ff008c09
+2019-12-31 15:11:59 INFO  ForwordHandler:29 - 2019-12-31T15:11:59.119接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 15:11:59 INFO  Forward:72 - 2019-12-31T15:11:59.151 收到来自设备的数据：010302fff0f9f0
+2019-12-31 15:12:19 INFO  ForwordHandler:29 - 2019-12-31T15:12:19.220接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 15:12:19 INFO  Forward:72 - 2019-12-31T15:12:19.249 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:12:40 INFO  ForwordHandler:29 - 2019-12-31T15:12:40.094接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 15:12:40 INFO  Forward:72 - 2019-12-31T15:12:40.123 收到来自设备的数据：010101019048
+2019-12-31 15:13:10 INFO  ForwordHandler:29 - 2019-12-31T15:13:10.226接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 15:13:10 INFO  Forward:72 - 2019-12-31T15:13:10.260 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:13:40 INFO  ForwordHandler:29 - 2019-12-31T15:13:40.305接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 15:13:40 INFO  Forward:72 - 2019-12-31T15:13:40.333 收到来自设备的数据：02010101900c
+2019-12-31 15:14:10 INFO  ForwordHandler:29 - 2019-12-31T15:14:10.375接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 15:14:10 INFO  Forward:72 - 2019-12-31T15:14:10.407 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:14:59 INFO  ForwordHandler:29 - 2019-12-31T15:14:59.144接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 15:14:59 INFO  Forward:72 - 2019-12-31T15:14:59.173 收到来自设备的数据：010302fff0f9f0
+2019-12-31 15:15:19 INFO  ForwordHandler:29 - 2019-12-31T15:15:19.249接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 15:15:19 INFO  Forward:72 - 2019-12-31T15:15:19.281 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:15:40 INFO  ForwordHandler:29 - 2019-12-31T15:15:40.110接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 15:15:40 INFO  Forward:72 - 2019-12-31T15:15:40.135 收到来自设备的数据：010101019048
+2019-12-31 15:16:10 INFO  ForwordHandler:29 - 2019-12-31T15:16:10.181接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 15:16:10 INFO  Forward:72 - 2019-12-31T15:16:10.212 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:16:40 INFO  ForwordHandler:29 - 2019-12-31T15:16:40.246接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 15:16:40 INFO  Forward:72 - 2019-12-31T15:16:40.281 收到来自设备的数据：02010101900c
+2019-12-31 15:17:10 INFO  ForwordHandler:29 - 2019-12-31T15:17:10.334接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 15:17:10 INFO  Forward:72 - 2019-12-31T15:17:10.363 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:18:01 INFO  ForwordHandler:29 - 2019-12-31T15:18:01.684接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 15:18:01 INFO  Forward:72 - 2019-12-31T15:18:01.845 收到来自设备的数据：010302fff0f9f0
+2019-12-31 15:18:23 DEBUG PoolThreadCache:249 - Freed 6 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2019-12-31 15:18:23 DEBUG PoolThreadCache:249 - Freed 15 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2019-12-31 15:23:27 INFO  ForwardHandler:29 - 2019-12-31T15:23:27.168接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 15:23:27 INFO  Forward:72 - 2019-12-31T15:23:27.208 收到来自设备的数据：010302fff0f9f0
+2019-12-31 15:23:47 INFO  ForwardHandler:29 - 2019-12-31T15:23:47.274接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 15:23:47 INFO  Forward:72 - 2019-12-31T15:23:47.306 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:23:47 INFO  ForwardHandler:29 - 2019-12-31T15:23:47.316接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 15:23:47 INFO  Forward:72 - 2019-12-31T15:23:47.350 收到来自设备的数据：010101019048
+2019-12-31 15:24:17 INFO  ForwardHandler:29 - 2019-12-31T15:24:17.415接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 15:24:17 INFO  Forward:72 - 2019-12-31T15:24:17.446 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:24:47 INFO  ForwardHandler:29 - 2019-12-31T15:24:47.718接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 15:24:47 INFO  Forward:72 - 2019-12-31T15:24:47.750 收到来自设备的数据：02010101900c
+2019-12-31 15:25:17 INFO  ForwardHandler:29 - 2019-12-31T15:25:17.821接收到来自服务器的数据为: [2, 3, 0, 1, 0, 2, -107, -8]
+2019-12-31 15:25:17 INFO  Forward:72 - 2019-12-31T15:25:17.854 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:26:05 INFO  ForwardHandler:29 - 2019-12-31T15:26:05.680接收到来自服务器的数据为: [1, 6, 0, 0, -1, -18, 72, 118]
+2019-12-31 15:26:05 INFO  Forward:72 - 2019-12-31T15:26:05.711 收到来自设备的数据：01060000ffee4876
+2019-12-31 15:26:13 INFO  ForwardHandler:29 - 2019-12-31T15:26:13.334接收到来自服务器的数据为: [1, 6, 0, 0, 0, 18, 9, -57]
+2019-12-31 15:26:13 INFO  Forward:72 - 2019-12-31T15:26:13.360 收到来自设备的数据：01060000001209c7
+2019-12-31 15:26:26 INFO  ForwardHandler:29 - 2019-12-31T15:26:26.110接收到来自服务器的数据为: [1, 3, 0, 0, 0, 1, -124, 10]
+2019-12-31 15:26:26 INFO  Forward:72 - 2019-12-31T15:26:26.136 收到来自设备的数据：01030200123849
+2019-12-31 15:26:32 INFO  ForwardHandler:29 - 2019-12-31T15:26:32.022接收到来自服务器的数据为: [1, 6, 0, 0, -1, -20, -55, -73]
+2019-12-31 15:26:32 INFO  Forward:72 - 2019-12-31T15:26:32.053 收到来自设备的数据：01060000ffecc9b7
+2019-12-31 15:26:40 INFO  ForwardHandler:29 - 2019-12-31T15:26:40.380接收到来自服务器的数据为: [1, 6, 0, 0, 1, -92, -119, -31]
+2019-12-31 15:26:40 INFO  Forward:72 - 2019-12-31T15:26:40.408 收到来自设备的数据：0106000001a489e1
+2019-12-31 15:26:46 INFO  ForwardHandler:29 - 2019-12-31T15:26:46.193接收到来自服务器的数据为: [1, 3, 0, 2, 0, 2, 101, -53]
+2019-12-31 15:26:46 INFO  Forward:72 - 2019-12-31T15:26:46.219 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:26:47 INFO  ForwardHandler:29 - 2019-12-31T15:26:47.107接收到来自服务器的数据为: [1, 1, 0, 0, 0, 1, -3, -54]
+2019-12-31 15:26:47 INFO  Forward:72 - 2019-12-31T15:26:47.139 收到来自设备的数据：010101019048
+2019-12-31 15:26:48 INFO  ForwardHandler:29 - 2019-12-31T15:26:48.341接收到来自服务器的数据为: [1, 6, 0, 0, -1, -20, -55, -73]
+2019-12-31 15:26:48 INFO  Forward:72 - 2019-12-31T15:26:48.368 收到来自设备的数据：01060000ffecc9b7
+2019-12-31 15:27:17 INFO  ForwardHandler:29 - 2019-12-31T15:27:17.175接收到来自服务器的数据为: [1, 3, 0, 1, 0, 2, -107, -53]
+2019-12-31 15:27:17 INFO  Forward:72 - 2019-12-31T15:27:17.206 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:27:47 INFO  ForwardHandler:29 - 2019-12-31T15:27:47.282接收到来自服务器的数据为: [2, 1, 0, 0, 0, 1, -3, -7]
+2019-12-31 15:27:47 INFO  Forward:72 - 2019-12-31T15:27:47.316 收到来自设备的数据：02010101900c
+2019-12-31 15:28:16 INFO  ForwardHandler:30 - 2019-12-31T15:28:16.160接收到来自服务器的数据为: 010100000001fdca
+2019-12-31 15:28:16 INFO  Forward:72 - 2019-12-31T15:28:16.198 收到来自设备的数据：010101019048
+2019-12-31 15:28:30 INFO  ForwardHandler:30 - 2019-12-31T15:28:30.392接收到来自服务器的数据为: 010300000001840a
+2019-12-31 15:28:30 INFO  Forward:72 - 2019-12-31T15:28:30.430 收到来自设备的数据：010302ffecf839
+2019-12-31 15:28:46 INFO  ForwardHandler:30 - 2019-12-31T15:28:46.256接收到来自服务器的数据为: 01030001000295cb
+2019-12-31 15:28:46 INFO  Forward:72 - 2019-12-31T15:28:46.286 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:28:50 INFO  ForwardHandler:30 - 2019-12-31T15:28:50.464接收到来自服务器的数据为: 01030002000265cb
+2019-12-31 15:28:50 INFO  Forward:72 - 2019-12-31T15:28:50.489 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:29:14 INFO  ForwardHandler:30 - 2019-12-31T15:29:14.155接收到来自服务器的数据为: 010300000001840a
+2019-12-31 15:29:14 INFO  Forward:72 - 2019-12-31T15:29:14.180 收到来自设备的数据：010302ffe7b9fe
+2019-12-31 15:29:16 INFO  ForwardHandler:30 - 2019-12-31T15:29:16.590接收到来自服务器的数据为: 020100000001fdf9
+2019-12-31 15:29:16 INFO  Forward:72 - 2019-12-31T15:29:16.618 收到来自设备的数据：02010101900c
+2019-12-31 15:29:46 INFO  ForwardHandler:30 - 2019-12-31T15:29:46.663接收到来自服务器的数据为: 02030001000295f8
+2019-12-31 15:29:46 INFO  Forward:72 - 2019-12-31T15:29:46.691 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:31:15 INFO  ForwardHandler:30 - 2019-12-31T15:31:15.126接收到来自服务器的数据为: 010100000001fdca
+2019-12-31 15:31:15 INFO  Forward:72 - 2019-12-31T15:31:15.151 收到来自设备的数据：010101019048
+2019-12-31 15:31:30 INFO  ForwardHandler:30 - 2019-12-31T15:31:30.117接收到来自服务器的数据为: 010300000001840a
+2019-12-31 15:31:30 INFO  Forward:72 - 2019-12-31T15:31:30.148 收到来自设备的数据：010302ffe7b9fe
+2019-12-31 15:31:45 INFO  ForwardHandler:30 - 2019-12-31T15:31:45.225接收到来自服务器的数据为: 01030001000295cb
+2019-12-31 15:31:45 INFO  Forward:72 - 2019-12-31T15:31:45.251 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:31:50 INFO  ForwardHandler:30 - 2019-12-31T15:31:50.218接收到来自服务器的数据为: 01030002000265cb
+2019-12-31 15:31:50 INFO  Forward:72 - 2019-12-31T15:31:50.242 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:32:15 INFO  ForwardHandler:30 - 2019-12-31T15:32:15.300接收到来自服务器的数据为: 020100000001fdf9
+2019-12-31 15:32:15 INFO  Forward:72 - 2019-12-31T15:32:15.331 收到来自设备的数据：02010101900c
+2019-12-31 15:32:45 INFO  ForwardHandler:30 - 2019-12-31T15:32:45.399接收到来自服务器的数据为: 02030001000295f8
+2019-12-31 15:32:45 INFO  Forward:72 - 2019-12-31T15:32:45.427 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:34:15 INFO  ForwardHandler:30 - 2019-12-31T15:34:15.105接收到来自服务器的数据为: 010100000001fdca
+2019-12-31 15:34:15 INFO  Forward:72 - 2019-12-31T15:34:15.138 收到来自设备的数据：010101019048
+2019-12-31 15:34:30 INFO  ForwardHandler:30 - 2019-12-31T15:34:30.079接收到来自服务器的数据为: 010300000001840a
+2019-12-31 15:34:30 INFO  Forward:72 - 2019-12-31T15:34:30.108 收到来自设备的数据：010302ffe7b9fe
+2019-12-31 15:34:45 INFO  ForwardHandler:30 - 2019-12-31T15:34:45.187接收到来自服务器的数据为: 01030001000295cb
+2019-12-31 15:34:45 INFO  Forward:72 - 2019-12-31T15:34:45.221 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:34:50 INFO  ForwardHandler:30 - 2019-12-31T15:34:50.195接收到来自服务器的数据为: 01030002000265cb
+2019-12-31 15:34:50 INFO  Forward:72 - 2019-12-31T15:34:50.228 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:35:15 INFO  ForwardHandler:30 - 2019-12-31T15:35:15.270接收到来自服务器的数据为: 020100000001fdf9
+2019-12-31 15:35:15 INFO  Forward:72 - 2019-12-31T15:35:15.298 收到来自设备的数据：02010101900c
+2019-12-31 15:35:45 INFO  ForwardHandler:30 - 2019-12-31T15:35:45.363接收到来自服务器的数据为: 02030001000295f8
+2019-12-31 15:35:45 INFO  Forward:72 - 2019-12-31T15:35:45.395 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:37:15 INFO  ForwardHandler:30 - 2019-12-31T15:37:15.111接收到来自服务器的数据为: 010100000001fdca
+2019-12-31 15:37:15 INFO  Forward:72 - 2019-12-31T15:37:15.137 收到来自设备的数据：010101019048
+2019-12-31 15:37:30 INFO  ForwardHandler:30 - 2019-12-31T15:37:30.111接收到来自服务器的数据为: 010300000001840a
+2019-12-31 15:37:30 INFO  Forward:72 - 2019-12-31T15:37:30.145 收到来自设备的数据：010302ffe7b9fe
+2019-12-31 15:37:45 INFO  ForwardHandler:30 - 2019-12-31T15:37:45.212接收到来自服务器的数据为: 01030001000295cb
+2019-12-31 15:37:45 INFO  Forward:72 - 2019-12-31T15:37:45.246 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:37:50 INFO  ForwardHandler:30 - 2019-12-31T15:37:50.232接收到来自服务器的数据为: 01030002000265cb
+2019-12-31 15:37:50 INFO  Forward:72 - 2019-12-31T15:37:50.261 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:38:15 INFO  ForwardHandler:30 - 2019-12-31T15:38:15.278接收到来自服务器的数据为: 020100000001fdf9
+2019-12-31 15:38:15 INFO  Forward:72 - 2019-12-31T15:38:15.310 收到来自设备的数据：02010101900c
+2019-12-31 15:38:45 INFO  ForwardHandler:30 - 2019-12-31T15:38:45.353接收到来自服务器的数据为: 02030001000295f8
+2019-12-31 15:38:45 INFO  Forward:72 - 2019-12-31T15:38:45.379 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:40:15 INFO  ForwardHandler:30 - 2019-12-31T15:40:15.112接收到来自服务器的数据为: 010100000001fdca
+2019-12-31 15:40:15 INFO  Forward:72 - 2019-12-31T15:40:15.146 收到来自设备的数据：010101019048
+2019-12-31 15:40:30 INFO  ForwardHandler:30 - 2019-12-31T15:40:30.127接收到来自服务器的数据为: 010300000001840a
+2019-12-31 15:40:30 INFO  Forward:72 - 2019-12-31T15:40:30.151 收到来自设备的数据：010302ffe7b9fe
+2019-12-31 15:40:45 INFO  ForwardHandler:30 - 2019-12-31T15:40:45.255接收到来自服务器的数据为: 01030001000295cb
+2019-12-31 15:40:45 INFO  Forward:72 - 2019-12-31T15:40:45.287 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:40:50 INFO  ForwardHandler:30 - 2019-12-31T15:40:50.228接收到来自服务器的数据为: 01030002000265cb
+2019-12-31 15:40:50 INFO  Forward:72 - 2019-12-31T15:40:50.261 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:41:15 INFO  ForwardHandler:30 - 2019-12-31T15:41:15.336接收到来自服务器的数据为: 020100000001fdf9
+2019-12-31 15:41:15 INFO  Forward:72 - 2019-12-31T15:41:15.363 收到来自设备的数据：02010101900c
+2019-12-31 15:41:45 INFO  ForwardHandler:30 - 2019-12-31T15:41:45.409接收到来自服务器的数据为: 02030001000295f8
+2019-12-31 15:41:45 INFO  Forward:72 - 2019-12-31T15:41:45.439 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:43:15 INFO  ForwardHandler:30 - 2019-12-31T15:43:15.170接收到来自服务器的数据为: 010100000001fdca
+2019-12-31 15:43:15 INFO  Forward:72 - 2019-12-31T15:43:15.203 收到来自设备的数据：010101019048
+2019-12-31 15:43:30 INFO  ForwardHandler:30 - 2019-12-31T15:43:30.143接收到来自服务器的数据为: 010300000001840a
+2019-12-31 15:43:30 INFO  Forward:72 - 2019-12-31T15:43:30.174 收到来自设备的数据：010302ffe7b9fe
+2019-12-31 15:43:45 INFO  ForwardHandler:30 - 2019-12-31T15:43:45.258接收到来自服务器的数据为: 01030001000295cb
+2019-12-31 15:43:45 INFO  Forward:72 - 2019-12-31T15:43:45.294 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:43:50 INFO  ForwardHandler:30 - 2019-12-31T15:43:50.243接收到来自服务器的数据为: 01030002000265cb
+2019-12-31 15:43:50 INFO  Forward:72 - 2019-12-31T15:43:50.271 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:44:15 INFO  ForwardHandler:30 - 2019-12-31T15:44:15.332接收到来自服务器的数据为: 020100000001fdf9
+2019-12-31 15:44:15 INFO  Forward:72 - 2019-12-31T15:44:15.362 收到来自设备的数据：02010101900c
+2019-12-31 15:44:45 INFO  ForwardHandler:30 - 2019-12-31T15:44:45.422接收到来自服务器的数据为: 02030001000295f8
+2019-12-31 15:44:45 INFO  Forward:72 - 2019-12-31T15:44:45.450 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:46:15 INFO  ForwardHandler:30 - 2019-12-31T15:46:15.122接收到来自服务器的数据为: 010100000001fdca
+2019-12-31 15:46:15 INFO  Forward:72 - 2019-12-31T15:46:15.154 收到来自设备的数据：010101019048
+2019-12-31 15:46:30 INFO  ForwardHandler:30 - 2019-12-31T15:46:30.114接收到来自服务器的数据为: 010300000001840a
+2019-12-31 15:46:30 INFO  Forward:72 - 2019-12-31T15:46:30.146 收到来自设备的数据：010302ffe7b9fe
+2019-12-31 15:46:45 INFO  ForwardHandler:30 - 2019-12-31T15:46:45.195接收到来自服务器的数据为: 01030001000295cb
+2019-12-31 15:46:45 INFO  Forward:72 - 2019-12-31T15:46:45.221 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:46:50 INFO  ForwardHandler:30 - 2019-12-31T15:46:50.223接收到来自服务器的数据为: 01030002000265cb
+2019-12-31 15:46:50 INFO  Forward:72 - 2019-12-31T15:46:50.258 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:47:15 INFO  ForwardHandler:30 - 2019-12-31T15:47:15.270接收到来自服务器的数据为: 020100000001fdf9
+2019-12-31 15:47:15 INFO  Forward:72 - 2019-12-31T15:47:15.294 收到来自设备的数据：02010101900c
+2019-12-31 15:47:45 INFO  ForwardHandler:30 - 2019-12-31T15:47:45.369接收到来自服务器的数据为: 02030001000295f8
+2019-12-31 15:47:45 INFO  Forward:72 - 2019-12-31T15:47:45.396 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:49:15 INFO  ForwardHandler:30 - 2019-12-31T15:49:15.084接收到来自服务器的数据为: 010100000001fdca
+2019-12-31 15:49:15 INFO  Forward:72 - 2019-12-31T15:49:15.118 收到来自设备的数据：010101019048
+2019-12-31 15:49:30 INFO  ForwardHandler:30 - 2019-12-31T15:49:30.084接收到来自服务器的数据为: 010300000001840a
+2019-12-31 15:49:30 INFO  Forward:72 - 2019-12-31T15:49:30.112 收到来自设备的数据：010302ffe7b9fe
+2019-12-31 15:49:45 INFO  ForwardHandler:30 - 2019-12-31T15:49:45.185接收到来自服务器的数据为: 01030001000295cb
+2019-12-31 15:49:45 INFO  Forward:72 - 2019-12-31T15:49:45.218 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:49:50 INFO  ForwardHandler:30 - 2019-12-31T15:49:50.166接收到来自服务器的数据为: 01030002000265cb
+2019-12-31 15:49:50 INFO  Forward:72 - 2019-12-31T15:49:50.191 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:50:15 INFO  ForwardHandler:30 - 2019-12-31T15:50:15.291接收到来自服务器的数据为: 020100000001fdf9
+2019-12-31 15:50:15 INFO  Forward:72 - 2019-12-31T15:50:15.322 收到来自设备的数据：02010101900c
+2019-12-31 15:50:45 INFO  ForwardHandler:30 - 2019-12-31T15:50:45.371接收到来自服务器的数据为: 02030001000295f8
+2019-12-31 15:50:45 INFO  Forward:72 - 2019-12-31T15:50:45.400 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:52:15 INFO  ForwardHandler:30 - 2019-12-31T15:52:15.085接收到来自服务器的数据为: 010100000001fdca
+2019-12-31 15:52:15 INFO  Forward:72 - 2019-12-31T15:52:15.111 收到来自设备的数据：010101019048
+2019-12-31 15:52:30 INFO  ForwardHandler:30 - 2019-12-31T15:52:30.094接收到来自服务器的数据为: 010300000001840a
+2019-12-31 15:52:30 INFO  Forward:72 - 2019-12-31T15:52:30.127 收到来自设备的数据：010302ffe7b9fe
+2019-12-31 15:52:45 INFO  ForwardHandler:30 - 2019-12-31T15:52:45.176接收到来自服务器的数据为: 01030001000295cb
+2019-12-31 15:52:45 INFO  Forward:72 - 2019-12-31T15:52:45.209 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:52:50 INFO  ForwardHandler:30 - 2019-12-31T15:52:50.219接收到来自服务器的数据为: 01030002000265cb
+2019-12-31 15:52:50 INFO  Forward:72 - 2019-12-31T15:52:50.246 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:53:15 INFO  ForwardHandler:30 - 2019-12-31T15:53:15.335接收到来自服务器的数据为: 020100000001fdf9
+2019-12-31 15:53:15 INFO  Forward:72 - 2019-12-31T15:53:15.364 收到来自设备的数据：02010101900c
+2019-12-31 15:53:45 INFO  ForwardHandler:30 - 2019-12-31T15:53:45.419接收到来自服务器的数据为: 02030001000295f8
+2019-12-31 15:53:45 INFO  Forward:72 - 2019-12-31T15:53:45.450 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:55:15 INFO  ForwardHandler:30 - 2019-12-31T15:55:15.093接收到来自服务器的数据为: 010100000001fdca
+2019-12-31 15:55:15 INFO  Forward:72 - 2019-12-31T15:55:15.127 收到来自设备的数据：010101019048
+2019-12-31 15:55:30 INFO  ForwardHandler:30 - 2019-12-31T15:55:30.094接收到来自服务器的数据为: 010300000001840a
+2019-12-31 15:55:30 INFO  Forward:72 - 2019-12-31T15:55:30.121 收到来自设备的数据：010302ffe7b9fe
+2019-12-31 15:55:45 INFO  ForwardHandler:30 - 2019-12-31T15:55:45.218接收到来自服务器的数据为: 01030001000295cb
+2019-12-31 15:55:45 INFO  Forward:72 - 2019-12-31T15:55:45.247 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:55:50 INFO  ForwardHandler:30 - 2019-12-31T15:55:50.193接收到来自服务器的数据为: 01030002000265cb
+2019-12-31 15:55:50 INFO  Forward:72 - 2019-12-31T15:55:50.221 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:56:15 INFO  ForwardHandler:30 - 2019-12-31T15:56:15.310接收到来自服务器的数据为: 020100000001fdf9
+2019-12-31 15:56:15 INFO  Forward:72 - 2019-12-31T15:56:15.334 收到来自设备的数据：02010101900c
+2019-12-31 15:56:45 INFO  ForwardHandler:30 - 2019-12-31T15:56:45.402接收到来自服务器的数据为: 02030001000295f8
+2019-12-31 15:56:45 INFO  Forward:72 - 2019-12-31T15:56:45.434 收到来自设备的数据：0203043333c16327c1
+2019-12-31 15:58:15 INFO  ForwardHandler:30 - 2019-12-31T15:58:15.109接收到来自服务器的数据为: 010100000001fdca
+2019-12-31 15:58:15 INFO  Forward:72 - 2019-12-31T15:58:15.140 收到来自设备的数据：010101019048
+2019-12-31 15:58:30 INFO  ForwardHandler:30 - 2019-12-31T15:58:30.125接收到来自服务器的数据为: 010300000001840a
+2019-12-31 15:58:30 INFO  Forward:72 - 2019-12-31T15:58:30.152 收到来自设备的数据：010302ffe7b9fe
+2019-12-31 15:58:45 INFO  ForwardHandler:30 - 2019-12-31T15:58:45.199接收到来自服务器的数据为: 01030001000295cb
+2019-12-31 15:58:45 INFO  Forward:72 - 2019-12-31T15:58:45.230 收到来自设备的数据：010304cccdc144053f
+2019-12-31 15:58:50 INFO  ForwardHandler:30 - 2019-12-31T15:58:50.218接收到来自服务器的数据为: 01030002000265cb
+2019-12-31 15:58:50 INFO  Forward:72 - 2019-12-31T15:58:50.244 收到来自设备的数据：010304eaafffffffba
+2019-12-31 15:59:15 INFO  ForwardHandler:30 - 2019-12-31T15:59:15.274接收到来自服务器的数据为: 020100000001fdf9
+2019-12-31 15:59:15 INFO  Forward:72 - 2019-12-31T15:59:15.301 收到来自设备的数据：02010101900c
+2019-12-31 15:59:45 INFO  ForwardHandler:30 - 2019-12-31T15:59:45.340接收到来自服务器的数据为: 02030001000295f8
+2019-12-31 15:59:45 INFO  Forward:72 - 2019-12-31T15:59:45.363 收到来自设备的数据：0203043333c16327c1

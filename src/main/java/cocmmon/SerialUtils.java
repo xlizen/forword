@@ -5,6 +5,7 @@ import gnu.io.*;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.Enumeration;
 import java.util.TooManyListenersException;
 
 /**
@@ -127,5 +128,23 @@ public class SerialUtils {
         serialPort.notifyOnDataAvailable(true);
         //中断事件监听
         serialPort.notifyOnBreakInterrupt(true);
+    }
+
+    /**
+     * 列出所有可用的串口
+     *
+     * @return :void
+     */
+    @SuppressWarnings("rawtypes")
+    public static void listPort() {
+        CommPortIdentifier cpid;
+        Enumeration en = CommPortIdentifier.getPortIdentifiers();
+        System.out.println("SerialCommunication.listPort 列出所有可用的串口 ");
+        while (en.hasMoreElements()) {
+            cpid = (CommPortIdentifier) en.nextElement();
+            if (cpid.getPortType() == CommPortIdentifier.PORT_SERIAL) {
+                System.out.println((cpid.getName() + ", " + cpid.getCurrentOwner()));
+            }
+        }
     }
 }
