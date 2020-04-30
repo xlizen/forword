@@ -32,4 +32,11 @@ public class ForwardHandler extends SimpleChannelInboundHandler<ByteBuf> {
             SerialUtils.sendData((SerialPort) GlobInfo.MAP.get(SERIAL), bytes);
         }
     }
+
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        super.exceptionCaught(ctx, cause);
+        SerialUtils.closeSerialPort((SerialPort) GlobInfo.MAP.get(SERIAL));
+        ctx.channel().closeFuture();
+    }
 }

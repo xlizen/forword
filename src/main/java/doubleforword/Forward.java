@@ -9,6 +9,7 @@ import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
@@ -56,8 +57,15 @@ public class Forward {
                     .channel(NioSocketChannel.class)
                     .handler(new ChannelInitializer<SocketChannel>() {
                         @Override
+                        public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+                            super.exceptionCaught(ctx, cause);
+                            eventExecutors.shutdownGracefully();
+                        }
+
+                        @Override
                         protected void initChannel(SocketChannel ch) {
                             ch.pipeline().addLast(new ForwardHandler());
+
                         }
                     });
             ChannelFuture channelFuture = bootstrap.connect("192.168.10.174", 9090).sync();
@@ -67,6 +75,11 @@ public class Forward {
                     if (serialPortEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
                         byte[] bytes = SerialUtils.readData(serialPort);
                         if (GlobInfo.MAP.get(CHANNEL) != null) {
+                            try {
+                                Thread.sleep(1000);
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
                             ((Channel) GlobInfo.MAP.get("channel")).writeAndFlush(Unpooled.copiedBuffer(bytes));
                         }
                         log.info(LocalDateTime.now()+" 收到来自设备的数据：{}" ,ByteUtil.toHex(bytes));
@@ -77,6 +90,7 @@ public class Forward {
                 String next = scanner.nextLine();
                 channelFuture.channel().writeAndFlush(Unpooled.copiedBuffer(next.getBytes(StandardCharsets.US_ASCII)));
             }
+
             channelFuture.channel().closeFuture().sync();
         } finally {
             eventExecutors.shutdownGracefully();

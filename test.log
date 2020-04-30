@@ -1119,3 +1119,1809 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 2019-12-31 15:59:15 INFO  Forward:72 - 2019-12-31T15:59:15.301 收到来自设备的数据：02010101900c
 2019-12-31 15:59:45 INFO  ForwardHandler:30 - 2019-12-31T15:59:45.340接收到来自服务器的数据为: 02030001000295f8
 2019-12-31 15:59:45 INFO  Forward:72 - 2019-12-31T15:59:45.363 收到来自设备的数据：0203043333c16327c1
+2020-04-03 14:26:31 INFO  ForwardHandler:30 - 2020-04-03T14:26:31.523接收到来自服务器的数据为: 010300000001840a
+2020-04-03 14:29:02 INFO  ForwardHandler:30 - 2020-04-03T14:29:02.618接收到来自服务器的数据为: 01030002000265cb
+2020-04-03 14:29:02 INFO  Forward:72 - 2020-04-03T14:29:02.659 收到来自设备的数据：010304093200005860
+2020-04-03 14:34:35 INFO  ForwardHandler:30 - 2020-04-03T14:34:35.570接收到来自服务器的数据为: 010300000001840a
+2020-04-03 14:34:35 INFO  Forward:72 - 2020-04-03T14:34:35.607 收到来自设备的数据：01030200117848
+2020-04-03 14:37:35 INFO  ForwardHandler:30 - 2020-04-03T14:37:35.175接收到来自服务器的数据为: 010300000001840a
+2020-04-03 14:37:35 INFO  Forward:72 - 2020-04-03T14:37:35.202 收到来自设备的数据：01030200117848
+2020-04-03 14:37:40 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-03 14:38:21 INFO  ForwardHandler:30 - 2020-04-03T14:38:21.904接收到来自服务器的数据为: 010300000001840a
+2020-04-03 14:43:20 INFO  ForwardHandler:30 - 2020-04-03T14:43:20.103接收到来自服务器的数据为: 010300000001840a
+2020-04-03 14:43:20 INFO  Forward:72 - 2020-04-03T14:43:20.140 收到来自设备的数据：0103020000b844
+2020-04-03 14:52:55 INFO  ForwardHandler:30 - 2020-04-03T14:52:55.463接收到来自服务器的数据为: 010300000001840a
+2020-04-03 14:52:55 INFO  Forward:72 - 2020-04-03T14:52:55.498 收到来自设备的数据：0103020000b844
+2020-04-03 14:53:15 INFO  ForwardHandler:30 - 2020-04-03T14:53:15.542接收到来自服务器的数据为: 01030002000265cb
+2020-04-03 14:53:15 INFO  Forward:72 - 2020-04-03T14:53:15.576 收到来自设备的数据：01030400000000fa33
+2020-04-03 14:55:55 INFO  ForwardHandler:30 - 2020-04-03T14:55:55.152接收到来自服务器的数据为: 010300000001840a
+2020-04-03 14:55:55 INFO  Forward:72 - 2020-04-03T14:55:55.184 收到来自设备的数据：0103020000b844
+2020-04-03 14:56:15 INFO  ForwardHandler:30 - 2020-04-03T14:56:15.253接收到来自服务器的数据为: 01030002000265cb
+2020-04-03 14:56:15 INFO  Forward:72 - 2020-04-03T14:56:15.282 收到来自设备的数据：01030400000000fa33
+2020-04-03 14:58:55 INFO  ForwardHandler:30 - 2020-04-03T14:58:55.101接收到来自服务器的数据为: 010300000001840a
+2020-04-03 14:58:55 INFO  Forward:72 - 2020-04-03T14:58:55.130 收到来自设备的数据：0103020000b844
+2020-04-03 14:59:15 INFO  ForwardHandler:30 - 2020-04-03T14:59:15.251接收到来自服务器的数据为: 01030002000265cb
+2020-04-03 14:59:15 INFO  Forward:72 - 2020-04-03T14:59:15.280 收到来自设备的数据：01030400000000fa33
+2020-04-03 15:25:43 INFO  ForwardHandler:30 - 2020-04-03T15:25:43.083接收到来自服务器的数据为: 010300000001840a
+2020-04-03 15:25:43 INFO  Forward:72 - 2020-04-03T15:25:43.124 收到来自设备的数据：0103020000b844
+2020-04-03 15:26:03 INFO  ForwardHandler:30 - 2020-04-03T15:26:03.152接收到来自服务器的数据为: 01030002000265cb
+2020-04-03 15:26:03 INFO  Forward:72 - 2020-04-03T15:26:03.177 收到来自设备的数据：01030400000000fa33
+2020-04-03 16:00:04 INFO  ForwardHandler:30 - 2020-04-03T16:00:04.296接收到来自服务器的数据为: 010300000001840a
+2020-04-03 16:00:04 INFO  Forward:72 - 2020-04-03T16:00:04.335 收到来自设备的数据：0103020000b844
+2020-04-03 16:00:24 INFO  ForwardHandler:30 - 2020-04-03T16:00:24.366接收到来自服务器的数据为: 01030002000265cb
+2020-04-03 16:00:24 INFO  Forward:72 - 2020-04-03T16:00:24.397 收到来自设备的数据：01030400000000fa33
+2020-04-03 16:01:15 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-05 08:17:15 INFO  ForwardHandler:30 - 2020-04-05T08:17:15.975接收到来自服务器的数据为: 010300000001840a
+2020-04-05 08:17:16 INFO  Forward:72 - 2020-04-05T08:17:16.039 收到来自设备的数据：01030200117848
+2020-04-05 08:17:35 INFO  ForwardHandler:30 - 2020-04-05T08:17:35.983接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 08:17:36 INFO  Forward:72 - 2020-04-05T08:17:36.008 收到来自设备的数据：010304093200005860
+2020-04-05 08:20:15 INFO  ForwardHandler:30 - 2020-04-05T08:20:15.146接收到来自服务器的数据为: 010300000001840a
+2020-04-05 08:20:15 INFO  Forward:72 - 2020-04-05T08:20:15.169 收到来自设备的数据：01030200117848
+2020-04-05 08:20:35 INFO  ForwardHandler:30 - 2020-04-05T08:20:35.253接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 08:20:35 INFO  Forward:72 - 2020-04-05T08:20:35.279 收到来自设备的数据：010304093200005860
+2020-04-05 08:20:43 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-05 08:21:30 INFO  ForwardHandler:30 - 2020-04-05T08:21:30.676接收到来自服务器的数据为: 010300000001840a
+2020-04-05 08:21:30 INFO  Forward:72 - 2020-04-05T08:21:30.708 收到来自设备的数据：01030200117848
+2020-04-05 08:21:52 INFO  ForwardHandler:30 - 2020-04-05T08:21:52.345接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 08:21:52 INFO  Forward:72 - 2020-04-05T08:21:52.377 收到来自设备的数据：010304093200005860
+2020-04-05 08:24:30 INFO  ForwardHandler:30 - 2020-04-05T08:24:30.113接收到来自服务器的数据为: 010300000001840a
+2020-04-05 08:24:30 INFO  Forward:72 - 2020-04-05T08:24:30.140 收到来自设备的数据：01030200117848
+2020-04-05 08:24:50 INFO  ForwardHandler:30 - 2020-04-05T08:24:50.221接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 08:24:50 INFO  Forward:72 - 2020-04-05T08:24:50.247 收到来自设备的数据：010304093200005860
+2020-04-05 08:27:30 INFO  ForwardHandler:30 - 2020-04-05T08:27:30.169接收到来自服务器的数据为: 010300000001840a
+2020-04-05 08:27:30 INFO  Forward:72 - 2020-04-05T08:27:30.199 收到来自设备的数据：01030200117848
+2020-04-05 08:27:50 INFO  ForwardHandler:30 - 2020-04-05T08:27:50.276接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 08:27:50 INFO  Forward:72 - 2020-04-05T08:27:50.304 收到来自设备的数据：010304093200005860
+2020-04-05 08:30:10 INFO  ForwardHandler:30 - 2020-04-05T08:30:10.209接收到来自服务器的数据为: 010300000001840a
+2020-04-05 08:30:10 INFO  Forward:72 - 2020-04-05T08:30:10.247 收到来自设备的数据：01030200117848
+2020-04-05 08:30:41 INFO  ForwardHandler:30 - 2020-04-05T08:30:41.135接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 08:30:41 INFO  Forward:72 - 2020-04-05T08:30:41.169 收到来自设备的数据：010304093200005860
+2020-04-05 08:33:09 INFO  ForwardHandler:30 - 2020-04-05T08:33:09.095接收到来自服务器的数据为: 010300000001840a
+2020-04-05 08:33:09 INFO  Forward:72 - 2020-04-05T08:33:09.125 收到来自设备的数据：01030200117848
+2020-04-05 08:33:29 INFO  ForwardHandler:30 - 2020-04-05T08:33:29.194接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 08:33:29 INFO  Forward:72 - 2020-04-05T08:33:29.229 收到来自设备的数据：010304093200005860
+2020-04-05 08:36:09 INFO  ForwardHandler:30 - 2020-04-05T08:36:09.139接收到来自服务器的数据为: 010300000001840a
+2020-04-05 08:36:09 INFO  Forward:72 - 2020-04-05T08:36:09.164 收到来自设备的数据：0103020015798b
+2020-04-05 08:36:29 INFO  ForwardHandler:30 - 2020-04-05T08:36:29.236接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 08:36:29 INFO  Forward:72 - 2020-04-05T08:36:29.269 收到来自设备的数据：010304054a0000db29
+2020-04-05 08:39:09 INFO  ForwardHandler:30 - 2020-04-05T08:39:09.198接收到来自服务器的数据为: 010300000001840a
+2020-04-05 08:39:09 INFO  Forward:72 - 2020-04-05T08:39:09.226 收到来自设备的数据：0103020015798b
+2020-04-05 08:39:29 INFO  ForwardHandler:30 - 2020-04-05T08:39:29.288接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 08:39:29 INFO  Forward:72 - 2020-04-05T08:39:29.314 收到来自设备的数据：010304054a0000db29
+2020-04-05 08:53:45 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-05 09:18:20 INFO  ForwardHandler:30 - 2020-04-05T09:18:20.080接收到来自服务器的数据为: 010300000001840a
+2020-04-05 09:18:20 INFO  Forward:72 - 2020-04-05T09:18:20.110 收到来自设备的数据：0103020015798b
+2020-04-05 09:18:40 INFO  ForwardHandler:30 - 2020-04-05T09:18:40.150接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 09:18:40 INFO  Forward:72 - 2020-04-05T09:18:40.177 收到来自设备的数据：010304054a0000db29
+2020-04-05 09:21:19 INFO  ForwardHandler:30 - 2020-04-05T09:21:19.208接收到来自服务器的数据为: 010300000001840a
+2020-04-05 09:21:19 INFO  Forward:72 - 2020-04-05T09:21:19.233 收到来自设备的数据：0103020015798b
+2020-04-05 09:21:39 INFO  ForwardHandler:30 - 2020-04-05T09:21:39.407接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 09:21:39 INFO  Forward:72 - 2020-04-05T09:21:39.432 收到来自设备的数据：010304054a0000db29
+2020-04-05 09:24:19 INFO  ForwardHandler:30 - 2020-04-05T09:24:19.113接收到来自服务器的数据为: 010300000001840a
+2020-04-05 09:24:19 INFO  Forward:72 - 2020-04-05T09:24:19.140 收到来自设备的数据：0103020015798b
+2020-04-05 09:24:36 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-05 09:48:31 INFO  ForwardHandler:30 - 2020-04-05T09:48:31.983接收到来自服务器的数据为: 010300000001840a
+2020-04-05 09:48:32 INFO  Forward:72 - 2020-04-05T09:48:32.021 收到来自设备的数据：0103020015798b
+2020-04-05 09:48:52 INFO  ForwardHandler:30 - 2020-04-05T09:48:52.062接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 09:48:52 INFO  Forward:72 - 2020-04-05T09:48:52.098 收到来自设备的数据：010304054a0000db29
+2020-04-05 09:50:23 INFO  ForwardHandler:30 - 2020-04-05T09:50:23.161接收到来自服务器的数据为: 01060000000c89cf
+2020-04-05 09:50:23 INFO  Forward:72 - 2020-04-05T09:50:23.188 收到来自设备的数据：01060000000c89cf
+2020-04-05 09:51:31 INFO  ForwardHandler:30 - 2020-04-05T09:51:31.107接收到来自服务器的数据为: 010300000001840a
+2020-04-05 09:51:31 INFO  Forward:72 - 2020-04-05T09:51:31.132 收到来自设备的数据：010302000cb841
+2020-04-05 09:51:51 INFO  ForwardHandler:30 - 2020-04-05T09:51:51.207接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 09:51:51 INFO  Forward:72 - 2020-04-05T09:51:51.238 收到来自设备的数据：010304054a0000db29
+2020-04-05 09:54:31 INFO  ForwardHandler:30 - 2020-04-05T09:54:31.092接收到来自服务器的数据为: 010300000001840a
+2020-04-05 09:54:31 INFO  Forward:72 - 2020-04-05T09:54:31.119 收到来自设备的数据：010302000cb841
+2020-04-05 09:54:51 INFO  ForwardHandler:30 - 2020-04-05T09:54:51.200接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 09:54:51 INFO  Forward:72 - 2020-04-05T09:54:51.234 收到来自设备的数据：010304054a0000db29
+2020-04-05 09:57:31 INFO  ForwardHandler:30 - 2020-04-05T09:57:31.095接收到来自服务器的数据为: 010300000001840a
+2020-04-05 09:57:31 INFO  Forward:72 - 2020-04-05T09:57:31.127 收到来自设备的数据：010302000cb841
+2020-04-05 09:57:51 INFO  ForwardHandler:30 - 2020-04-05T09:57:51.177接收到来自服务器的数据为: 01030002000265cb
+2020-04-05 09:57:51 INFO  Forward:72 - 2020-04-05T09:57:51.204 收到来自设备的数据：010304054a0000db29
+2020-04-05 10:09:10 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-10 11:27:14 INFO  ForwardHandler:30 - 2020-04-10T11:27:14.293接收到来自服务器的数据为: 010300000001840a
+2020-04-10 11:27:14 INFO  Forward:72 - 2020-04-10T11:27:14.332 收到来自设备的数据：010302000cb841
+2020-04-10 11:27:56 INFO  ForwardHandler:30 - 2020-04-10T11:27:56.277接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 11:27:56 INFO  Forward:72 - 2020-04-10T11:27:56.305 收到来自设备的数据：010304e24000010c5f
+2020-04-10 11:29:43 INFO  ForwardHandler:30 - 2020-04-10T11:29:43.899接收到来自服务器的数据为: 010300000001840a
+2020-04-10 11:29:43 INFO  Forward:72 - 2020-04-10T11:29:43.939 收到来自设备的数据：010302000cb841
+2020-04-10 11:30:16 INFO  ForwardHandler:30 - 2020-04-10T11:30:16.197接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 11:30:16 INFO  Forward:72 - 2020-04-10T11:30:16.224 收到来自设备的数据：010304e24000010c5f
+2020-04-10 11:42:22 INFO  ForwardHandler:30 - 2020-04-10T11:42:22.421接收到来自服务器的数据为: 010300000001840a
+2020-04-10 11:42:22 INFO  Forward:72 - 2020-04-10T11:42:22.456 收到来自设备的数据：010302000cb841
+2020-04-10 11:47:23 INFO  ForwardHandler:30 - 2020-04-10T11:47:23.389接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 11:47:23 INFO  Forward:72 - 2020-04-10T11:47:23.420 收到来自设备的数据：010304e24000010c5f
+2020-04-10 11:48:14 INFO  ForwardHandler:30 - 2020-04-10T11:48:14.148接收到来自服务器的数据为: 010300000001840a
+2020-04-10 11:48:14 INFO  Forward:72 - 2020-04-10T11:48:14.180 收到来自设备的数据：010302000cb841
+2020-04-10 11:49:38 INFO  ForwardHandler:30 - 2020-04-10T11:49:38.846接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 11:49:38 INFO  Forward:72 - 2020-04-10T11:49:38.893 收到来自设备的数据：010304e24000010c5f
+2020-04-10 11:50:25 INFO  ForwardHandler:30 - 2020-04-10T11:50:25.440接收到来自服务器的数据为: 010300000001840a
+2020-04-10 11:50:25 INFO  Forward:72 - 2020-04-10T11:50:25.475 收到来自设备的数据：010302000cb841
+2020-04-10 11:50:45 INFO  ForwardHandler:30 - 2020-04-10T11:50:45.599接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 11:50:45 INFO  Forward:72 - 2020-04-10T11:50:45.627 收到来自设备的数据：010304e24000010c5f
+2020-04-10 12:01:20 INFO  ForwardHandler:30 - 2020-04-10T12:01:20.436接收到来自服务器的数据为: 010300000001840a
+2020-04-10 12:01:20 INFO  Forward:72 - 2020-04-10T12:01:20.469 收到来自设备的数据：010302000cb841
+2020-04-10 12:01:40 INFO  ForwardHandler:30 - 2020-04-10T12:01:40.511接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 12:01:40 INFO  Forward:72 - 2020-04-10T12:01:40.544 收到来自设备的数据：010304e24000010c5f
+2020-04-10 12:01:43 INFO  ForwardHandler:30 - 2020-04-10T12:01:43.574接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:01:43 INFO  Forward:72 - 2020-04-10T12:01:43.608 收到来自设备的数据：010101019048
+2020-04-10 12:02:13 INFO  ForwardHandler:30 - 2020-04-10T12:02:13.666接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:02:13 INFO  Forward:72 - 2020-04-10T12:02:13.787 收到来自设备的数据：010304cccd417864ee
+2020-04-10 12:02:43 INFO  ForwardHandler:30 - 2020-04-10T12:02:43.732接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:02:43 INFO  Forward:72 - 2020-04-10T12:02:43.765 收到来自设备的数据：0201010051cc
+2020-04-10 12:03:13 INFO  ForwardHandler:30 - 2020-04-10T12:03:13.858接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:03:13 INFO  Forward:72 - 2020-04-10T12:03:13.889 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:04:20 INFO  ForwardHandler:30 - 2020-04-10T12:04:20.190接收到来自服务器的数据为: 010300000001840a
+2020-04-10 12:04:20 INFO  Forward:72 - 2020-04-10T12:04:20.214 收到来自设备的数据：010302000cb841
+2020-04-10 12:04:40 INFO  ForwardHandler:30 - 2020-04-10T12:04:40.273接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 12:04:40 INFO  Forward:72 - 2020-04-10T12:04:40.307 收到来自设备的数据：010304e24000010c5f
+2020-04-10 12:04:43 INFO  ForwardHandler:30 - 2020-04-10T12:04:43.099接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:04:43 INFO  Forward:72 - 2020-04-10T12:04:43.131 收到来自设备的数据：010101019048
+2020-04-10 12:05:13 INFO  ForwardHandler:30 - 2020-04-10T12:05:13.440接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:05:13 INFO  Forward:72 - 2020-04-10T12:05:13.478 收到来自设备的数据：010304cccd417864ee
+2020-04-10 12:05:43 INFO  ForwardHandler:30 - 2020-04-10T12:05:43.514接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:05:43 INFO  Forward:72 - 2020-04-10T12:05:43.541 收到来自设备的数据：0201010051cc
+2020-04-10 12:06:02 INFO  ForwardHandler:30 - 2020-04-10T12:06:02.491接收到来自服务器的数据为: 0110000100020433334177bd5e
+2020-04-10 12:06:02 INFO  Forward:72 - 2020-04-10T12:06:02.517 收到来自设备的数据：0110000100021008
+2020-04-10 12:06:13 INFO  ForwardHandler:30 - 2020-04-10T12:06:13.580接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:06:13 INFO  Forward:72 - 2020-04-10T12:06:13.615 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:07:20 INFO  ForwardHandler:30 - 2020-04-10T12:07:20.084接收到来自服务器的数据为: 010300000001840a
+2020-04-10 12:07:20 INFO  Forward:72 - 2020-04-10T12:07:20.116 收到来自设备的数据：010302000cb841
+2020-04-10 12:07:40 INFO  ForwardHandler:30 - 2020-04-10T12:07:40.184接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 12:07:40 INFO  Forward:72 - 2020-04-10T12:07:40.214 收到来自设备的数据：010304e24000010c5f
+2020-04-10 12:07:43 INFO  ForwardHandler:30 - 2020-04-10T12:07:43.129接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:07:43 INFO  Forward:72 - 2020-04-10T12:07:43.154 收到来自设备的数据：010101019048
+2020-04-10 12:08:13 INFO  ForwardHandler:30 - 2020-04-10T12:08:13.200接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:08:13 INFO  Forward:72 - 2020-04-10T12:08:13.231 收到来自设备的数据：01030433334177750e
+2020-04-10 12:08:43 INFO  ForwardHandler:30 - 2020-04-10T12:08:43.344接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:08:43 INFO  Forward:72 - 2020-04-10T12:08:43.371 收到来自设备的数据：0201010051cc
+2020-04-10 12:09:13 INFO  ForwardHandler:30 - 2020-04-10T12:09:13.440接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:09:13 INFO  Forward:72 - 2020-04-10T12:09:13.465 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:10:20 INFO  ForwardHandler:30 - 2020-04-10T12:10:20.097接收到来自服务器的数据为: 010300000001840a
+2020-04-10 12:10:20 INFO  Forward:72 - 2020-04-10T12:10:20.130 收到来自设备的数据：010302000cb841
+2020-04-10 12:10:40 INFO  ForwardHandler:30 - 2020-04-10T12:10:40.158接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 12:10:40 INFO  Forward:72 - 2020-04-10T12:10:40.184 收到来自设备的数据：010304e24000010c5f
+2020-04-10 12:10:43 INFO  ForwardHandler:30 - 2020-04-10T12:10:43.105接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:10:43 INFO  Forward:72 - 2020-04-10T12:10:43.136 收到来自设备的数据：010101019048
+2020-04-10 12:11:13 INFO  ForwardHandler:30 - 2020-04-10T12:11:13.187接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:11:13 INFO  Forward:72 - 2020-04-10T12:11:13.217 收到来自设备的数据：01030433334177750e
+2020-04-10 12:11:43 INFO  ForwardHandler:30 - 2020-04-10T12:11:43.262接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:11:43 INFO  Forward:72 - 2020-04-10T12:11:43.291 收到来自设备的数据：0201010051cc
+2020-04-10 12:12:13 INFO  ForwardHandler:30 - 2020-04-10T12:12:13.415接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:12:13 INFO  Forward:72 - 2020-04-10T12:12:13.441 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:13:20 INFO  ForwardHandler:30 - 2020-04-10T12:13:20.110接收到来自服务器的数据为: 010300000001840a
+2020-04-10 12:13:20 INFO  Forward:72 - 2020-04-10T12:13:20.135 收到来自设备的数据：010302000cb841
+2020-04-10 12:13:40 INFO  ForwardHandler:30 - 2020-04-10T12:13:40.202接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 12:13:40 INFO  Forward:72 - 2020-04-10T12:13:40.230 收到来自设备的数据：010304e24000010c5f
+2020-04-10 12:13:43 INFO  ForwardHandler:30 - 2020-04-10T12:13:43.110接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:13:43 INFO  Forward:72 - 2020-04-10T12:13:43.137 收到来自设备的数据：010101019048
+2020-04-10 12:14:13 INFO  ForwardHandler:30 - 2020-04-10T12:14:13.183接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:14:13 INFO  Forward:72 - 2020-04-10T12:14:13.214 收到来自设备的数据：01030433334177750e
+2020-04-10 12:14:43 INFO  ForwardHandler:30 - 2020-04-10T12:14:43.274接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:14:43 INFO  Forward:72 - 2020-04-10T12:14:43.310 收到来自设备的数据：0201010051cc
+2020-04-10 12:15:13 INFO  ForwardHandler:30 - 2020-04-10T12:15:13.359接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:15:13 INFO  Forward:72 - 2020-04-10T12:15:13.390 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:16:20 INFO  ForwardHandler:30 - 2020-04-10T12:16:20.264接收到来自服务器的数据为: 010300000001840a
+2020-04-10 12:16:20 INFO  Forward:72 - 2020-04-10T12:16:20.294 收到来自设备的数据：010302000cb841
+2020-04-10 12:16:40 INFO  ForwardHandler:30 - 2020-04-10T12:16:40.439接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 12:16:40 INFO  Forward:72 - 2020-04-10T12:16:40.472 收到来自设备的数据：010304e24000010c5f
+2020-04-10 12:16:43 INFO  ForwardHandler:30 - 2020-04-10T12:16:43.154接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:16:43 INFO  Forward:72 - 2020-04-10T12:16:43.185 收到来自设备的数据：010101019048
+2020-04-10 12:17:13 INFO  ForwardHandler:30 - 2020-04-10T12:17:13.404接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:17:13 INFO  Forward:72 - 2020-04-10T12:17:13.431 收到来自设备的数据：01030433334177750e
+2020-04-10 12:17:43 INFO  ForwardHandler:30 - 2020-04-10T12:17:43.681接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:17:43 INFO  Forward:72 - 2020-04-10T12:17:43.708 收到来自设备的数据：0201010051cc
+2020-04-10 12:18:13 INFO  ForwardHandler:30 - 2020-04-10T12:18:13.913接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:18:13 INFO  Forward:72 - 2020-04-10T12:18:13.939 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:19:20 INFO  ForwardHandler:30 - 2020-04-10T12:19:20.311接收到来自服务器的数据为: 010300000001840a
+2020-04-10 12:19:20 INFO  Forward:72 - 2020-04-10T12:19:20.342 收到来自设备的数据：010302000cb841
+2020-04-10 12:19:40 INFO  ForwardHandler:30 - 2020-04-10T12:19:40.777接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 12:19:40 INFO  Forward:72 - 2020-04-10T12:19:40.808 收到来自设备的数据：010304e24000010c5f
+2020-04-10 12:19:43 INFO  ForwardHandler:30 - 2020-04-10T12:19:43.294接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:19:43 INFO  Forward:72 - 2020-04-10T12:19:43.318 收到来自设备的数据：010101019048
+2020-04-10 12:20:13 INFO  ForwardHandler:30 - 2020-04-10T12:20:13.926接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:20:13 INFO  Forward:72 - 2020-04-10T12:20:13.951 收到来自设备的数据：01030433334177750e
+2020-04-10 12:20:43 INFO  ForwardHandler:30 - 2020-04-10T12:20:43.999接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:20:44 INFO  Forward:72 - 2020-04-10T12:20:44.025 收到来自设备的数据：0201010051cc
+2020-04-10 12:21:14 INFO  ForwardHandler:30 - 2020-04-10T12:21:14.073接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:21:14 INFO  Forward:72 - 2020-04-10T12:21:14.099 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:22:20 INFO  ForwardHandler:30 - 2020-04-10T12:22:20.106接收到来自服务器的数据为: 010300000001840a
+2020-04-10 12:22:20 INFO  Forward:72 - 2020-04-10T12:22:20.130 收到来自设备的数据：010302000cb841
+2020-04-10 12:22:40 INFO  ForwardHandler:30 - 2020-04-10T12:22:40.173接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 12:22:40 INFO  Forward:72 - 2020-04-10T12:22:40.201 收到来自设备的数据：010304e24000010c5f
+2020-04-10 12:22:43 INFO  ForwardHandler:30 - 2020-04-10T12:22:43.238接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:22:43 INFO  Forward:72 - 2020-04-10T12:22:43.272 收到来自设备的数据：010101019048
+2020-04-10 12:23:13 INFO  ForwardHandler:30 - 2020-04-10T12:23:13.312接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:23:13 INFO  Forward:72 - 2020-04-10T12:23:13.342 收到来自设备的数据：01030433334177750e
+2020-04-10 12:23:43 INFO  ForwardHandler:30 - 2020-04-10T12:23:43.387接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:23:43 INFO  Forward:72 - 2020-04-10T12:23:43.422 收到来自设备的数据：0201010051cc
+2020-04-10 12:24:13 INFO  ForwardHandler:30 - 2020-04-10T12:24:13.488接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:24:13 INFO  Forward:72 - 2020-04-10T12:24:13.520 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:25:20 INFO  ForwardHandler:30 - 2020-04-10T12:25:20.086接收到来自服务器的数据为: 010300000001840a
+2020-04-10 12:25:20 INFO  Forward:72 - 2020-04-10T12:25:20.112 收到来自设备的数据：010302000cb841
+2020-04-10 12:25:40 INFO  ForwardHandler:30 - 2020-04-10T12:25:40.177接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 12:25:40 INFO  Forward:72 - 2020-04-10T12:25:40.205 收到来自设备的数据：010304e24000010c5f
+2020-04-10 12:25:43 INFO  ForwardHandler:30 - 2020-04-10T12:25:43.193接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:25:43 INFO  Forward:72 - 2020-04-10T12:25:43.223 收到来自设备的数据：010101019048
+2020-04-10 12:26:13 INFO  ForwardHandler:30 - 2020-04-10T12:26:13.258接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:26:13 INFO  Forward:72 - 2020-04-10T12:26:13.291 收到来自设备的数据：01030433334177750e
+2020-04-10 12:26:43 INFO  ForwardHandler:30 - 2020-04-10T12:26:43.365接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:26:43 INFO  Forward:72 - 2020-04-10T12:26:43.397 收到来自设备的数据：0201010051cc
+2020-04-10 12:27:13 INFO  ForwardHandler:30 - 2020-04-10T12:27:13.475接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:27:13 INFO  Forward:72 - 2020-04-10T12:27:13.502 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:28:20 INFO  ForwardHandler:30 - 2020-04-10T12:28:20.089接收到来自服务器的数据为: 010300000001840a
+2020-04-10 12:28:20 INFO  Forward:72 - 2020-04-10T12:28:20.121 收到来自设备的数据：010302000cb841
+2020-04-10 12:28:40 INFO  ForwardHandler:30 - 2020-04-10T12:28:40.145接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 12:28:40 INFO  Forward:72 - 2020-04-10T12:28:40.178 收到来自设备的数据：010304e24000010c5f
+2020-04-10 12:28:43 INFO  ForwardHandler:30 - 2020-04-10T12:28:43.122接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:28:43 INFO  Forward:72 - 2020-04-10T12:28:43.151 收到来自设备的数据：010101019048
+2020-04-10 12:29:13 INFO  ForwardHandler:30 - 2020-04-10T12:29:13.195接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:29:13 INFO  Forward:72 - 2020-04-10T12:29:13.225 收到来自设备的数据：01030433334177750e
+2020-04-10 12:29:43 INFO  ForwardHandler:30 - 2020-04-10T12:29:43.269接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:29:43 INFO  Forward:72 - 2020-04-10T12:29:43.299 收到来自设备的数据：0201010051cc
+2020-04-10 12:30:13 INFO  ForwardHandler:30 - 2020-04-10T12:30:13.372接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:30:13 INFO  Forward:72 - 2020-04-10T12:30:13.399 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:31:20 INFO  ForwardHandler:30 - 2020-04-10T12:31:20.083接收到来自服务器的数据为: 010300000001840a
+2020-04-10 12:31:20 INFO  Forward:72 - 2020-04-10T12:31:20.113 收到来自设备的数据：010302000cb841
+2020-04-10 12:31:40 INFO  ForwardHandler:30 - 2020-04-10T12:31:40.175接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 12:31:40 INFO  Forward:72 - 2020-04-10T12:31:40.202 收到来自设备的数据：010304e24000010c5f
+2020-04-10 12:31:43 INFO  ForwardHandler:30 - 2020-04-10T12:31:43.096接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:31:43 INFO  Forward:72 - 2020-04-10T12:31:43.129 收到来自设备的数据：010101019048
+2020-04-10 12:32:13 INFO  ForwardHandler:30 - 2020-04-10T12:32:13.155接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:32:13 INFO  Forward:72 - 2020-04-10T12:32:13.186 收到来自设备的数据：01030433334177750e
+2020-04-10 12:32:43 INFO  ForwardHandler:30 - 2020-04-10T12:32:43.232接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:32:43 INFO  Forward:72 - 2020-04-10T12:32:43.266 收到来自设备的数据：0201010051cc
+2020-04-10 12:33:13 INFO  ForwardHandler:30 - 2020-04-10T12:33:13.340接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:33:13 INFO  Forward:72 - 2020-04-10T12:33:13.370 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:34:20 INFO  ForwardHandler:30 - 2020-04-10T12:34:20.089接收到来自服务器的数据为: 010300000001840a
+2020-04-10 12:34:20 INFO  Forward:72 - 2020-04-10T12:34:20.122 收到来自设备的数据：010302000cb841
+2020-04-10 12:34:40 INFO  ForwardHandler:30 - 2020-04-10T12:34:40.160接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 12:34:40 INFO  Forward:72 - 2020-04-10T12:34:40.187 收到来自设备的数据：010304e24000010c5f
+2020-04-10 12:34:43 INFO  ForwardHandler:30 - 2020-04-10T12:34:43.128接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:34:43 INFO  Forward:72 - 2020-04-10T12:34:43.159 收到来自设备的数据：010101019048
+2020-04-10 12:35:13 INFO  ForwardHandler:30 - 2020-04-10T12:35:13.236接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:35:13 INFO  Forward:72 - 2020-04-10T12:35:13.261 收到来自设备的数据：01030433334177750e
+2020-04-10 12:35:43 INFO  ForwardHandler:30 - 2020-04-10T12:35:43.343接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:35:43 INFO  Forward:72 - 2020-04-10T12:35:43.377 收到来自设备的数据：0201010051cc
+2020-04-10 12:36:13 INFO  ForwardHandler:30 - 2020-04-10T12:36:13.416接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:36:13 INFO  Forward:72 - 2020-04-10T12:36:13.444 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:37:43 INFO  ForwardHandler:30 - 2020-04-10T12:37:43.097接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:37:43 INFO  Forward:72 - 2020-04-10T12:37:43.122 收到来自设备的数据：010101019048
+2020-04-10 12:38:13 INFO  ForwardHandler:30 - 2020-04-10T12:38:13.188接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:38:13 INFO  Forward:72 - 2020-04-10T12:38:13.219 收到来自设备的数据：01030433334177750e
+2020-04-10 12:38:43 INFO  ForwardHandler:30 - 2020-04-10T12:38:43.272接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:38:43 INFO  Forward:72 - 2020-04-10T12:38:43.305 收到来自设备的数据：0201010051cc
+2020-04-10 12:39:13 INFO  ForwardHandler:30 - 2020-04-10T12:39:13.336接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:39:13 INFO  Forward:72 - 2020-04-10T12:39:13.367 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:40:43 INFO  ForwardHandler:30 - 2020-04-10T12:40:43.144接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:40:43 INFO  Forward:72 - 2020-04-10T12:40:43.174 收到来自设备的数据：010101019048
+2020-04-10 12:41:13 INFO  ForwardHandler:30 - 2020-04-10T12:41:13.245接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:41:13 INFO  Forward:72 - 2020-04-10T12:41:13.277 收到来自设备的数据：01030433334177750e
+2020-04-10 12:41:43 INFO  ForwardHandler:30 - 2020-04-10T12:41:43.327接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:41:43 INFO  Forward:72 - 2020-04-10T12:41:43.359 收到来自设备的数据：0201010051cc
+2020-04-10 12:42:13 INFO  ForwardHandler:30 - 2020-04-10T12:42:13.392接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:42:13 INFO  Forward:72 - 2020-04-10T12:42:13.420 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:43:43 INFO  ForwardHandler:30 - 2020-04-10T12:43:43.133接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:43:43 INFO  Forward:72 - 2020-04-10T12:43:43.163 收到来自设备的数据：010101019048
+2020-04-10 12:44:13 INFO  ForwardHandler:30 - 2020-04-10T12:44:13.225接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:44:13 INFO  Forward:72 - 2020-04-10T12:44:13.251 收到来自设备的数据：01030433334177750e
+2020-04-10 12:44:43 INFO  ForwardHandler:30 - 2020-04-10T12:44:43.299接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:44:43 INFO  Forward:72 - 2020-04-10T12:44:43.325 收到来自设备的数据：0201010051cc
+2020-04-10 12:45:13 INFO  ForwardHandler:30 - 2020-04-10T12:45:13.389接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:45:13 INFO  Forward:72 - 2020-04-10T12:45:13.421 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:46:43 INFO  ForwardHandler:30 - 2020-04-10T12:46:43.129接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:46:43 INFO  Forward:72 - 2020-04-10T12:46:43.152 收到来自设备的数据：010101019048
+2020-04-10 12:47:13 INFO  ForwardHandler:30 - 2020-04-10T12:47:13.228接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:47:13 INFO  Forward:72 - 2020-04-10T12:47:13.252 收到来自设备的数据：01030433334177750e
+2020-04-10 12:47:43 INFO  ForwardHandler:30 - 2020-04-10T12:47:43.370接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:47:43 INFO  Forward:72 - 2020-04-10T12:47:43.399 收到来自设备的数据：0201010051cc
+2020-04-10 12:48:13 INFO  ForwardHandler:30 - 2020-04-10T12:48:13.503接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:48:13 INFO  Forward:72 - 2020-04-10T12:48:13.536 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:49:43 INFO  ForwardHandler:30 - 2020-04-10T12:49:43.097接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:49:43 INFO  Forward:72 - 2020-04-10T12:49:43.128 收到来自设备的数据：010101019048
+2020-04-10 12:50:13 INFO  ForwardHandler:30 - 2020-04-10T12:50:13.164接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:50:13 INFO  Forward:72 - 2020-04-10T12:50:13.196 收到来自设备的数据：01030433334177750e
+2020-04-10 12:50:43 INFO  ForwardHandler:30 - 2020-04-10T12:50:43.241接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:50:43 INFO  Forward:72 - 2020-04-10T12:50:43.266 收到来自设备的数据：0201010051cc
+2020-04-10 12:51:13 INFO  ForwardHandler:30 - 2020-04-10T12:51:13.349接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:51:13 INFO  Forward:72 - 2020-04-10T12:51:13.376 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:52:43 INFO  ForwardHandler:30 - 2020-04-10T12:52:43.112接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:52:43 INFO  Forward:72 - 2020-04-10T12:52:43.146 收到来自设备的数据：010101019048
+2020-04-10 12:53:13 INFO  ForwardHandler:30 - 2020-04-10T12:53:13.203接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:53:13 INFO  Forward:72 - 2020-04-10T12:53:13.229 收到来自设备的数据：01030433334177750e
+2020-04-10 12:53:43 INFO  ForwardHandler:30 - 2020-04-10T12:53:43.328接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:53:43 INFO  Forward:72 - 2020-04-10T12:53:43.353 收到来自设备的数据：0201010051cc
+2020-04-10 12:54:13 INFO  ForwardHandler:30 - 2020-04-10T12:54:13.452接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:54:13 INFO  Forward:72 - 2020-04-10T12:54:13.483 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:55:43 INFO  ForwardHandler:30 - 2020-04-10T12:55:43.133接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:55:43 INFO  Forward:72 - 2020-04-10T12:55:43.163 收到来自设备的数据：010101019048
+2020-04-10 12:56:13 INFO  ForwardHandler:30 - 2020-04-10T12:56:13.232接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:56:13 INFO  Forward:72 - 2020-04-10T12:56:13.261 收到来自设备的数据：01030433334177750e
+2020-04-10 12:56:43 INFO  ForwardHandler:30 - 2020-04-10T12:56:43.306接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:56:43 INFO  Forward:72 - 2020-04-10T12:56:43.334 收到来自设备的数据：0201010051cc
+2020-04-10 12:57:13 INFO  ForwardHandler:30 - 2020-04-10T12:57:13.414接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 12:57:13 INFO  Forward:72 - 2020-04-10T12:57:13.446 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 12:58:43 INFO  ForwardHandler:30 - 2020-04-10T12:58:43.135接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 12:58:43 INFO  Forward:72 - 2020-04-10T12:58:43.161 收到来自设备的数据：010101019048
+2020-04-10 12:59:13 INFO  ForwardHandler:30 - 2020-04-10T12:59:13.344接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 12:59:13 INFO  Forward:72 - 2020-04-10T12:59:13.373 收到来自设备的数据：01030433334177750e
+2020-04-10 12:59:43 INFO  ForwardHandler:30 - 2020-04-10T12:59:43.452接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 12:59:43 INFO  Forward:72 - 2020-04-10T12:59:43.480 收到来自设备的数据：0201010051cc
+2020-04-10 13:00:13 INFO  ForwardHandler:30 - 2020-04-10T13:00:13.567接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 13:00:13 INFO  Forward:72 - 2020-04-10T13:00:13.591 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 13:02:17 INFO  ForwardHandler:30 - 2020-04-10T13:02:17.349接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:02:17 INFO  Forward:72 - 2020-04-10T13:02:17.381 收到来自设备的数据：010302000cb841
+2020-04-10 13:02:29 INFO  ForwardHandler:30 - 2020-04-10T13:02:29.855接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 13:02:29 INFO  Forward:72 - 2020-04-10T13:02:29.887 收到来自设备的数据：010101019048
+2020-04-10 13:05:17 INFO  ForwardHandler:30 - 2020-04-10T13:05:17.096接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:05:17 INFO  Forward:72 - 2020-04-10T13:05:17.120 收到来自设备的数据：010302000cb841
+2020-04-10 13:05:29 INFO  ForwardHandler:30 - 2020-04-10T13:05:29.087接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 13:05:29 INFO  Forward:72 - 2020-04-10T13:05:29.115 收到来自设备的数据：010101019048
+2020-04-10 13:07:56 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-10 13:07:56 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-10 13:11:41 INFO  ForwardHandler:30 - 2020-04-10T13:11:41.469接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:11:41 INFO  Forward:72 - 2020-04-10T13:11:41.502 收到来自设备的数据：010302000cb841
+2020-04-10 13:12:01 INFO  ForwardHandler:30 - 2020-04-10T13:12:01.548接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 13:12:01 INFO  Forward:72 - 2020-04-10T13:12:01.583 收到来自设备的数据：010304e24000010c5f
+2020-04-10 13:15:02 INFO  ForwardHandler:30 - 2020-04-10T13:15:02.911接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:15:02 INFO  Forward:72 - 2020-04-10T13:15:02.947 收到来自设备的数据：010302000cb841
+2020-04-10 13:15:23 INFO  ForwardHandler:30 - 2020-04-10T13:15:22.999接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 13:15:23 INFO  Forward:72 - 2020-04-10T13:15:23.027 收到来自设备的数据：010304e24000010c5f
+2020-04-10 13:18:02 INFO  ForwardHandler:30 - 2020-04-10T13:18:02.114接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:18:02 INFO  Forward:72 - 2020-04-10T13:18:02.143 收到来自设备的数据：010302000cb841
+2020-04-10 13:18:22 INFO  ForwardHandler:30 - 2020-04-10T13:18:22.203接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 13:18:22 INFO  Forward:72 - 2020-04-10T13:18:22.232 收到来自设备的数据：010304e24000010c5f
+2020-04-10 13:19:15 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-10 13:21:02 INFO  ForwardHandler:30 - 2020-04-10T13:21:02.752接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:21:02 INFO  Forward:72 - 2020-04-10T13:21:02.787 收到来自设备的数据：010302000cb841
+2020-04-10 13:21:22 INFO  ForwardHandler:30 - 2020-04-10T13:21:22.831接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 13:21:22 INFO  Forward:72 - 2020-04-10T13:21:22.865 收到来自设备的数据：010304e24000010c5f
+2020-04-10 13:22:25 INFO  ForwardHandler:30 - 2020-04-10T13:22:25.025接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 13:22:25 INFO  Forward:72 - 2020-04-10T13:22:25.062 收到来自设备的数据：010101019048
+2020-04-10 13:22:55 INFO  ForwardHandler:30 - 2020-04-10T13:22:55.090接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 13:22:55 INFO  Forward:72 - 2020-04-10T13:22:55.116 收到来自设备的数据：01030433334177750e
+2020-04-10 13:23:25 INFO  ForwardHandler:30 - 2020-04-10T13:23:25.180接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 13:23:25 INFO  Forward:72 - 2020-04-10T13:23:25.213 收到来自设备的数据：0201010051cc
+2020-04-10 13:23:55 INFO  ForwardHandler:30 - 2020-04-10T13:23:55.263接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 13:23:55 INFO  Forward:72 - 2020-04-10T13:23:55.293 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 13:24:02 INFO  ForwardHandler:30 - 2020-04-10T13:24:02.173接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:24:02 INFO  Forward:72 - 2020-04-10T13:24:02.201 收到来自设备的数据：010302000cb841
+2020-04-10 13:24:22 INFO  ForwardHandler:30 - 2020-04-10T13:24:22.280接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 13:24:22 INFO  Forward:72 - 2020-04-10T13:24:22.304 收到来自设备的数据：010304e24000010c5f
+2020-04-10 13:25:24 INFO  ForwardHandler:30 - 2020-04-10T13:25:24.095接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 13:25:24 INFO  Forward:72 - 2020-04-10T13:25:24.130 收到来自设备的数据：010101019048
+2020-04-10 13:25:54 INFO  ForwardHandler:30 - 2020-04-10T13:25:54.169接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 13:25:54 INFO  Forward:72 - 2020-04-10T13:25:54.197 收到来自设备的数据：01030433334177750e
+2020-04-10 13:26:24 INFO  ForwardHandler:30 - 2020-04-10T13:26:24.251接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 13:26:24 INFO  Forward:72 - 2020-04-10T13:26:24.278 收到来自设备的数据：0201010051cc
+2020-04-10 13:26:54 INFO  ForwardHandler:30 - 2020-04-10T13:26:54.334接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 13:26:54 INFO  Forward:72 - 2020-04-10T13:26:54.367 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 13:27:02 INFO  ForwardHandler:30 - 2020-04-10T13:27:02.132接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:27:02 INFO  Forward:72 - 2020-04-10T13:27:02.158 收到来自设备的数据：010302000cb841
+2020-04-10 13:27:22 INFO  ForwardHandler:30 - 2020-04-10T13:27:22.224接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 13:27:22 INFO  Forward:72 - 2020-04-10T13:27:22.252 收到来自设备的数据：010304e24000010c5f
+2020-04-10 13:28:24 INFO  ForwardHandler:30 - 2020-04-10T13:28:24.130接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 13:28:24 INFO  Forward:72 - 2020-04-10T13:28:24.156 收到来自设备的数据：010101019048
+2020-04-10 13:28:54 INFO  ForwardHandler:30 - 2020-04-10T13:28:54.221接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 13:28:54 INFO  Forward:72 - 2020-04-10T13:28:54.246 收到来自设备的数据：01030433334177750e
+2020-04-10 13:29:13 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-10 13:29:13 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-10 13:32:15 INFO  ForwardHandler:30 - 2020-04-10T13:32:15.370接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:32:15 INFO  Forward:72 - 2020-04-10T13:32:15.409 收到来自设备的数据：010302000cb841
+2020-04-10 13:32:16 INFO  ForwardHandler:30 - 2020-04-10T13:32:16.324接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 13:32:16 INFO  Forward:72 - 2020-04-10T13:32:16.357 收到来自设备的数据：010304e24000010c5f
+2020-04-10 13:32:47 INFO  ForwardHandler:30 - 2020-04-10T13:32:47.124接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 13:32:47 INFO  Forward:72 - 2020-04-10T13:32:47.157 收到来自设备的数据：010101019048
+2020-04-10 13:32:47 INFO  ForwardHandler:30 - 2020-04-10T13:32:47.897接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 13:32:47 INFO  Forward:72 - 2020-04-10T13:32:47.926 收到来自设备的数据：01030433334177750e
+2020-04-10 13:32:48 INFO  ForwardHandler:30 - 2020-04-10T13:32:48.758接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 13:32:48 INFO  Forward:72 - 2020-04-10T13:32:48.790 收到来自设备的数据：0201010051cc
+2020-04-10 13:32:49 INFO  ForwardHandler:30 - 2020-04-10T13:32:49.472接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 13:32:49 INFO  Forward:72 - 2020-04-10T13:32:49.504 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 13:35:15 INFO  ForwardHandler:30 - 2020-04-10T13:35:15.134接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:35:15 INFO  Forward:72 - 2020-04-10T13:35:15.167 收到来自设备的数据：010302000cb841
+2020-04-10 13:35:15 INFO  ForwardHandler:30 - 2020-04-10T13:35:15.918接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 13:35:15 INFO  Forward:72 - 2020-04-10T13:35:15.951 收到来自设备的数据：010304e24000010c5f
+2020-04-10 13:35:46 INFO  ForwardHandler:30 - 2020-04-10T13:35:46.101接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 13:35:46 INFO  Forward:72 - 2020-04-10T13:35:46.131 收到来自设备的数据：010101019048
+2020-04-10 13:35:46 INFO  ForwardHandler:30 - 2020-04-10T13:35:46.817接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 13:35:46 INFO  Forward:72 - 2020-04-10T13:35:46.844 收到来自设备的数据：01030433334177750e
+2020-04-10 13:35:47 INFO  ForwardHandler:30 - 2020-04-10T13:35:47.542接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 13:35:47 INFO  Forward:72 - 2020-04-10T13:35:47.569 收到来自设备的数据：0201010051cc
+2020-04-10 13:35:48 INFO  ForwardHandler:30 - 2020-04-10T13:35:48.330接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 13:35:48 INFO  Forward:72 - 2020-04-10T13:35:48.362 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 13:36:53 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-10 13:36:53 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-10 13:44:18 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-10 13:46:43 INFO  ForwardHandler:30 - 2020-04-10T13:46:43.469接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:46:43 INFO  Forward:72 - 2020-04-10T13:46:43.500 收到来自设备的数据：010302000cb841
+2020-04-10 13:46:44 INFO  ForwardHandler:30 - 2020-04-10T13:46:44.440接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 13:46:44 INFO  Forward:72 - 2020-04-10T13:46:44.475 收到来自设备的数据：010304e24000010c5f
+2020-04-10 13:47:08 INFO  ForwardHandler:30 - 2020-04-10T13:47:08.123接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 13:47:08 INFO  Forward:72 - 2020-04-10T13:47:08.153 收到来自设备的数据：010101019048
+2020-04-10 13:47:08 INFO  ForwardHandler:30 - 2020-04-10T13:47:08.840接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 13:47:08 INFO  Forward:72 - 2020-04-10T13:47:08.869 收到来自设备的数据：01030433334177750e
+2020-04-10 13:47:09 INFO  ForwardHandler:30 - 2020-04-10T13:47:09.632接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 13:47:09 INFO  Forward:72 - 2020-04-10T13:47:09.658 收到来自设备的数据：0201010051cc
+2020-04-10 13:47:10 INFO  ForwardHandler:30 - 2020-04-10T13:47:10.357接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 13:47:10 INFO  Forward:72 - 2020-04-10T13:47:10.383 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 13:49:29 INFO  ForwardHandler:30 - 2020-04-10T13:49:29.239接收到来自服务器的数据为: 01060000001209c7
+2020-04-10 13:49:29 INFO  Forward:72 - 2020-04-10T13:49:29.276 收到来自设备的数据：01060000001209c7
+2020-04-10 13:49:43 INFO  ForwardHandler:30 - 2020-04-10T13:49:43.106接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:49:43 INFO  Forward:72 - 2020-04-10T13:49:43.131 收到来自设备的数据：01030200123849
+2020-04-10 13:49:43 INFO  ForwardHandler:30 - 2020-04-10T13:49:43.876接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 13:49:43 INFO  Forward:72 - 2020-04-10T13:49:43.901 收到来自设备的数据：010304e24000010c5f
+2020-04-10 13:50:07 INFO  ForwardHandler:30 - 2020-04-10T13:50:07.122接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 13:50:07 INFO  Forward:72 - 2020-04-10T13:50:07.149 收到来自设备的数据：010101019048
+2020-04-10 13:50:07 INFO  ForwardHandler:30 - 2020-04-10T13:50:07.823接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 13:50:07 INFO  Forward:72 - 2020-04-10T13:50:07.852 收到来自设备的数据：01030433334177750e
+2020-04-10 13:50:08 INFO  ForwardHandler:30 - 2020-04-10T13:50:08.594接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 13:50:08 INFO  Forward:72 - 2020-04-10T13:50:08.619 收到来自设备的数据：0201010051cc
+2020-04-10 13:50:09 INFO  ForwardHandler:30 - 2020-04-10T13:50:09.315接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 13:50:09 INFO  Forward:72 - 2020-04-10T13:50:09.346 收到来自设备的数据：0203043d71422a25fb
+2020-04-10 13:50:56 INFO  ForwardHandler:30 - 2020-04-10T13:50:56.964接收到来自服务器的数据为: 02050000ff008c09
+2020-04-10 13:50:56 INFO  Forward:72 - 2020-04-10T13:50:56.998 收到来自设备的数据：02050000ff008c09
+2020-04-10 13:51:04 INFO  ForwardHandler:30 - 2020-04-10T13:51:04.973接收到来自服务器的数据为: 021000010002047ae141b4442e
+2020-04-10 13:51:05 INFO  Forward:72 - 2020-04-10T13:51:05.007 收到来自设备的数据：021000010002103b
+2020-04-10 13:51:28 INFO  ForwardHandler:30 - 2020-04-10T13:51:28.174接收到来自服务器的数据为: 010500000000cdca
+2020-04-10 13:51:28 INFO  Forward:72 - 2020-04-10T13:51:28.210 收到来自设备的数据：010500000000cdca
+2020-04-10 13:52:43 INFO  ForwardHandler:30 - 2020-04-10T13:52:43.128接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:52:43 INFO  Forward:72 - 2020-04-10T13:52:43.159 收到来自设备的数据：01030200123849
+2020-04-10 13:52:43 INFO  ForwardHandler:30 - 2020-04-10T13:52:43.912接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 13:52:43 INFO  Forward:72 - 2020-04-10T13:52:43.944 收到来自设备的数据：010304d59600002213
+2020-04-10 13:53:07 INFO  ForwardHandler:30 - 2020-04-10T13:53:07.111接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 13:53:07 INFO  Forward:72 - 2020-04-10T13:53:07.138 收到来自设备的数据：010101005188
+2020-04-10 13:53:07 INFO  ForwardHandler:30 - 2020-04-10T13:53:07.853接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 13:53:07 INFO  Forward:72 - 2020-04-10T13:53:07.884 收到来自设备的数据：01030433334177750e
+2020-04-10 13:53:08 INFO  ForwardHandler:30 - 2020-04-10T13:53:08.649接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 13:53:08 INFO  Forward:72 - 2020-04-10T13:53:08.675 收到来自设备的数据：02010101900c
+2020-04-10 13:53:09 INFO  ForwardHandler:30 - 2020-04-10T13:53:09.354接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 13:53:09 INFO  Forward:72 - 2020-04-10T13:53:09.384 收到来自设备的数据：0203047ae141b4b03a
+2020-04-10 13:55:43 INFO  ForwardHandler:30 - 2020-04-10T13:55:43.100接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:55:43 INFO  Forward:72 - 2020-04-10T13:55:43.133 收到来自设备的数据：01030200123849
+2020-04-10 13:55:43 INFO  ForwardHandler:30 - 2020-04-10T13:55:43.817接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 13:55:43 INFO  Forward:72 - 2020-04-10T13:55:43.846 收到来自设备的数据：010304d59600002213
+2020-04-10 13:56:07 INFO  ForwardHandler:30 - 2020-04-10T13:56:07.118接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 13:56:07 INFO  Forward:72 - 2020-04-10T13:56:07.143 收到来自设备的数据：010101005188
+2020-04-10 13:56:07 INFO  ForwardHandler:30 - 2020-04-10T13:56:07.841接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 13:56:07 INFO  Forward:72 - 2020-04-10T13:56:07.867 收到来自设备的数据：01030433334177750e
+2020-04-10 13:56:08 INFO  ForwardHandler:30 - 2020-04-10T13:56:08.650接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 13:56:08 INFO  Forward:72 - 2020-04-10T13:56:08.679 收到来自设备的数据：02010101900c
+2020-04-10 13:56:09 INFO  ForwardHandler:30 - 2020-04-10T13:56:09.341接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 13:56:09 INFO  Forward:72 - 2020-04-10T13:56:09.365 收到来自设备的数据：0203047ae141b4b03a
+2020-04-10 13:58:43 INFO  ForwardHandler:30 - 2020-04-10T13:58:43.149接收到来自服务器的数据为: 010300000001840a
+2020-04-10 13:58:43 INFO  Forward:72 - 2020-04-10T13:58:43.183 收到来自设备的数据：01030200123849
+2020-04-10 13:58:44 INFO  ForwardHandler:30 - 2020-04-10T13:58:44.160接收到来自服务器的数据为: 01030002000265cb
+2020-04-10 13:58:44 INFO  Forward:72 - 2020-04-10T13:58:44.192 收到来自设备的数据：010304d59600002213
+2020-04-10 13:59:07 INFO  ForwardHandler:30 - 2020-04-10T13:59:07.132接收到来自服务器的数据为: 010100000001fdca
+2020-04-10 13:59:07 INFO  Forward:72 - 2020-04-10T13:59:07.156 收到来自设备的数据：010101005188
+2020-04-10 13:59:07 INFO  ForwardHandler:30 - 2020-04-10T13:59:07.905接收到来自服务器的数据为: 01030001000295cb
+2020-04-10 13:59:07 INFO  Forward:72 - 2020-04-10T13:59:07.940 收到来自设备的数据：01030433334177750e
+2020-04-10 13:59:08 INFO  ForwardHandler:30 - 2020-04-10T13:59:08.914接收到来自服务器的数据为: 020100000001fdf9
+2020-04-10 13:59:08 INFO  Forward:72 - 2020-04-10T13:59:08.945 收到来自设备的数据：02010101900c
+2020-04-10 13:59:09 INFO  ForwardHandler:30 - 2020-04-10T13:59:09.647接收到来自服务器的数据为: 02030001000295f8
+2020-04-10 13:59:09 INFO  Forward:72 - 2020-04-10T13:59:09.679 收到来自设备的数据：0203047ae141b4b03a
+2020-04-20 14:16:00 INFO  ForwardHandler:30 - 2020-04-20T14:16:00.376接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 14:16:00 INFO  Forward:72 - 2020-04-20T14:16:00.404 收到来自设备的数据：010101019048
+2020-04-20 14:16:20 INFO  ForwardHandler:30 - 2020-04-20T14:16:20.602接收到来自服务器的数据为: 010100010001ac0a
+2020-04-20 14:16:20 INFO  Forward:72 - 2020-04-20T14:16:20.633 收到来自设备的数据：010101005188
+2020-04-20 14:16:40 INFO  ForwardHandler:30 - 2020-04-20T14:16:40.835接收到来自服务器的数据为: 010300000001840a
+2020-04-20 14:16:40 INFO  Forward:72 - 2020-04-20T14:16:40.870 收到来自设备的数据：010302000cb841
+2020-04-20 14:17:01 INFO  ForwardHandler:30 - 2020-04-20T14:17:01.009接收到来自服务器的数据为: 01030002000125ca
+2020-04-20 14:17:01 INFO  Forward:72 - 2020-04-20T14:17:01.042 收到来自设备的数据：0103020020b99c
+2020-04-20 14:19:43 INFO  ForwardHandler:30 - 2020-04-20T14:19:43.935接收到来自服务器的数据为: 01050001ff00ddfa
+2020-04-20 14:19:44 INFO  Forward:72 - 2020-04-20T14:19:44.031 收到来自设备的数据：01050001ff00ddfa
+2020-04-20 14:28:46 INFO  ForwardHandler:30 - 2020-04-20T14:28:46.229接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 14:28:46 INFO  Forward:72 - 2020-04-20T14:28:46.264 收到来自设备的数据：010101019048
+2020-04-20 14:29:06 INFO  ForwardHandler:30 - 2020-04-20T14:29:06.370接收到来自服务器的数据为: 010100010001ac0a
+2020-04-20 14:29:06 INFO  Forward:72 - 2020-04-20T14:29:06.397 收到来自设备的数据：010101019048
+2020-04-20 14:29:26 INFO  ForwardHandler:30 - 2020-04-20T14:29:26.561接收到来自服务器的数据为: 010300000001840a
+2020-04-20 14:29:26 INFO  Forward:72 - 2020-04-20T14:29:26.594 收到来自设备的数据：010302000cb841
+2020-04-20 14:29:46 INFO  ForwardHandler:30 - 2020-04-20T14:29:46.820接收到来自服务器的数据为: 01030002000125ca
+2020-04-20 14:29:46 INFO  Forward:72 - 2020-04-20T14:29:46.853 收到来自设备的数据：0103020020b99c
+2020-04-20 14:33:17 INFO  ForwardHandler:30 - 2020-04-20T14:33:17.979接收到来自服务器的数据为: 010300000001840a
+2020-04-20 14:33:18 INFO  Forward:72 - 2020-04-20T14:33:18.011 收到来自设备的数据：010302000cb841
+2020-04-20 14:33:19 INFO  ForwardHandler:30 - 2020-04-20T14:33:19.319接收到来自服务器的数据为: 01030002000265cb
+2020-04-20 14:33:19 INFO  Forward:72 - 2020-04-20T14:33:19.354 收到来自设备的数据：010304090a0000d9ad
+2020-04-20 14:36:40 INFO  ForwardHandler:30 - 2020-04-20T14:36:40.476接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 14:36:40 INFO  Forward:72 - 2020-04-20T14:36:40.514 收到来自设备的数据：010101019048
+2020-04-20 14:36:41 INFO  ForwardHandler:30 - 2020-04-20T14:36:41.745接收到来自服务器的数据为: 01030001000295cb
+2020-04-20 14:36:41 INFO  Forward:72 - 2020-04-20T14:36:41.780 收到来自设备的数据：010304cccd417864ee
+2020-04-20 14:36:42 INFO  ForwardHandler:30 - 2020-04-20T14:36:42.973接收到来自服务器的数据为: 020100000001fdf9
+2020-04-20 14:36:42 INFO  Forward:72 - 2020-04-20T14:36:42.998 收到来自设备的数据：0201010051cc
+2020-04-20 14:36:44 INFO  ForwardHandler:30 - 2020-04-20T14:36:44.179接收到来自服务器的数据为: 02030001000295f8
+2020-04-20 14:36:44 INFO  Forward:72 - 2020-04-20T14:36:44.219 收到来自设备的数据：0203043d71422a25fb
+2020-04-20 14:39:40 INFO  ForwardHandler:30 - 2020-04-20T14:39:40.101接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 14:39:40 INFO  Forward:72 - 2020-04-20T14:39:40.130 收到来自设备的数据：010101005188
+2020-04-20 14:39:41 INFO  ForwardHandler:30 - 2020-04-20T14:39:41.457接收到来自服务器的数据为: 01030001000295cb
+2020-04-20 14:39:41 INFO  Forward:72 - 2020-04-20T14:39:41.483 收到来自设备的数据：0103043333425eb420
+2020-04-20 14:39:42 INFO  ForwardHandler:30 - 2020-04-20T14:39:42.722接收到来自服务器的数据为: 020100000001fdf9
+2020-04-20 14:39:42 INFO  Forward:72 - 2020-04-20T14:39:42.754 收到来自设备的数据：02010101900c
+2020-04-20 14:39:44 INFO  ForwardHandler:30 - 2020-04-20T14:39:44.052接收到来自服务器的数据为: 02030001000295f8
+2020-04-20 14:39:44 INFO  Forward:72 - 2020-04-20T14:39:44.079 收到来自设备的数据：0203047ae14228b0a3
+2020-04-20 14:41:45 INFO  ForwardHandler:30 - 2020-04-20T14:41:45.202接收到来自服务器的数据为: 01050000ff008c3a
+2020-04-20 14:41:45 INFO  Forward:72 - 2020-04-20T14:41:45.239 收到来自设备的数据：01050000ff008c3a
+2020-04-20 14:41:50 INFO  ForwardHandler:30 - 2020-04-20T14:41:50.915接收到来自服务器的数据为: 020500000000cdf9
+2020-04-20 14:41:50 INFO  Forward:72 - 2020-04-20T14:41:50.944 收到来自设备的数据：020500000000cdf9
+2020-04-20 14:41:56 INFO  ForwardHandler:30 - 2020-04-20T14:41:56.647接收到来自服务器的数据为: 02050000ff008c09
+2020-04-20 14:41:56 INFO  Forward:72 - 2020-04-20T14:41:56.675 收到来自设备的数据：02050000ff008c09
+2020-04-20 14:45:20 INFO  ForwardHandler:30 - 2020-04-20T14:45:20.360接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 14:45:20 INFO  Forward:72 - 2020-04-20T14:45:20.400 收到来自设备的数据：010101019048
+2020-04-20 14:45:40 INFO  ForwardHandler:30 - 2020-04-20T14:45:40.523接收到来自服务器的数据为: 010100010001ac0a
+2020-04-20 14:45:40 INFO  Forward:72 - 2020-04-20T14:45:40.554 收到来自设备的数据：010101005188
+2020-04-20 14:46:00 INFO  ForwardHandler:30 - 2020-04-20T14:46:00.755接收到来自服务器的数据为: 010300000001840a
+2020-04-20 14:46:00 INFO  Forward:72 - 2020-04-20T14:46:00.785 收到来自设备的数据：010302000cb841
+2020-04-20 14:46:08 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-20 14:50:41 INFO  ForwardHandler:30 - 2020-04-20T14:50:41.648接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 14:50:41 INFO  Forward:72 - 2020-04-20T14:50:41.682 收到来自设备的数据：010101019048
+2020-04-20 14:51:43 INFO  ForwardHandler:30 - 2020-04-20T14:51:43.482接收到来自服务器的数据为: 010100010001ac0a
+2020-04-20 14:51:43 INFO  Forward:72 - 2020-04-20T14:51:43.506 收到来自设备的数据：010101005188
+2020-04-20 14:57:14 INFO  ForwardHandler:30 - 2020-04-20T14:57:14.518接收到来自服务器的数据为: 01030002000125ca
+2020-04-20 14:57:14 INFO  Forward:72 - 2020-04-20T14:57:14.550 收到来自设备的数据：01030200de381c
+2020-04-20 14:59:42 INFO  ForwardHandler:30 - 2020-04-20T14:59:42.276接收到来自服务器的数据为: 010300000001840a
+2020-04-20 14:59:42 INFO  Forward:72 - 2020-04-20T14:59:42.310 收到来自设备的数据：010302000cb841
+2020-04-20 15:01:40 INFO  ForwardHandler:30 - 2020-04-20T15:01:40.757接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 15:01:40 INFO  Forward:72 - 2020-04-20T15:01:40.788 收到来自设备的数据：010101019048
+2020-04-20 15:02:01 INFO  ForwardHandler:30 - 2020-04-20T15:02:01.169接收到来自服务器的数据为: 010100010001ac0a
+2020-04-20 15:02:01 INFO  Forward:72 - 2020-04-20T15:02:01.203 收到来自设备的数据：010101005188
+2020-04-20 15:02:21 INFO  ForwardHandler:30 - 2020-04-20T15:02:21.471接收到来自服务器的数据为: 010300000001840a
+2020-04-20 15:02:21 INFO  Forward:72 - 2020-04-20T15:02:21.504 收到来自设备的数据：010302000cb841
+2020-04-20 15:02:41 INFO  ForwardHandler:30 - 2020-04-20T15:02:41.659接收到来自服务器的数据为: 01030002000125ca
+2020-04-20 15:02:41 INFO  Forward:72 - 2020-04-20T15:02:41.687 收到来自设备的数据：01030200de381c
+2020-04-20 16:18:51 INFO  ForwardHandler:30 - 2020-04-20T16:18:51.532接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 16:20:51 INFO  ForwardHandler:30 - 2020-04-20T16:20:51.646接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 16:20:51 INFO  Forward:72 - 2020-04-20T16:20:51.692 收到来自设备的数据：010101005188
+2020-04-20 16:20:52 INFO  ForwardHandler:30 - 2020-04-20T16:20:52.981接收到来自服务器的数据为: 010100010001ac0a
+2020-04-20 16:20:53 INFO  Forward:72 - 2020-04-20T16:20:53.052 收到来自设备的数据：010101019048
+2020-04-20 16:20:54 INFO  ForwardHandler:30 - 2020-04-20T16:20:54.578接收到来自服务器的数据为: 010300000001840a
+2020-04-20 16:20:54 INFO  Forward:72 - 2020-04-20T16:20:54.626 收到来自设备的数据：010302000cb841
+2020-04-20 16:20:55 INFO  ForwardHandler:30 - 2020-04-20T16:20:55.837接收到来自服务器的数据为: 01030002000125ca
+2020-04-20 16:20:55 INFO  Forward:72 - 2020-04-20T16:20:55.862 收到来自设备的数据：010302000bf983
+2020-04-20 16:21:38 INFO  ForwardHandler:30 - 2020-04-20T16:21:38.686接收到来自服务器的数据为: 01060002000c280f
+2020-04-20 16:21:38 INFO  Forward:72 - 2020-04-20T16:21:38.719 收到来自设备的数据：01060002000c280f
+2020-04-20 16:23:33 INFO  ForwardHandler:30 - 2020-04-20T16:23:33.780接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 16:23:33 INFO  Forward:72 - 2020-04-20T16:23:33.815 收到来自设备的数据：010101005188
+2020-04-20 16:23:35 INFO  ForwardHandler:30 - 2020-04-20T16:23:35.125接收到来自服务器的数据为: 010100010001ac0a
+2020-04-20 16:23:35 INFO  Forward:72 - 2020-04-20T16:23:35.156 收到来自设备的数据：010101019048
+2020-04-20 16:23:36 INFO  ForwardHandler:30 - 2020-04-20T16:23:36.502接收到来自服务器的数据为: 010300000001840a
+2020-04-20 16:23:36 INFO  Forward:72 - 2020-04-20T16:23:36.536 收到来自设备的数据：010302000cb841
+2020-04-20 16:23:37 INFO  ForwardHandler:30 - 2020-04-20T16:23:37.725接收到来自服务器的数据为: 01030002000125ca
+2020-04-20 16:23:37 INFO  Forward:72 - 2020-04-20T16:23:37.757 收到来自设备的数据：010302000cb841
+2020-04-20 16:27:10 INFO  ForwardHandler:30 - 2020-04-20T16:27:10.895接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 16:27:10 INFO  Forward:72 - 2020-04-20T16:27:10.935 收到来自设备的数据：010101005188
+2020-04-20 16:28:24 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-20 16:37:10 INFO  ForwardHandler:30 - 2020-04-20T16:37:10.620接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 16:37:10 INFO  Forward:72 - 2020-04-20T16:37:10.655 收到来自设备的数据：010101005188
+2020-04-20 16:39:10 INFO  ForwardHandler:30 - 2020-04-20T16:39:10.858接收到来自服务器的数据为: 010100010001ac0a
+2020-04-20 16:39:10 INFO  Forward:72 - 2020-04-20T16:39:10.914 收到来自设备的数据：010101019048
+2020-04-20 16:41:20 INFO  ForwardHandler:30 - 2020-04-20T16:41:20.342接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 16:41:20 INFO  Forward:72 - 2020-04-20T16:41:20.374 收到来自设备的数据：010101005188
+2020-04-20 16:43:46 INFO  ForwardHandler:30 - 2020-04-20T16:43:46.896接收到来自服务器的数据为: 010100010001ac0a
+2020-04-20 16:43:47 INFO  Forward:72 - 2020-04-20T16:43:47.121 收到来自设备的数据：010101019048
+2020-04-20 16:44:42 INFO  ForwardHandler:30 - 2020-04-20T16:44:42.406接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 16:44:42 INFO  Forward:72 - 2020-04-20T16:44:42.444 收到来自设备的数据：010101005188
+2020-04-20 16:46:42 INFO  ForwardHandler:30 - 2020-04-20T16:46:42.569接收到来自服务器的数据为: 010100010001ac0a
+2020-04-20 16:46:42 INFO  Forward:72 - 2020-04-20T16:46:42.603 收到来自设备的数据：010101019048
+2020-04-20 16:48:32 INFO  ForwardHandler:30 - 2020-04-20T16:48:31.999接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 16:48:32 INFO  Forward:72 - 2020-04-20T16:48:32.039 收到来自设备的数据：010101005188
+2020-04-20 16:51:38 INFO  ForwardHandler:30 - 2020-04-20T16:51:38.561接收到来自服务器的数据为: 010100010001ac0a
+2020-04-20 16:51:38 INFO  Forward:72 - 2020-04-20T16:51:38.649 收到来自设备的数据：010101019048
+2020-04-20 16:52:28 INFO  ForwardHandler:30 - 2020-04-20T16:52:28.556接收到来自服务器的数据为: 010100000001fdca
+2020-04-20 16:52:28 INFO  Forward:72 - 2020-04-20T16:52:28.594 收到来自设备的数据：010101005188
+2020-04-20 16:54:28 INFO  ForwardHandler:30 - 2020-04-20T16:54:28.737接收到来自服务器的数据为: 010100010001ac0a
+2020-04-20 16:54:28 INFO  Forward:72 - 2020-04-20T16:54:28.765 收到来自设备的数据：010101019048
+2020-04-20 16:54:36 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-21 08:21:13 INFO  ForwardHandler:30 - 2020-04-21T08:21:13.877接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 08:21:13 INFO  Forward:72 - 2020-04-21T08:21:13.940 收到来自设备的数据：010101005188
+2020-04-21 08:21:16 INFO  ForwardHandler:30 - 2020-04-21T08:21:16.643接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 08:21:16 INFO  Forward:72 - 2020-04-21T08:21:16.672 收到来自设备的数据：010101005188
+2020-04-21 08:21:19 INFO  ForwardHandler:30 - 2020-04-21T08:21:19.013接收到来自服务器的数据为: 010300000001840a
+2020-04-21 08:21:19 INFO  Forward:72 - 2020-04-21T08:21:19.050 收到来自设备的数据：010302004979b2
+2020-04-21 08:21:21 INFO  ForwardHandler:30 - 2020-04-21T08:21:21.655接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 08:21:21 INFO  Forward:72 - 2020-04-21T08:21:21.685 收到来自设备的数据：010302004d7871
+2020-04-21 08:23:35 INFO  ForwardHandler:30 - 2020-04-21T08:23:35.284接收到来自服务器的数据为: 01050001ff00ddfa
+2020-04-21 08:23:35 INFO  Forward:72 - 2020-04-21T08:23:35.315 收到来自设备的数据：01050001ff00ddfa
+2020-04-21 08:26:13 INFO  ForwardHandler:30 - 2020-04-21T08:26:13.106接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 08:26:13 INFO  Forward:72 - 2020-04-21T08:26:13.136 收到来自设备的数据：010101019048
+2020-04-21 08:26:15 INFO  ForwardHandler:30 - 2020-04-21T08:26:15.461接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 08:26:15 INFO  Forward:72 - 2020-04-21T08:26:15.494 收到来自设备的数据：010101005188
+2020-04-21 08:26:17 INFO  ForwardHandler:30 - 2020-04-21T08:26:17.823接收到来自服务器的数据为: 010300000001840a
+2020-04-21 08:26:17 INFO  Forward:72 - 2020-04-21T08:26:17.854 收到来自设备的数据：01030202923889
+2020-04-21 08:26:20 INFO  ForwardHandler:30 - 2020-04-21T08:26:20.245接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 08:26:20 INFO  Forward:72 - 2020-04-21T08:26:20.269 收到来自设备的数据：0103020297f88a
+2020-04-21 08:40:56 INFO  ForwardHandler:30 - 2020-04-21T08:40:56.023接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 08:40:56 INFO  Forward:72 - 2020-04-21T08:40:56.057 收到来自设备的数据：010101005188
+2020-04-21 08:40:58 INFO  ForwardHandler:30 - 2020-04-21T08:40:58.540接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 08:40:58 INFO  Forward:72 - 2020-04-21T08:40:58.568 收到来自设备的数据：010101005188
+2020-04-21 08:41:00 INFO  ForwardHandler:30 - 2020-04-21T08:41:00.869接收到来自服务器的数据为: 010300000001840a
+2020-04-21 08:41:00 INFO  Forward:72 - 2020-04-21T08:41:00.896 收到来自设备的数据：010302095ffe2c
+2020-04-21 08:41:03 INFO  ForwardHandler:30 - 2020-04-21T08:41:03.185接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 08:41:03 INFO  Forward:72 - 2020-04-21T08:41:03.213 收到来自设备的数据：0103020964bfff
+2020-04-21 08:42:41 INFO  ForwardHandler:30 - 2020-04-21T08:42:41.686接收到来自服务器的数据为: 01050001ff00ddfa
+2020-04-21 08:42:41 INFO  Forward:72 - 2020-04-21T08:42:41.713 收到来自设备的数据：01050001ff00ddfa
+2020-04-21 08:42:48 INFO  ForwardHandler:30 - 2020-04-21T08:42:48.444接收到来自服务器的数据为: 0106000200182800
+2020-04-21 08:42:48 INFO  Forward:72 - 2020-04-21T08:42:48.471 收到来自设备的数据：0106000200182800
+2020-04-21 08:45:55 INFO  ForwardHandler:30 - 2020-04-21T08:45:55.168接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 08:45:55 INFO  Forward:72 - 2020-04-21T08:45:55.196 收到来自设备的数据：010101019048
+2020-04-21 08:45:57 INFO  ForwardHandler:30 - 2020-04-21T08:45:57.560接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 08:45:57 INFO  Forward:72 - 2020-04-21T08:45:57.589 收到来自设备的数据：010101005188
+2020-04-21 08:46:00 INFO  ForwardHandler:30 - 2020-04-21T08:46:00.007接收到来自服务器的数据为: 010300000001840a
+2020-04-21 08:46:00 INFO  Forward:72 - 2020-04-21T08:46:00.040 收到来自设备的数据：0103020bafff08
+2020-04-21 08:46:02 INFO  ForwardHandler:30 - 2020-04-21T08:46:02.384接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 08:46:02 INFO  Forward:72 - 2020-04-21T08:46:02.409 收到来自设备的数据：0103020197f87a
+2020-04-21 08:50:55 INFO  ForwardHandler:30 - 2020-04-21T08:50:55.152接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 08:50:55 INFO  Forward:72 - 2020-04-21T08:50:55.187 收到来自设备的数据：010101019048
+2020-04-21 08:50:57 INFO  ForwardHandler:30 - 2020-04-21T08:50:57.633接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 08:50:57 INFO  Forward:72 - 2020-04-21T08:50:57.666 收到来自设备的数据：010101005188
+2020-04-21 08:51:00 INFO  ForwardHandler:30 - 2020-04-21T08:51:00.347接收到来自服务器的数据为: 010300000001840a
+2020-04-21 08:51:00 INFO  Forward:72 - 2020-04-21T08:51:00.378 收到来自设备的数据：0103020dfffc94
+2020-04-21 08:51:02 INFO  ForwardHandler:30 - 2020-04-21T08:51:02.723接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 08:51:02 INFO  Forward:72 - 2020-04-21T08:51:02.748 收到来自设备的数据：01030203e8b8fa
+2020-04-21 08:53:37 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-21 09:16:42 INFO  ForwardHandler:30 - 2020-04-21T09:16:42.283接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 09:16:42 INFO  Forward:72 - 2020-04-21T09:16:42.323 收到来自设备的数据：010101019048
+2020-04-21 09:16:44 INFO  ForwardHandler:30 - 2020-04-21T09:16:44.736接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 09:16:44 INFO  Forward:72 - 2020-04-21T09:16:44.766 收到来自设备的数据：010101005188
+2020-04-21 09:16:47 INFO  ForwardHandler:30 - 2020-04-21T09:16:47.188接收到来自服务器的数据为: 010300000001840a
+2020-04-21 09:16:47 INFO  Forward:72 - 2020-04-21T09:16:47.223 收到来自设备的数据：01030219dff24c
+2020-04-21 09:16:49 INFO  ForwardHandler:30 - 2020-04-21T09:16:49.728接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 09:16:49 INFO  Forward:72 - 2020-04-21T09:16:49.759 收到来自设备的数据：0103020fc8bc22
+2020-04-21 09:17:37 INFO  ForwardHandler:30 - 2020-04-21T09:17:37.336接收到来自服务器的数据为: 01050001ff00ddfa
+2020-04-21 09:17:37 INFO  Forward:72 - 2020-04-21T09:17:37.370 收到来自设备的数据：01050001ff00ddfa
+2020-04-21 09:21:41 INFO  ForwardHandler:30 - 2020-04-21T09:21:41.083接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 09:21:41 INFO  Forward:72 - 2020-04-21T09:21:41.108 收到来自设备的数据：010101005188
+2020-04-21 09:21:43 INFO  ForwardHandler:30 - 2020-04-21T09:21:43.476接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 09:21:43 INFO  Forward:72 - 2020-04-21T09:21:43.502 收到来自设备的数据：010101005188
+2020-04-21 09:21:45 INFO  ForwardHandler:30 - 2020-04-21T09:21:45.859接收到来自服务器的数据为: 010300000001840a
+2020-04-21 09:21:45 INFO  Forward:72 - 2020-04-21T09:21:45.884 收到来自设备的数据：0103021c2d7099
+2020-04-21 09:21:48 INFO  ForwardHandler:30 - 2020-04-21T09:21:48.282接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 09:21:48 INFO  Forward:72 - 2020-04-21T09:21:48.313 收到来自设备的数据：0103021216352a
+2020-04-21 09:26:41 INFO  ForwardHandler:30 - 2020-04-21T09:26:41.109接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 09:26:41 INFO  Forward:72 - 2020-04-21T09:26:41.136 收到来自设备的数据：010101019048
+2020-04-21 09:26:43 INFO  ForwardHandler:30 - 2020-04-21T09:26:43.442接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 09:26:43 INFO  Forward:72 - 2020-04-21T09:26:43.472 收到来自设备的数据：010101019048
+2020-04-21 09:26:45 INFO  ForwardHandler:30 - 2020-04-21T09:26:45.967接收到来自服务器的数据为: 010300000001840a
+2020-04-21 09:26:46 INFO  Forward:72 - 2020-04-21T09:26:46 收到来自设备的数据：0103021e7ff004
+2020-04-21 09:26:48 INFO  ForwardHandler:30 - 2020-04-21T09:26:48.883接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 09:26:48 INFO  Forward:72 - 2020-04-21T09:26:48.917 收到来自设备的数据：0103021469776a
+2020-04-21 09:45:38 INFO  ForwardHandler:30 - 2020-04-21T09:45:38.923接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 09:45:38 INFO  Forward:72 - 2020-04-21T09:45:38.957 收到来自设备的数据：010101005188
+2020-04-21 09:45:39 INFO  ForwardHandler:30 - 2020-04-21T09:45:39.553接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 09:45:39 INFO  Forward:72 - 2020-04-21T09:45:39.581 收到来自设备的数据：010101005188
+2020-04-21 09:45:39 INFO  ForwardHandler:30 - 2020-04-21T09:45:39.923接收到来自服务器的数据为: 010300000001840a
+2020-04-21 09:45:39 INFO  Forward:72 - 2020-04-21T09:45:39.951 收到来自设备的数据：010302272e23a8
+2020-04-21 09:45:40 INFO  ForwardHandler:30 - 2020-04-21T09:45:40.262接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 09:45:40 INFO  Forward:72 - 2020-04-21T09:45:40.287 收到来自设备的数据：0103021d123119
+2020-04-21 09:47:48 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-21 09:48:27 INFO  ForwardHandler:30 - 2020-04-21T09:48:27.447接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 09:48:27 INFO  Forward:72 - 2020-04-21T09:48:27.481 收到来自设备的数据：010101019048
+2020-04-21 09:48:27 INFO  ForwardHandler:30 - 2020-04-21T09:48:27.760接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 09:48:27 INFO  Forward:72 - 2020-04-21T09:48:27.787 收到来自设备的数据：010101019048
+2020-04-21 09:48:28 INFO  ForwardHandler:30 - 2020-04-21T09:48:28.145接收到来自服务器的数据为: 010300000001840a
+2020-04-21 09:48:28 INFO  Forward:72 - 2020-04-21T09:48:28.171 收到来自设备的数据：010302287be667
+2020-04-21 09:48:28 INFO  ForwardHandler:30 - 2020-04-21T09:48:28.435接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 09:48:28 INFO  Forward:72 - 2020-04-21T09:48:28.466 收到来自设备的数据：0103021e5ff1dc
+2020-04-21 09:51:09 INFO  ForwardHandler:30 - 2020-04-21T09:51:09.668接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 09:51:09 INFO  Forward:72 - 2020-04-21T09:51:09.704 收到来自设备的数据：010101019048
+2020-04-21 09:51:10 INFO  ForwardHandler:30 - 2020-04-21T09:51:10.104接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 09:51:10 INFO  Forward:72 - 2020-04-21T09:51:10.131 收到来自设备的数据：010101005188
+2020-04-21 09:51:10 INFO  ForwardHandler:30 - 2020-04-21T09:51:10.406接收到来自服务器的数据为: 010300000001840a
+2020-04-21 09:51:10 INFO  Forward:72 - 2020-04-21T09:51:10.431 收到来自设备的数据：01030229ba2667
+2020-04-21 09:51:10 INFO  ForwardHandler:30 - 2020-04-21T09:51:10.665接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 09:51:10 INFO  Forward:72 - 2020-04-21T09:51:10.696 收到来自设备的数据：0103021f9ff01c
+2020-04-21 09:56:09 INFO  ForwardHandler:30 - 2020-04-21T09:56:09.116接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 09:56:09 INFO  Forward:72 - 2020-04-21T09:56:09.141 收到来自设备的数据：010101005188
+2020-04-21 09:56:09 INFO  ForwardHandler:30 - 2020-04-21T09:56:09.382接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 09:56:09 INFO  Forward:72 - 2020-04-21T09:56:09.415 收到来自设备的数据：010101005188
+2020-04-21 09:56:09 INFO  ForwardHandler:30 - 2020-04-21T09:56:09.646接收到来自服务器的数据为: 010300000001840a
+2020-04-21 09:56:09 INFO  Forward:72 - 2020-04-21T09:56:09.679 收到来自设备的数据：0103022c096482
+2020-04-21 09:56:09 INFO  ForwardHandler:30 - 2020-04-21T09:56:09.971接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 09:56:09 INFO  Forward:72 - 2020-04-21T09:56:09.996 收到来自设备的数据：01030221ee2058
+2020-04-21 10:07:08 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-21 10:08:10 INFO  ForwardHandler:30 - 2020-04-21T10:08:10.137接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 10:08:10 INFO  Forward:72 - 2020-04-21T10:08:10.170 收到来自设备的数据：010101005188
+2020-04-21 10:08:10 INFO  ForwardHandler:30 - 2020-04-21T10:08:10.492接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 10:08:10 INFO  Forward:72 - 2020-04-21T10:08:10.519 收到来自设备的数据：010101005188
+2020-04-21 10:08:10 INFO  ForwardHandler:30 - 2020-04-21T10:08:10.741接收到来自服务器的数据为: 010300000001840a
+2020-04-21 10:08:10 INFO  Forward:72 - 2020-04-21T10:08:10.770 收到来自设备的数据：0103023193edb9
+2020-04-21 10:08:10 INFO  ForwardHandler:30 - 2020-04-21T10:08:10.935接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 10:08:10 INFO  Forward:72 - 2020-04-21T10:08:10.966 收到来自设备的数据：0103022778a396
+2020-04-21 10:11:59 INFO  ForwardHandler:30 - 2020-04-21T10:11:59.851接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 10:11:59 INFO  Forward:72 - 2020-04-21T10:11:59.884 收到来自设备的数据：010101005188
+2020-04-21 10:12:00 INFO  ForwardHandler:30 - 2020-04-21T10:12:00.091接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 10:12:00 INFO  Forward:72 - 2020-04-21T10:12:00.128 收到来自设备的数据：010101019048
+2020-04-21 10:12:00 INFO  ForwardHandler:30 - 2020-04-21T10:12:00.257接收到来自服务器的数据为: 010300000001840a
+2020-04-21 10:12:00 INFO  Forward:72 - 2020-04-21T10:12:00.287 收到来自设备的数据：01030233562c8a
+2020-04-21 10:12:00 INFO  ForwardHandler:30 - 2020-04-21T10:12:00.417接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 10:12:00 INFO  Forward:72 - 2020-04-21T10:12:00.451 收到来自设备的数据：010302293be607
+2020-04-21 10:16:59 INFO  ForwardHandler:30 - 2020-04-21T10:16:59.116接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 10:16:59 INFO  Forward:72 - 2020-04-21T10:16:59.149 收到来自设备的数据：010101019048
+2020-04-21 10:16:59 INFO  ForwardHandler:30 - 2020-04-21T10:16:59.293接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 10:16:59 INFO  Forward:72 - 2020-04-21T10:16:59.327 收到来自设备的数据：010101005188
+2020-04-21 10:16:59 INFO  ForwardHandler:30 - 2020-04-21T10:16:59.562接收到来自服务器的数据为: 010300000001840a
+2020-04-21 10:16:59 INFO  Forward:72 - 2020-04-21T10:16:59.588 收到来自设备的数据：01030235a62f6e
+2020-04-21 10:16:59 INFO  ForwardHandler:30 - 2020-04-21T10:16:59.730接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 10:16:59 INFO  Forward:72 - 2020-04-21T10:16:59.763 收到来自设备的数据：0103022b8a2713
+2020-04-21 10:22:30 INFO  ForwardHandler:30 - 2020-04-21T10:22:30.569接收到来自服务器的数据为: 010100000001fdca
+2020-04-21 10:22:30 INFO  Forward:72 - 2020-04-21T10:22:30.605 收到来自设备的数据：010101019048
+2020-04-21 10:22:30 INFO  ForwardHandler:30 - 2020-04-21T10:22:30.938接收到来自服务器的数据为: 010100010001ac0a
+2020-04-21 10:22:30 INFO  Forward:72 - 2020-04-21T10:22:30.966 收到来自设备的数据：010101019048
+2020-04-21 10:22:31 INFO  ForwardHandler:30 - 2020-04-21T10:22:31.125接收到来自服务器的数据为: 010300000001840a
+2020-04-21 10:22:31 INFO  Forward:72 - 2020-04-21T10:22:31.151 收到来自设备的数据：0103023833eb91
+2020-04-21 10:22:31 INFO  ForwardHandler:30 - 2020-04-21T10:22:31.367接收到来自服务器的数据为: 01030002000125ca
+2020-04-21 10:22:31 INFO  Forward:72 - 2020-04-21T10:22:31.393 收到来自设备的数据：0103022e17e5ea
+2020-04-21 15:13:58 INFO  ForwardHandler:30 - 2020-04-21T15:13:58.953接收到来自服务器的数据为: 0101000000026ae9010300000003b249
+2020-04-21 15:17:49 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-21 15:18:37 INFO  ForwardHandler:30 - 2020-04-21T15:18:37.686接收到来自服务器的数据为: 0101000000026ae9
+2020-04-21 15:18:43 INFO  ForwardHandler:30 - 2020-04-21T15:18:43.670接收到来自服务器的数据为: 010300000003b249
+2020-04-21 15:23:23 INFO  ForwardHandler:30 - 2020-04-21T15:23:23.350接收到来自服务器的数据为: 010100000002bdcb
+2020-04-21 15:23:23 INFO  Forward:72 - 2020-04-21T15:23:23.384 收到来自设备的数据：010101019048
+2020-04-21 15:23:27 INFO  ForwardHandler:30 - 2020-04-21T15:23:27.412接收到来自服务器的数据为: 01030000000305cb
+2020-04-21 15:23:27 INFO  Forward:72 - 2020-04-21T15:23:27.457 收到来自设备的数据：010306000c00000016b0ba
+2020-04-21 15:28:23 INFO  ForwardHandler:30 - 2020-04-21T15:28:23.022接收到来自服务器的数据为: 010100000002bdcb
+2020-04-21 15:28:23 INFO  Forward:72 - 2020-04-21T15:28:23.053 收到来自设备的数据：010101019048
+2020-04-21 15:28:27 INFO  ForwardHandler:30 - 2020-04-21T15:28:27.056接收到来自服务器的数据为: 01030000000305cb
+2020-04-21 15:28:27 INFO  Forward:72 - 2020-04-21T15:28:27.086 收到来自设备的数据：010306000c00000016b0ba
+2020-04-21 15:33:23 INFO  ForwardHandler:30 - 2020-04-21T15:33:23.036接收到来自服务器的数据为: 010100000002bdcb
+2020-04-21 15:33:23 INFO  Forward:72 - 2020-04-21T15:33:23.060 收到来自设备的数据：010101019048
+2020-04-21 15:33:27 INFO  ForwardHandler:30 - 2020-04-21T15:33:27.062接收到来自服务器的数据为: 01030000000305cb
+2020-04-21 15:33:27 INFO  Forward:72 - 2020-04-21T15:33:27.087 收到来自设备的数据：010306000c00000016b0ba
+2020-04-22 08:52:20 INFO  ForwardHandler:30 - 2020-04-22T08:52:20.608接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 08:52:20 INFO  Forward:72 - 2020-04-22T08:52:20.664 收到来自设备的数据：010101019048
+2020-04-22 08:52:26 INFO  ForwardHandler:30 - 2020-04-22T08:52:26.606接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 08:52:26 INFO  Forward:72 - 2020-04-22T08:52:26.639 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 08:55:40 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-22 09:01:17 INFO  ForwardHandler:30 - 2020-04-22T09:01:17.600接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 09:01:17 INFO  Forward:80 - 2020-04-22T09:01:17.637 收到来自设备的数据：010101019048
+2020-04-22 09:01:21 INFO  ForwardHandler:30 - 2020-04-22T09:01:21.649接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 09:01:21 INFO  Forward:80 - 2020-04-22T09:01:21.679 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 09:09:17 INFO  ForwardHandler:30 - 2020-04-22T09:09:17.295接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 09:09:17 INFO  Forward:80 - 2020-04-22T09:09:17.330 收到来自设备的数据：010101019048
+2020-04-22 09:09:23 INFO  ForwardHandler:30 - 2020-04-22T09:09:23.275接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 09:09:23 INFO  Forward:80 - 2020-04-22T09:09:23.297 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 09:11:51 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-22 09:12:31 INFO  ForwardHandler:30 - 2020-04-22T09:12:31.215接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 09:12:31 INFO  Forward:80 - 2020-04-22T09:12:31.255 收到来自设备的数据：010101031189
+2020-04-22 09:12:37 INFO  ForwardHandler:30 - 2020-04-22T09:12:37.215接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 09:12:37 INFO  Forward:80 - 2020-04-22T09:12:37.240 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 09:17:04 INFO  ForwardHandler:30 - 2020-04-22T09:17:04.624接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 09:17:04 INFO  Forward:80 - 2020-04-22T09:17:04.664 收到来自设备的数据：010101031189
+2020-04-22 09:17:54 INFO  ForwardHandler:30 - 2020-04-22T09:17:54.427接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 09:17:54 INFO  Forward:80 - 2020-04-22T09:17:54.462 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 09:24:44 INFO  ForwardHandler:30 - 2020-04-22T09:24:44.405接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 09:24:44 INFO  Forward:80 - 2020-04-22T09:24:44.443 收到来自设备的数据：010101031189
+2020-04-22 09:24:50 INFO  ForwardHandler:30 - 2020-04-22T09:24:50.421接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 09:24:50 INFO  Forward:80 - 2020-04-22T09:24:50.447 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 09:26:36 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-22 09:27:12 INFO  ForwardHandler:30 - 2020-04-22T09:27:12.689接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 09:27:12 INFO  Forward:80 - 2020-04-22T09:27:12.728 收到来自设备的数据：010101031189
+2020-04-22 09:27:18 INFO  ForwardHandler:30 - 2020-04-22T09:27:18.672接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 09:27:18 INFO  Forward:80 - 2020-04-22T09:27:18.708 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 09:28:45 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-22 09:29:19 INFO  ForwardHandler:30 - 2020-04-22T09:29:19.865接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 09:29:19 INFO  Forward:80 - 2020-04-22T09:29:19.899 收到来自设备的数据：010101019048
+2020-04-22 09:29:25 INFO  ForwardHandler:30 - 2020-04-22T09:29:25.847接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 09:29:25 INFO  Forward:80 - 2020-04-22T09:29:25.878 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 09:34:14 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-22 09:34:47 INFO  ForwardHandler:30 - 2020-04-22T09:34:47.457接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 09:34:47 INFO  Forward:80 - 2020-04-22T09:34:47.492 收到来自设备的数据：010101031189
+2020-04-22 09:34:53 INFO  ForwardHandler:30 - 2020-04-22T09:34:53.444接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 09:34:53 INFO  Forward:80 - 2020-04-22T09:34:53.471 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 09:35:03 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-22 09:39:05 INFO  ForwardHandler:30 - 2020-04-22T09:39:05.796接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 09:39:05 INFO  Forward:80 - 2020-04-22T09:39:05.831 收到来自设备的数据：010101019048
+2020-04-22 09:39:09 INFO  ForwardHandler:30 - 2020-04-22T09:39:09.871接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 09:39:09 INFO  Forward:80 - 2020-04-22T09:39:09.901 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 09:41:38 INFO  ForwardHandler:30 - 2020-04-22T09:41:38.870接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 09:41:38 INFO  Forward:80 - 2020-04-22T09:41:38.907 收到来自设备的数据：010101031189
+2020-04-22 09:41:42 INFO  ForwardHandler:30 - 2020-04-22T09:41:42.913接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 09:41:42 INFO  Forward:80 - 2020-04-22T09:41:42.950 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 09:42:29 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-22 09:43:30 INFO  ForwardHandler:30 - 2020-04-22T09:43:30.770接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 09:43:30 INFO  Forward:80 - 2020-04-22T09:43:30.800 收到来自设备的数据：010101019048
+2020-04-22 09:43:34 INFO  ForwardHandler:30 - 2020-04-22T09:43:34.810接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 09:43:34 INFO  Forward:80 - 2020-04-22T09:43:34.859 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 09:47:31 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-22 09:48:08 INFO  ForwardHandler:30 - 2020-04-22T09:48:08.970接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 09:48:09 INFO  Forward:80 - 2020-04-22T09:48:09.003 收到来自设备的数据：010101031189
+2020-04-22 09:48:13 INFO  ForwardHandler:30 - 2020-04-22T09:48:13.018接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 09:48:13 INFO  Forward:80 - 2020-04-22T09:48:13.059 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 09:53:01 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-22 09:53:38 INFO  ForwardHandler:30 - 2020-04-22T09:53:38.779接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 09:53:38 INFO  Forward:80 - 2020-04-22T09:53:38.815 收到来自设备的数据：010101031189
+2020-04-22 09:53:44 INFO  ForwardHandler:30 - 2020-04-22T09:53:44.761接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 09:53:44 INFO  Forward:80 - 2020-04-22T09:53:44.785 收到来自设备的数据：010306001600000021a8ae
+2020-04-22 09:55:16 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-22 09:56:24 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-22 10:00:14 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-22 10:05:02 INFO  ForwardHandler:30 - 2020-04-22T10:05:02.577接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 10:05:02 INFO  Forward:80 - 2020-04-22T10:05:02.618 收到来自设备的数据：010101019048
+2020-04-22 10:05:06 INFO  ForwardHandler:30 - 2020-04-22T10:05:06.628接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 10:05:06 INFO  Forward:80 - 2020-04-22T10:05:06.674 收到来自设备的数据：010306cccd414400218958
+2020-04-22 10:09:26 INFO  ForwardHandler:30 - 2020-04-22T10:09:26.632接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 10:09:26 INFO  Forward:80 - 2020-04-22T10:09:26.666 收到来自设备的数据：010101019048
+2020-04-22 10:09:30 INFO  ForwardHandler:30 - 2020-04-22T10:09:30.685接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 10:09:30 INFO  Forward:80 - 2020-04-22T10:09:30.759 收到来自设备的数据：010306cccd414400218958
+2020-04-22 10:10:29 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-22 10:11:07 INFO  ForwardHandler:30 - 2020-04-22T10:11:07.034接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 10:11:07 INFO  Forward:80 - 2020-04-22T10:11:07.067 收到来自设备的数据：010101031189
+2020-04-22 10:11:11 INFO  ForwardHandler:30 - 2020-04-22T10:11:11.081接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 10:11:11 INFO  Forward:80 - 2020-04-22T10:11:11.226 收到来自设备的数据：010306cccd414400218958
+2020-04-22 10:14:40 INFO  ForwardHandler:30 - 2020-04-22T10:14:40.803接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 10:14:40 INFO  Forward:80 - 2020-04-22T10:14:40.841 收到来自设备的数据：010101031189
+2020-04-22 10:14:44 INFO  ForwardHandler:30 - 2020-04-22T10:14:44.843接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 10:14:44 INFO  Forward:80 - 2020-04-22T10:14:44.875 收到来自设备的数据：010306cccd414400218958
+2020-04-22 10:16:43 INFO  ForwardHandler:30 - 2020-04-22T10:16:43.488接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 10:16:43 INFO  Forward:80 - 2020-04-22T10:16:43.522 收到来自设备的数据：010101019048
+2020-04-22 10:16:47 INFO  ForwardHandler:30 - 2020-04-22T10:16:47.593接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 10:16:47 INFO  Forward:80 - 2020-04-22T10:16:47.632 收到来自设备的数据：010306cdcc44410021a584
+2020-04-22 10:21:43 INFO  ForwardHandler:30 - 2020-04-22T10:21:43.040接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 10:21:43 INFO  Forward:80 - 2020-04-22T10:21:43.066 收到来自设备的数据：010101019048
+2020-04-22 10:21:47 INFO  ForwardHandler:30 - 2020-04-22T10:21:47.067接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 10:21:47 INFO  Forward:80 - 2020-04-22T10:21:47.098 收到来自设备的数据：010306cdcc44410021a584
+2020-04-22 10:26:43 INFO  ForwardHandler:30 - 2020-04-22T10:26:43.031接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 10:26:43 INFO  Forward:80 - 2020-04-22T10:26:43.061 收到来自设备的数据：010101031189
+2020-04-22 10:26:47 INFO  ForwardHandler:30 - 2020-04-22T10:26:47.064接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 10:26:47 INFO  Forward:80 - 2020-04-22T10:26:47.094 收到来自设备的数据：010306cdcc44410021a584
+2020-04-22 10:31:43 INFO  ForwardHandler:30 - 2020-04-22T10:31:43.021接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 10:31:43 INFO  Forward:80 - 2020-04-22T10:31:43.055 收到来自设备的数据：010101031189
+2020-04-22 10:31:47 INFO  ForwardHandler:30 - 2020-04-22T10:31:47.058接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 10:31:47 INFO  Forward:80 - 2020-04-22T10:31:47.085 收到来自设备的数据：010306cdcc44410021a584
+2020-04-22 10:36:43 INFO  ForwardHandler:30 - 2020-04-22T10:36:43.020接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 10:36:43 INFO  Forward:80 - 2020-04-22T10:36:43.048 收到来自设备的数据：010101019048
+2020-04-22 10:36:47 INFO  ForwardHandler:30 - 2020-04-22T10:36:47.051接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 10:36:47 INFO  Forward:80 - 2020-04-22T10:36:47.085 收到来自设备的数据：010306cdcc44410021a584
+2020-04-22 10:41:43 INFO  ForwardHandler:30 - 2020-04-22T10:41:43.019接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 10:41:43 INFO  Forward:80 - 2020-04-22T10:41:43.046 收到来自设备的数据：010101031189
+2020-04-22 10:41:47 INFO  ForwardHandler:30 - 2020-04-22T10:41:47.048接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 10:41:47 INFO  Forward:80 - 2020-04-22T10:41:47.075 收到来自设备的数据：010306cdcc44410021a584
+2020-04-22 10:46:43 INFO  ForwardHandler:30 - 2020-04-22T10:46:43.022接收到来自服务器的数据为: 010100000002bdcb
+2020-04-22 10:46:43 INFO  Forward:80 - 2020-04-22T10:46:43.051 收到来自设备的数据：010101031189
+2020-04-22 10:46:47 INFO  ForwardHandler:30 - 2020-04-22T10:46:47.054接收到来自服务器的数据为: 01030000000305cb
+2020-04-22 10:46:47 INFO  Forward:80 - 2020-04-22T10:46:47.085 收到来自设备的数据：010306cdcc44410021a584
+2020-04-22 16:58:14 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-30 10:53:37 INFO  ForwardHandler:30 - 2020-04-30T10:53:37.744接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 10:53:37 INFO  Forward:80 - 2020-04-30T10:53:37.795 收到来自设备的数据：010101019048
+2020-04-30 10:55:37 INFO  ForwardHandler:30 - 2020-04-30T10:55:37.724接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 10:55:37 INFO  Forward:80 - 2020-04-30T10:55:37.760 收到来自设备的数据：0103060017000001c994b0
+2020-04-30 11:04:52 INFO  ForwardHandler:30 - 2020-04-30T11:04:52.907接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 11:04:52 INFO  Forward:80 - 2020-04-30T11:04:52.975 收到来自设备的数据：010101019048
+2020-04-30 11:04:53 INFO  ForwardHandler:30 - 2020-04-30T11:04:53.191接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 11:04:53 INFO  Forward:80 - 2020-04-30T11:04:53.219 收到来自设备的数据：0103060017000001c994b0
+2020-04-30 11:09:52 INFO  ForwardHandler:30 - 2020-04-30T11:09:52.019接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 11:09:52 INFO  Forward:80 - 2020-04-30T11:09:52.043 收到来自设备的数据：010101019048
+2020-04-30 11:09:52 INFO  ForwardHandler:30 - 2020-04-30T11:09:52.104接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 11:09:52 INFO  Forward:80 - 2020-04-30T11:09:52.131 收到来自设备的数据：0103060017000001c994b0
+2020-04-30 11:15:24 INFO  ForwardHandler:30 - 2020-04-30T11:15:24.761接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 11:15:25 INFO  Forward:85 - 2020-04-30T11:15:25.832 收到来自设备的数据：010101019048
+2020-04-30 11:17:24 INFO  ForwardHandler:30 - 2020-04-30T11:17:24.745接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 11:17:25 INFO  Forward:85 - 2020-04-30T11:17:25.773 收到来自设备的数据：0103060017000001c994b0
+2020-04-30 11:27:15 INFO  ForwardHandler:30 - 2020-04-30T11:27:15.758接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 11:27:16 INFO  Forward:85 - 2020-04-30T11:27:16.792 收到来自设备的数据：010101019048
+2020-04-30 11:27:16 INFO  ForwardHandler:30 - 2020-04-30T11:27:16.947接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 11:27:17 INFO  Forward:85 - 2020-04-30T11:27:17.981 收到来自设备的数据：0103060017000001c994b0
+2020-04-30 11:32:15 INFO  ForwardHandler:30 - 2020-04-30T11:32:15.030接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 11:32:16 INFO  Forward:85 - 2020-04-30T11:32:16.250 收到来自设备的数据：010101019048
+2020-04-30 11:32:16 INFO  ForwardHandler:30 - 2020-04-30T11:32:16.402接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 11:32:17 INFO  Forward:85 - 2020-04-30T11:32:17.435 收到来自设备的数据：0103060017000001c994b0
+2020-04-30 11:35:33 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-30 11:36:23 INFO  ForwardHandler:30 - 2020-04-30T11:36:23.584接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 11:36:24 INFO  Forward:85 - 2020-04-30T11:36:24.624 收到来自设备的数据：010101019048
+2020-04-30 11:36:24 INFO  ForwardHandler:30 - 2020-04-30T11:36:24.653接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 11:36:25 INFO  Forward:85 - 2020-04-30T11:36:25.686 收到来自设备的数据：0103060017000001c994b0
+2020-04-30 11:38:49 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-30 11:39:27 INFO  ForwardHandler:30 - 2020-04-30T11:39:27.619接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 11:39:28 INFO  Forward:85 - 2020-04-30T11:39:28.659 收到来自设备的数据：010101019048
+2020-04-30 11:39:28 INFO  ForwardHandler:30 - 2020-04-30T11:39:28.769接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 11:39:29 INFO  Forward:85 - 2020-04-30T11:39:29.799 收到来自设备的数据：0103060017000001c994b0
+2020-04-30 11:40:49 INFO  ForwardHandler:30 - 2020-04-30T11:40:49.967接收到来自服务器的数据为: 01050001ff00ddfa
+2020-04-30 11:40:50 INFO  Forward:85 - 2020-04-30T11:40:50.996 收到来自设备的数据：01050001ff00ddfa
+2020-04-30 11:43:07 INFO  ForwardHandler:30 - 2020-04-30T11:43:07.654接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 11:43:08 INFO  Forward:85 - 2020-04-30T11:43:08.710 收到来自设备的数据：010101031189
+2020-04-30 11:43:08 INFO  ForwardHandler:30 - 2020-04-30T11:43:08.800接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 11:43:09 INFO  Forward:85 - 2020-04-30T11:43:09.845 收到来自设备的数据：0103060017000001c994b0
+2020-04-30 11:48:02 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-30 11:49:07 INFO  ForwardHandler:30 - 2020-04-30T11:49:07.248接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 11:49:08 INFO  Forward:85 - 2020-04-30T11:49:08.281 收到来自设备的数据：010101031189
+2020-04-30 11:49:08 INFO  ForwardHandler:30 - 2020-04-30T11:49:08.435接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 11:49:09 INFO  Forward:85 - 2020-04-30T11:49:09.466 收到来自设备的数据：0103060017000001c994b0
+2020-04-30 11:54:07 INFO  ForwardHandler:30 - 2020-04-30T11:54:07.182接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 11:54:08 INFO  Forward:85 - 2020-04-30T11:54:08.405 收到来自设备的数据：010101031189
+2020-04-30 11:54:08 INFO  ForwardHandler:30 - 2020-04-30T11:54:08.490接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 11:54:09 INFO  Forward:85 - 2020-04-30T11:54:09.516 收到来自设备的数据：0103060017000001c994b0
+2020-04-30 12:06:46 INFO  ForwardHandler:30 - 2020-04-30T12:06:46.415接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:06:47 INFO  Forward:85 - 2020-04-30T12:06:47.455 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:09:46 INFO  ForwardHandler:30 - 2020-04-30T12:09:46.019接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:09:47 INFO  Forward:85 - 2020-04-30T12:09:47.053 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:10:25 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-30 12:11:07 INFO  ForwardHandler:30 - 2020-04-30T12:11:07.593接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:11:08 INFO  Forward:85 - 2020-04-30T12:11:08.626 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:14:07 INFO  ForwardHandler:30 - 2020-04-30T12:14:07.021接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:14:08 INFO  Forward:85 - 2020-04-30T12:14:08.055 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:17:07 INFO  ForwardHandler:30 - 2020-04-30T12:17:07.035接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:17:08 INFO  Forward:85 - 2020-04-30T12:17:08.064 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:20:07 INFO  ForwardHandler:30 - 2020-04-30T12:20:07.020接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:20:08 INFO  Forward:85 - 2020-04-30T12:20:08.049 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:23:07 INFO  ForwardHandler:30 - 2020-04-30T12:23:07.020接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:23:08 INFO  Forward:85 - 2020-04-30T12:23:08.054 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:26:07 INFO  ForwardHandler:30 - 2020-04-30T12:26:07.034接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:26:08 INFO  Forward:85 - 2020-04-30T12:26:08.061 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:29:07 INFO  ForwardHandler:30 - 2020-04-30T12:29:07.020接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:29:08 INFO  Forward:85 - 2020-04-30T12:29:08.049 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:32:07 INFO  ForwardHandler:30 - 2020-04-30T12:32:07.018接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:32:08 INFO  Forward:85 - 2020-04-30T12:32:08.052 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:35:07 INFO  ForwardHandler:30 - 2020-04-30T12:35:07.021接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:35:08 INFO  Forward:85 - 2020-04-30T12:35:08.053 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:38:07 INFO  ForwardHandler:30 - 2020-04-30T12:38:07.035接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:38:08 INFO  Forward:85 - 2020-04-30T12:38:08.061 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:41:07 INFO  ForwardHandler:30 - 2020-04-30T12:41:07.052接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:41:08 INFO  Forward:85 - 2020-04-30T12:41:08.079 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:43:36 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-30 12:44:56 INFO  ForwardHandler:30 - 2020-04-30T12:44:56.238接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:44:57 INFO  Forward:85 - 2020-04-30T12:44:57.275 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:47:56 INFO  ForwardHandler:30 - 2020-04-30T12:47:56.023接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:47:57 INFO  Forward:85 - 2020-04-30T12:47:57.057 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:50:56 INFO  ForwardHandler:30 - 2020-04-30T12:50:56.037接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:50:57 INFO  Forward:85 - 2020-04-30T12:50:57.064 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:53:56 INFO  ForwardHandler:30 - 2020-04-30T12:53:56.019接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:53:57 INFO  Forward:85 - 2020-04-30T12:53:57.046 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:56:56 INFO  ForwardHandler:30 - 2020-04-30T12:56:56.042接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:56:57 INFO  Forward:85 - 2020-04-30T12:56:57.074 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 12:59:56 INFO  ForwardHandler:30 - 2020-04-30T12:59:56.020接收到来自服务器的数据为: 0103000000044409
+2020-04-30 12:59:57 INFO  Forward:85 - 2020-04-30T12:59:57.051 收到来自设备的数据：01030800170000b2db0000a595
+2020-04-30 13:01:02 INFO  ForwardHandler:30 - 2020-04-30T13:01:02.818接收到来自服务器的数据为: 01060000001a0801
+2020-04-30 13:01:03 INFO  Forward:85 - 2020-04-30T13:01:03.851 收到来自设备的数据：01060000001a0801
+2020-04-30 13:04:26 INFO  ForwardHandler:30 - 2020-04-30T13:04:26.450接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 13:04:27 INFO  Forward:85 - 2020-04-30T13:04:27.492 收到来自设备的数据：01010102d049
+2020-04-30 13:04:27 INFO  ForwardHandler:30 - 2020-04-30T13:04:27.548接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 13:04:28 INFO  Forward:85 - 2020-04-30T13:04:28.575 收到来自设备的数据：010306001a0000b2db4c4c
+2020-04-30 13:09:26 INFO  ForwardHandler:30 - 2020-04-30T13:09:26.023接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 13:09:27 INFO  Forward:85 - 2020-04-30T13:09:27.052 收到来自设备的数据：01010102d049
+2020-04-30 13:09:27 INFO  ForwardHandler:30 - 2020-04-30T13:09:27.104接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 13:09:28 INFO  Forward:85 - 2020-04-30T13:09:28.134 收到来自设备的数据：010306001a0000b2db4c4c
+2020-04-30 13:14:26 INFO  ForwardHandler:30 - 2020-04-30T13:14:26.020接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 13:14:27 INFO  Forward:85 - 2020-04-30T13:14:27.055 收到来自设备的数据：01010102d049
+2020-04-30 13:14:27 INFO  ForwardHandler:30 - 2020-04-30T13:14:27.114接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 13:14:28 INFO  Forward:85 - 2020-04-30T13:14:28.240 收到来自设备的数据：010306001a0000b2db4c4c
+2020-04-30 13:18:03 INFO  ForwardHandler:30 - 2020-04-30T13:18:03.507接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 13:18:04 INFO  Forward:85 - 2020-04-30T13:18:04.543 收到来自设备的数据：01010102d049
+2020-04-30 13:18:04 INFO  ForwardHandler:30 - 2020-04-30T13:18:04.668接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 13:18:05 INFO  Forward:85 - 2020-04-30T13:18:05.701 收到来自设备的数据：010306001a0000b2db4c4c
+2020-04-30 13:23:03 INFO  ForwardHandler:30 - 2020-04-30T13:23:03.021接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 13:23:04 INFO  Forward:85 - 2020-04-30T13:23:04.051 收到来自设备的数据：010101031189
+2020-04-30 13:23:04 INFO  ForwardHandler:30 - 2020-04-30T13:23:04.156接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 13:23:05 INFO  Forward:85 - 2020-04-30T13:23:05.180 收到来自设备的数据：010306001a0000b2db4c4c
+2020-04-30 13:23:25 INFO  ForwardHandler:30 - 2020-04-30T13:23:25.854接收到来自服务器的数据为: 010100000001fdca
+2020-04-30 13:23:26 INFO  Forward:85 - 2020-04-30T13:23:26.889 收到来自设备的数据：010101005188
+2020-04-30 13:26:24 INFO  ForwardHandler:30 - 2020-04-30T13:26:24.618接收到来自服务器的数据为: 0105000100009c0a
+2020-04-30 13:26:25 INFO  Forward:85 - 2020-04-30T13:26:25.648 收到来自设备的数据：0105000100009c0a
+2020-04-30 13:49:53 INFO  ForwardHandler:30 - 2020-04-30T13:49:53.562接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 13:49:54 INFO  Forward:85 - 2020-04-30T13:49:54.603 收到来自设备的数据：010101031189
+2020-04-30 13:51:07 INFO  ForwardHandler:30 - 2020-04-30T13:51:07.714接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 13:51:08 INFO  Forward:85 - 2020-04-30T13:51:08.754 收到来自设备的数据：010101031189
+2020-04-30 13:53:43 INFO  ForwardHandler:30 - 2020-04-30T13:53:43.237接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 13:53:44 INFO  Forward:85 - 2020-04-30T13:53:44.275 收到来自设备的数据：010101031189
+2020-04-30 14:04:18 INFO  ForwardHandler:30 - 2020-04-30T14:04:18.711接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 14:04:19 INFO  Forward:85 - 2020-04-30T14:04:19.751 收到来自设备的数据：010101031189
+2020-04-30 14:04:19 INFO  ForwardHandler:30 - 2020-04-30T14:04:19.837接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 14:04:20 INFO  Forward:85 - 2020-04-30T14:04:20.869 收到来自设备的数据：01030605be0000b87afad8
+2020-04-30 14:05:03 INFO  ForwardHandler:30 - 2020-04-30T14:05:03.340接收到来自服务器的数据为: 010100000001fdca
+2020-04-30 14:05:04 INFO  Forward:85 - 2020-04-30T14:05:04.367 收到来自设备的数据：010101005188
+2020-04-30 14:05:07 INFO  ForwardHandler:30 - 2020-04-30T14:05:07.309接收到来自服务器的数据为: 0105000100009c0a
+2020-04-30 14:05:08 INFO  Forward:85 - 2020-04-30T14:05:08.343 收到来自设备的数据：0105000100009c0a
+2020-04-30 14:05:35 INFO  ForwardHandler:30 - 2020-04-30T14:05:35.788接收到来自服务器的数据为: 01050001ff00ddfa
+2020-04-30 14:05:36 INFO  Forward:85 - 2020-04-30T14:05:36.828 收到来自设备的数据：01050001ff00ddfa
+2020-04-30 14:20:13 INFO  ForwardHandler:30 - 2020-04-30T14:20:13.667接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 14:20:14 INFO  Forward:85 - 2020-04-30T14:20:14.758 收到来自设备的数据：01010102d049
+2020-04-30 14:20:14 INFO  ForwardHandler:30 - 2020-04-30T14:20:14.864接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 14:20:16 INFO  Forward:85 - 2020-04-30T14:20:16.437 收到来自设备的数据：0103060cd90000bf958c35
+2020-04-30 14:20:38 INFO  ForwardHandler:30 - 2020-04-30T14:20:38.258接收到来自服务器的数据为: 0105000100009c0a
+2020-04-30 14:20:39 INFO  Forward:85 - 2020-04-30T14:20:39.294 收到来自设备的数据：0105000100009c0a
+2020-04-30 14:55:15 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-30 15:04:01 INFO  ForwardHandler:30 - 2020-04-30T15:04:01.001接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 15:04:02 INFO  Forward:85 - 2020-04-30T15:04:02.129 收到来自设备的数据：010101005188
+2020-04-30 15:04:02 INFO  ForwardHandler:30 - 2020-04-30T15:04:02.253接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 15:04:03 INFO  Forward:85 - 2020-04-30T15:04:03.284 收到来自设备的数据：0103060303000004d3261b
+2020-04-30 15:04:10 INFO  ForwardHandler:30 - 2020-04-30T15:04:10.790接收到来自服务器的数据为: 01050001ff00ddfa
+2020-04-30 15:04:11 INFO  Forward:85 - 2020-04-30T15:04:11.816 收到来自设备的数据：01050001ff00ddfa
+2020-04-30 15:05:07 INFO  ForwardHandler:30 - 2020-04-30T15:05:07.705接收到来自服务器的数据为: 010100000001fdca
+2020-04-30 15:05:08 INFO  Forward:85 - 2020-04-30T15:05:08.739 收到来自设备的数据：010101019048
+2020-04-30 15:05:10 INFO  ForwardHandler:30 - 2020-04-30T15:05:10.897接收到来自服务器的数据为: 010100010001ac0a
+2020-04-30 15:05:11 INFO  Forward:85 - 2020-04-30T15:05:11.928 收到来自设备的数据：010101019048
+2020-04-30 15:05:14 INFO  ForwardHandler:30 - 2020-04-30T15:05:14.417接收到来自服务器的数据为: 0105000100009c0a
+2020-04-30 15:05:15 INFO  Forward:85 - 2020-04-30T15:05:15.443 收到来自设备的数据：0105000100009c0a
+2020-04-30 15:07:32 WARN  DefaultChannelPipeline:1164 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-30 15:12:17 INFO  ForwardHandler:30 - 2020-04-30T15:12:17.536接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 15:12:18 INFO  Forward:85 - 2020-04-30T15:12:18.571 收到来自设备的数据：010101005188
+2020-04-30 15:12:18 INFO  ForwardHandler:30 - 2020-04-30T15:12:18.678接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 15:12:19 INFO  Forward:85 - 2020-04-30T15:12:19.711 收到来自设备的数据：01030606d5000008a5eb7a
+2020-04-30 15:12:29 INFO  ForwardHandler:30 - 2020-04-30T15:12:29.671接收到来自服务器的数据为: 01050001ff00ddfa
+2020-04-30 15:12:30 INFO  Forward:85 - 2020-04-30T15:12:30.698 收到来自设备的数据：01050001ff00ddfa
+2020-04-30 15:12:48 INFO  ForwardHandler:30 - 2020-04-30T15:12:48.490接收到来自服务器的数据为: 0106000200dde853
+2020-04-30 15:12:49 INFO  Forward:85 - 2020-04-30T15:12:49.526 收到来自设备的数据：0106000200dde853
+2020-04-30 15:12:58 INFO  ForwardHandler:30 - 2020-04-30T15:12:58.205接收到来自服务器的数据为: 01030002000125ca
+2020-04-30 15:12:59 INFO  Forward:85 - 2020-04-30T15:12:59.236 收到来自设备的数据：01030200f179c0
+2020-04-30 15:13:12 INFO  ForwardHandler:30 - 2020-04-30T15:13:12.480接收到来自服务器的数据为: 010300000001840a
+2020-04-30 15:13:13 INFO  Forward:85 - 2020-04-30T15:13:13.511 收到来自设备的数据：010302073ffa64
+2020-04-30 15:17:17 INFO  ForwardHandler:30 - 2020-04-30T15:17:17.018接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 15:17:18 INFO  Forward:85 - 2020-04-30T15:17:18.050 收到来自设备的数据：010101031189
+2020-04-30 15:17:18 INFO  ForwardHandler:30 - 2020-04-30T15:17:18.129接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 15:17:19 INFO  Forward:85 - 2020-04-30T15:17:19.162 收到来自设备的数据：0103060924000002f2d10e
+2020-04-30 15:17:34 INFO  ForwardHandler:30 - 2020-04-30T15:17:34.351接收到来自服务器的数据为: 0105000100009c0a
+2020-04-30 15:17:35 INFO  Forward:85 - 2020-04-30T15:17:35.379 收到来自设备的数据：0105000100009c0a
+2020-04-30 15:22:17 INFO  ForwardHandler:30 - 2020-04-30T15:22:17.016接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 15:22:18 INFO  Forward:85 - 2020-04-30T15:22:18.045 收到来自设备的数据：010101019048
+2020-04-30 15:22:18 INFO  ForwardHandler:30 - 2020-04-30T15:22:18.081接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 15:22:19 INFO  Forward:85 - 2020-04-30T15:22:19.108 收到来自设备的数据：0103060b7500000543ef64
+2020-04-30 15:27:17 INFO  ForwardHandler:30 - 2020-04-30T15:27:17.017接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 15:27:18 INFO  Forward:85 - 2020-04-30T15:27:18.050 收到来自设备的数据：010101019048
+2020-04-30 15:27:18 INFO  ForwardHandler:30 - 2020-04-30T15:27:18.122接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 15:27:19 INFO  Forward:85 - 2020-04-30T15:27:19.152 收到来自设备的数据：0103060dbc0000078af224
+2020-04-30 15:32:17 INFO  ForwardHandler:30 - 2020-04-30T15:32:17.015接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 15:32:18 INFO  Forward:85 - 2020-04-30T15:32:18.040 收到来自设备的数据：010101019048
+2020-04-30 15:32:18 INFO  ForwardHandler:30 - 2020-04-30T15:32:18.095接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 15:32:19 INFO  Forward:85 - 2020-04-30T15:32:19.120 收到来自设备的数据：0103061008000009d645ea
+2020-04-30 15:37:17 INFO  ForwardHandler:30 - 2020-04-30T15:37:17.017接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 15:37:18 INFO  Forward:85 - 2020-04-30T15:37:18.043 收到来自设备的数据：010101005188
+2020-04-30 15:37:18 INFO  ForwardHandler:30 - 2020-04-30T15:37:18.107接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 15:37:19 INFO  Forward:85 - 2020-04-30T15:37:19.146 收到来自设备的数据：010306125900000c277b10
+2020-04-30 15:42:17 INFO  ForwardHandler:30 - 2020-04-30T15:42:17.037接收到来自服务器的数据为: 010100000002bdcb
+2020-04-30 15:42:18 INFO  Forward:85 - 2020-04-30T15:42:18.068 收到来自设备的数据：010101005188
+2020-04-30 15:42:18 INFO  ForwardHandler:30 - 2020-04-30T15:42:18.113接收到来自服务器的数据为: 01030000000305cb
+2020-04-30 15:42:19 INFO  Forward:85 - 2020-04-30T15:42:19.142 收到来自设备的数据：01030614ab00000e79c23b
